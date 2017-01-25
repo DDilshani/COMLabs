@@ -1,4 +1,10 @@
+#!/usr/bin/env python
+
+import time
+
 def selection_sort(array):
+
+    start = time.time()
 
     N = len(array)
     for i in range(N):
@@ -15,9 +21,11 @@ def selection_sort(array):
         temp = array[max_id]
         array[max_id] = array[N-i-1]
         array[N-i-1] = temp
-    
+
+    end = time.time()
 
     print (array)
+    print ('Elapsed time in seconds: %f\n' % (end - start))
 
 selection_sort([ 6, 2, 8, 22, 1])
 selection_sort([ 100, 72, 68, 22, 1])

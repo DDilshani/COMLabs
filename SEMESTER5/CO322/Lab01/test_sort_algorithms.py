@@ -21,20 +21,13 @@ def bubble_sort(array):
 
 	end = time.time()    
 
-	print (array)	
+	return array	
 	print ('Elapsed time in seconds: %f\n' % (end - start))
-     
+    
+test = [ 6, 2, 8, 22, 1]
+result = bubble_sort(test)
 
-bubble_sort([ 6, 2, 8, 22, 1])
-bubble_sort([ 100, 72, 68, 22, 1])
-bubble_sort([ 6, 12, 38, 222, 901])
-
-bubble_sort([ 6, 6, 6, 6, 6, 6, 6])
-
-bubble_sort([])
-
-bubble_sort([10, 6])
-
-bubble_sort([100])
-
-bubble_sort([2, 9, 49, 0, 5, 20, 17])
+if result == test.sort():
+	print (True)
+else:
+	print(False)

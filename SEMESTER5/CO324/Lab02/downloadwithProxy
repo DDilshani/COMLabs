@@ -1,0 +1,1 @@
+java -Dhttp.proxyHost=cashex.pdn.ac.lk -Dhttp.proxyPort=3128 url GetURL

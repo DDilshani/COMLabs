@@ -1,0 +1,4301 @@
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<html lang="en">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<head>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta charset="utf-8">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<title>Faculty of Medicine | University of Peradeniya</title>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta name="description" content="">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta name="keyword" content="">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta name="author" content="root">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<!-- Header Content-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<link rel="shortcut icon" href="siteimages/crest.png" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="http://fonts.googleapis.com/css?family=Arapey" rel="stylesheet" type="text/css">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" type="text/css" href="dist/accordingmenu/styles.css" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<!--link href="dist/dist/css/carousel.css" rel="stylesheet"-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href='http://fonts.googleapis.com/css?family=Brawler|Coustard|Kreon|Vidaloka|Sintony|Cutive' rel='stylesheet' type='text/css'>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="dist/css/custom.css" rel="stylesheet">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" type="text/css" href="dist/engine1/style.css" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" href="dist/fbox/jquery.fancybox.css" media="screen">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" type="text/css" href="dist/accordingmenu/styles.css" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script src="https://code.jquery.com/jquery.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script src="dist/js/bootstrap.min.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script type="text/javascript" src="dist/js/jquery.searchable.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script type="text/javascript" src="dist/js/custom.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script type="text/javascript" src="dist/js/jquery.dataTables.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script type="text/javascript" src="dist/accordingmenu/menu_jquery.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script src="//frontend.reklamor.com/fancybox/jquery.fancybox.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<script type="text/javascript" src="dist/fbox/jquery.fancybox.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</head>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<body>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<div class="container outer-box-top">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="row">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	      <div class="col-md-6 ol-sm-12 col-xs-12 pull-left" style="padding: 15px 10px 25px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="visible-lg visible-md">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="col-md-3" style="padding-right: 10px; width: 20%;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<img src="siteimages/crest.png">					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="col-md-9"  style="padding-left: 20px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<h2 class="fac-heading">Faculty of Medicine</h2>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<p class="lead">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<b>University of Peradeniya		</b>		</p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<center class="visible-sm visible-xs">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</center>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	  <div class="col-md-6">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="col-md-12" style="padding-right: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<p class="pull-right link-bar" style="margin-top: 10px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<a href="http://www.pdn.ac.lk/" target="_blank" style="text-decoration: none"><i class="glyphicon glyphicon-home" style="font-size: 13px;"></i> &nbsp; UOP</a> | <a href="https://webmail.pdn.ac.lk/" target="_blank" style="text-decoration: none">Webmail</a> | <a href="https://www.pdn.ac.lk/login/" target="_blank" style="text-decoration: none">Login</a> | <a data-toggle="modal" data-target="#feedback" href="#feed" style="padding-right: 0px; text-decoration: none">Feedback</a> | <a data-toggle="modal" data-target="#contactus" href="#" style="padding-right: 0px; text-decoration: none">Contact Us</a>					</p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="col-md-12" style="padding-right: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<form class="pull-right custom-search-form" role="search">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<input type="text" class="form-control" placeholder="Search" >
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<!--<input type="text" class="form-control" placeholder="Search">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<button type="submit" class="btn btn-default">Submit</button>-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</form>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="col-md-12" style="padding-right: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<p class="pull-right" style="margin-top: 5px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<!--Feedback modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--feedback end-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--contact modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="modal fade" id="contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="modal-dialog">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="modal-content">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="modal-header">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<button type="button" class="close" data-dismiss="modal">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</button>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="modal-body" style="padding-bottom: 5px; ">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<ul class="list-group round-corner-left telephone-list-group"\>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="tel:+94812388345" style="text-decoration: none">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<li class="list-group-item" style="background-color: rgb(240, 240, 240)">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								Operator : +94 81 239 (6000) &nbsp;Fax: +94 81 2389106<i class="glyphicon glyphicon-earphone pull-right"></i>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</li></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="tel:+94812392503" style="text-decoration: none">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<li class="list-group-item" style="background-color: rgb(240, 240, 240)">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								Dean's Office : +94 81 239 (6207)<i class="glyphicon glyphicon-earphone pull-right"></i>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</li></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="tel:+94812392501" style="text-decoration: none">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<li class="list-group-item" style="background-color: rgb(240, 240, 240)">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								Assistant Registrar : +94 81239 (6202)<i class="glyphicon glyphicon-earphone pull-right"></i>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</li></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="tel:+94812392509" style="text-decoration: none">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<li class="list-group-item" style="background-color: rgb(240, 240, 240)">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								Assistant Bursar : +94 81239 (6203)<i class="glyphicon glyphicon-earphone pull-right"></i>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</li></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="#" style="text-decoration: none">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<li class="list-group-item" style="background-color: rgb(240, 240, 240)">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								All Contact Details
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</li></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="modal-footer" style="padding-top: 5px; border-top: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<button type="button" style="border-radius: 6px;" class="btn btn-danger" data-dismiss="modal">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							Close
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</button>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--end of contact modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<nav class="navbar navbar-default" role="navigation">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="container-fluid">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<!-- Brand and toggle get grouped for better mobile display -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="navbar-header">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<span class="sr-only">Toggle navigation</span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<span class="icon-bar"></span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<span class="icon-bar"></span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<span class="icon-bar"></span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</button>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<!-- Collect the nav links, forms, and other content for toggling -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<ul class="nav navbar-nav">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li style="margin-left: 0px;">					  </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li class="dropdown">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">About  </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="deanmessage.php"><span>Dean's Message</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="vision.php"><span> Mission</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="stats.php"><span>Administration</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="general.php"><span>General Information</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+               <li class="dropdown">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Information for Students  </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="curriculum/introduction.htm"><span>Introduction</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a href="curriculum/coursemap.html"><span> Course Map</span></a>								</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	    <a href="notices/studentnotices/2015-16 Batch/Objectives/Objectives_batch_2015_16.html"><span>Module Objectives/Time Table</a></span> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							  <li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<a href="http://medmoodle.pdn.ac.lk/course/index.php?categoryid=82"><span>Master Plan</span></a>	</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li> <a href="admin/addmission.html">Admission  </a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li> <a href="admin/rules.pdf">Rules and Regulation</a>                                </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li> <a href="studentaffairs.html">Student Affairs</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li> <a href="electivestudents/index.html">International students</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li> <a href="Student Activities/index.html">Student Activities</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li><a href="news/morenews/2017/Jan/pledge.html"> Medical Students' Pledge</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Departments </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/anaesthesiology/index.php"><span>Aanaesthesiology & Critical Care</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/anatomy/index.php"><span> Anatomy</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/biochemistry/index.php"><span>Biochemistry</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/communitymedicine/index.php"><span>Community Medicine</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/forensic/index.php">Forensic Medicine </a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/gyn&obs/index.php">Obstetrics & Gynaecology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/medicine/index.php">Medicine</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/microbiology/index.php">Microbiology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/paediatrics/index.php">Paediatrics</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/parasitology/index.php">Parasitology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/pathology/index.php">Pathology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/pharmacology/index.php">Pharmacology</a>    </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/physiology/index.php">Physiology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li><a href="departments/psychiatry/index.php">Psychiatry</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/radiology/index.php">Radiology</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <li><a href="departments/surgery/index.php">Surgery</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Units </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/CRTM/index.html"> Center for Research in Tropical Medicine (CRTM)</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                   <li><a href="http://www.certkid.org"> Center for Education, Research & Training on Kidney Diseases</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/elibrary/index.html"><span> e-Library</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="departments/eltu/index.html"><span>English Language Teaching Unit (ELTU)</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/HEDMaTC/index.html">Health Emergency & Disaster Managemnt Training Center (HEDMaTC)</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/meu/index.html"><span>Medical Education Unit (MEU)</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="http://www.lib.pdn.ac.lk/libraries/medical/">Medical Library </a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="departments/nmu/index.html">Nuclear Medicine Unit (NMU)</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                   <li><a href="departments/researchand development/index.html">Research and Development Unit</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                   <li><a href="departments/studentaffairs/index.html">Student Affairs - Mentoring / Counseling</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                   <li><a href="departments/trc/index.html">Technical Resources Centre(TRC)</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Staff </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="academicstaff.php"><span>Academic Staff </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="emeritusprofessors.php"><span> Professor Emeritus</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                      
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="admin/deansadvisorycommittee.html"><span>Dean's Advisory Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                   <li> <a href="admin/committees_Ethical.html"><span>Institutional Ethical Clearance Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                    <li> <a href="admin/committees_higherdegree.html"><span>Higher Degree Committee</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                     <li> <a href="admin/committees_Infrastructure.html"><span>Infrastructure Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                      <li> <a href="admin/committees_planning.html"><span>Planning Committee</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                       <li> <a href="admin/committees_reasearch.html"><span>Research Committee</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                        <li> <a href="admin/committees_CRTM.html"><span>CRTM Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                        <li> <a href="admin/committees_students_affairs.html"><span>Student Affairs Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                        <li> <a href="admin/committees_CDC.html"><span>CDC Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                        <li> <a href="admin/committees_Z.html"><span>Z Committee </span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                       
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Notice Board </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="staffnoticeboard.html"><span>Academic Staff Notices</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="notices/nonacademic/general.html"><span> Non Academic Staff Notices</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="notices/studentnotices/general.html"><span>Student Notices</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="circulars/circulars.html"><span>Eshtablishment Circular Letters</span></a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li> <a href="downloads/downloads.html">Download Application Forms </a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="news/morenews/2015/June/urapranking.html">URAP Ranking for 2014/2015</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="notices/studentnotices/2015/April/notice_9.html">Venous Laser Ablator</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="notices/Payment details for EICS Verification.pdf">Payment details for EICS Verification</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                  <li><a href="notices/studentnotices/Provision for re-scrutinization cir No 978.pdf">Re-scrutinization of marks and grades of undergraduates</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                              </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                      
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li class="dropdown">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<a href="pgsm/index.html" >PGSM </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		      </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div><!-- /.navbar-collapse -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div><!-- /.container-fluid -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</nav>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<!--/ Header Content-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<!-- Body Content-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<!-- Carousel
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			================================================== -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<style type="text/css">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<!--
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+.style2 {color: #990000}
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ </style>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div id="wowslider-container1" style="background-color: #FFFFFF;color:#222;border-radius: 0px;text-align: center;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="ws_images">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li><img src="siteimages/slider/slide1.jpg" alt="" name="wows1_0" id="wows1_0" title="" /> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					    <li><img src="siteimages/slider/slide2.jpg" alt="" title="" id="wows1_1"/></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  <li><img src="siteimages/slider/slide3.jpg" alt="" title="" id="wows1_2"/>		</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li><img src="siteimages/slider/slide4.jpg" alt="" title="" id="wows1_3"/>		</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<li><img src="siteimages/slider/slide5.jpg" alt="" title="" id="wows1_4"/>		</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="ws_bullets">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="ws_shadow"></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+   	<link rel="shortcut icon" href="siteimages/crest.png" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="http://fonts.googleapis.com/css?family=Arapey" rel="stylesheet" type="text/css">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" type="text/css" href="dist/accordingmenu/styles.css" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<!--link href="dist/dist/css/carousel.css" rel="stylesheet"-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href='http://fonts.googleapis.com/css?family=Brawler|Coustard|Kreon|Vidaloka|Sintony|Cutive' rel='stylesheet' type='text/css'>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link href="dist/css/custom.css" rel="stylesheet">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" type="text/css" href="dist/engine1/style.css" />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<link rel="stylesheet" href="dist/fbox/jquery.fancybox.css" media="screen"> -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</head>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<body>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<!--Feedback modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--feedback end-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--contact modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<!--end of contact modal-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<nav class="navbar navbar-default" role="navigation">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="container-fluid">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<!-- Brand and toggle get grouped for better mobile display -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<!-- Collect the nav links, forms, and other content for toggling -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  <ul class="nav navbar-nav"><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Clinical Services </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                      <ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="#">Anesthesiology</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/communitymedicine/service.html">Community Medicine</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/forensic/service.html">Forensic Medicine</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/medicine/service.html">Medicine</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/microbiology/clinical.php">Microbiology</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/gyn&obs/service.html">Obs & Gyn</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/paediatrics/service.html">Paediatrics</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/pathology/service.html">Pathology</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/parasitology/service.html">Parasitology</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/psychiatry/service.html">Psychiatry</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        <li> <a href="departments/surgery/service.html">Surgery</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                      </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		            </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				    <li class="dropdown"></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				    <li class="dropdown">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Out Reach programmes  </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<ul class="dropdown-menu">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<a href="workshop.html"><span>Workshop on human structure for school teachers and students</span></a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<li>	<a href="video/video.html"><span> Workshop Video</span></a>	</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<li>	<a href="outreach/dethiskunapayo.html"><span> Dethis Kunapayo</span></a>	</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                           
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                <li class="dropdown"><a href="http://medmoodle.pdn.ac.lk/">e- Learning</a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				      <li class="dropdown"><a href="departments/anatomy/bodydonation.html">Body Donation Programme                        </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  <li class="dropdown"><a href="http://www.pemsaa.org.lk" >PeMSAA </a>  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                      <li class="dropdown"><a href="http://www.sactrc.org" >SACTRC </a>                      
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  </ul> 	    
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</li>              
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        </ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+              </div>     <!-- /.navbar-collapse -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+          </div><!-- /.container-fluid -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</nav>      
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<script type="text/javascript" src="dist/engine1/wowslider.js"></script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<script type="text/javascript" src="dist/engine1/script.js"></script>			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<!-- /.carousel --><!--Welcome note and Portals-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+         <div class="row">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="col-md-8">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="col-md-4" style="padding-left: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<!--End of Welcome note and Portals-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="container outer-box-middle" style="margin-top: 0px;">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="row">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<div class="col-md-7">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<div class="panel panel-danger">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<div class="panel-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<h4><span class="glyphicon glyphicon-bookmark"></span> &nbsp; News Highlight <a href="morenews.html" style="color: #FFFFFF; float: right; text-decoration: none;" title="Click for more News">More</a> </h4> </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<a class="pull-left" href="news/morenews/2017/Jan/moodle.html"> <img class="media-object" src="news/morenews/2017/Jan/moodle/moodlelogo.gif" alt="..."> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<h4 class="media-heading"><a href="news/morenews/2017/Jan/moodle.html">Discussion on MOODLE</a></h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<p>A discussion on `Sharing Experiences on MOODLE' organized by the E-library was held on the 20th January 2017. Dr. Chathura Ratnayake and Dr. Shavindra Dias made presentations on developing material for MOODLE. This was followed by a discussion between academic staff members on methods of improving student learning through the use of MOODLE. .
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								    </p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  <span class="pull-left text-info"><em>2017-01-20</em></span></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<hr />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+    <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<a class="pull-left" href="news/morenews/2017/Jan/whitecoat2017/whitecoat.html"> <img class="media-object" src="news/morenews/2017/Jan/whitecoat2017/iconnew.gif" alt="..."> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<h4 class="media-heading"><a href="news/morenews/2017/Jan/whitecoat2017/whitecoat.html">White Coat Ceremony 2017</a></h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<p>The White Coat Ceremony of the 2013/14 batch of medical students was held on the 16th January 2017 with the participation of many academic staff members, external teachers and other invited dignitaries. Senior Consultant Paediatrician, Dr. B.J.C Perera was the Chief Guest of the event. The donning ceremony was followed by recital of the Medical Students Pledge.<br><br> 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								    <a href="news/morenews/2017/Jan/pledge.html">Medical Students' Pledge</a></p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  <span class="pull-left text-info"><em>2017-01-16</em></span></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<hr />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+    <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<a class="pull-left" href="#"> <img class="media-object" src="news/morenews/2017/Jan/softskillsicon.gif" alt="..."> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<h4 class="media-heading">Soft Skills Programme 2017</h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<p><a href="news/morenews/2017/Jan/softskill_1.html">A lecture on ' Public Speaking and Oratory Skills' was delivered by Dr. Induwara Gooneratne, Senior Lecturer in Forensic Medicine for the 2015/16 batch on the 11th of January 2017</a></p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                                    <p> <a href="news/morenews/2017/Jan/softskill_2.html">A seminar on 'Alcohol and Drug Abuse Prevention' was conducted by Mr. Pubudu Sumanasekera, Executive Director of the Alcohol and Drug Information Centre (ADIC), Sri Lanka for the 2015/16 batch of students on the 11th  of January 2017.</a></p>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<span class="pull-left text-info"><em>2017-01-11</em></span>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<a class="pull-right text-info" href="#" role="button"></a>								</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<hr />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+    <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<a class="pull-left" href="#"> <img class="media-object" src="news/morenews/2017/Jan/55bdayicon.gif" alt="..."> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+								<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<h4 class="media-heading"><a href="news/morenews/2017/Jan/fombday55/fom55bday.html">The 55th Birthday of the Faculty of Medicine was celebrated on the 4th of January 2017.</a></h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+									<span class="pull-left text-info"><em>2017-01-04</em></span></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<hr />
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                    
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                    
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="col-md-5">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+      <div class="panel panel-danger">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="panel-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+							<h4><span class="glyphicon glyphicon-calendar"></span> &nbsp; Quick Notices <a href="#" style="color: #FFFFFF; float: right; text-decoration: none;" title=""></a></h4>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<a class="pull-left" href="#"> <img src="news/morenews/2017/Jan/openday.gif" alt="..." width="80" height="86" class="media-object" style="margin-top:0px;"> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<h4 class="media-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  <a href="news/morenews/2017/Jan/openday.html">Peradeniya Medical Faculty open day 5<sup>th</sup> February 2017 - 2016/17 Batch  </a><img src="new1.gif" width="25" height="14"></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<a class="pull-left" href="#"> <img src="news/morenews/2017/Jan/crtm.gif" alt="..." width="80" height="86" class="media-object" style="margin-top:0px;"> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<h4 class="media-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  <a href="news/morenews/2017/Jan/dengue.html">Workshop on Dengue - 03-02-2017</a></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<a class="pull-left" href="#"> <img src="news/morenews/2016/dec/feb20.gif" alt="..." width="80" height="86" class="media-object" style="margin-top:0px;"> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<h4 class="media-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  <a href="news/morenews/2016/dec/Staff Development Programme.pdf">Staff Development Programme - Induction programme for Academic Staff   </a></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+ </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        <div class="media">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<a class="pull-left" href="#"> <img class="media-object" style="margin-top:0px;" src="vacancy.gif" alt="..."> </a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        <div class="media-body news-events-panel">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        <h4 class="media-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+         
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+         
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        <a href="vacancy/forensic.html" >Temporary Demonstrator- Department of Forensic Medicine</a> <br><br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        <a href="vacancy/templec3.html">Temporary Lecturer at the
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+Department of Anatomy <br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        </a><a href="vacancy/templec2.html"><br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+        </a></h4>	
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<HR width="75%" color="#595556"><br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+   		  </div></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+      </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+      
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="col-md-14">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="panel panel-danger">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				 <div class="btn-group btn-group-justified">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="btn-group">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<a class="btn btn-danger" href="https://med.pdn.ac.lk/bookings/phpScheduleIt/Web/?" role="button"><strong style="float: left;"><span class="glyphicon glyphicon-credit-card"></span> &nbsp; &nbsp; Lecture Halls / Tute Rooms Reservation</strong></a>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            <div class="btn-group btn-group-justified">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="btn-group">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<a class="btn btn-danger" href="InaugurationLecture.php" role="button"><strong style="float: left;"><span class="glyphicon glyphicon-credit-card"></span> &nbsp; &nbsp; Inauguration Lectures</strong></a><br>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div></div></div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       <div class="col-md-5">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       <div class="panel panel-danger">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       <iframe src="https://calendar.google.com/calendar/embed?src=deanmedpera%40gmail.com&ctz=Asia/Colombo" style="border: 0" width="425" height="280" frameborder="0" scrolling="no"></iframe>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+       </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+   
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<!-- /Body Content-->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="container outer-box-footer">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<div class="row">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="col-md-12">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="col-md-4">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<ul class="list-unstyled">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li class="footer-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						Location
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<!-- Choose your Map -->
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.796663571676!2d80.59869100000002!3d7.263967000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae368d00c52204d%3A0xd0cd9499e3a54178!2sFaculty+Of+Medicine+Peradeniya!5e0!3m2!1sen!2slk!4v1427790736464" width="350" height="250" frameborder="0" style="border:0"></iframe>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="col-md-2">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<ul class="list-unstyled">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li class="footer-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						Academic
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<a href="curriculum/introduction.htm">Undergraduate Programmes</a>					</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			  <li><a href="Handbook2015_16.pdf"> Handbook (Batch 2015/16) </a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  <li><a href="admin/exam_results.html">Exam Result</a> </li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  <li><a href="oganizationchart.html">Organization Chart</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  <li><a href="Bibliography_2015.pdf">Research Bibliography 2015</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				  <li>	<a href="notices/studentnotices/2015-16 Batch/Sinhala Buthani.pdf">Bhutanese Students� Hand Book to Learn Sinhala for Clinical Practice</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	 
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<div class="col-md-2">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+            <li class="footer-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<ul class="list-unstyled">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li class="footer-heading"><a href="notices/studentnotices/2015-16 Batch/Orientation program.pdf"></a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                    <li></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+                    <li></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li><a href="notices/studentnotices/2015-16 Batch/Orientation program.pdf">Orientation program for 2015/16 batch</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  <div class="col-md-2">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			<ul class="list-unstyled">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				<li class="footer-heading">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						Quick Links
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+						<a href="notices/studentnotices/2015/April/notice_9.html">Venous Laser Ablator</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			  <li>	<a href="notices/Payment details for EICS Verification.pdf">Payment details for EICS Verification</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+					<li>	<a href="notices/studentnotices/Provision for re-scrutinization cir No 978.pdf">Provosions for re-scrutinization of marks and grades of undergraduates</a>					</li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			        <li><a href="support.html">Support Us</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			        <li><a href="http://med.pdn.ac.lk/news/morenews/2016/september/final%20final%20clinical%20trials%20workshop%20deck%20(1).pdf">Overview of Conducting Clinical Trials</a></li>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			</ul>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+<div class="container outer-box-footer-end">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+	<div class="row">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<div class="col-md-12"> Last Update:04<sup>th</sup> January 2017</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+  </div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</div>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		<script type="text/javascript">
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			$(document).ready(function() {
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+				$('#example').dataTable();
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+			});
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+		</script>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</body>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD http://med.pdn.ac.lk/
+</html>
+END DOWNLOAD http://med.pdn.ac.lk/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<html>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<head>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<meta name="keywords" content="">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<meta name="AUTHOR" content="">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<meta name="ROBOTS" content="ALL">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<meta name="DESCRIPTION" content="">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<title>Faculty Of Engineering – University Of Peradeniya </title>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<link rel="stylesheet" href="globals/css/style.css">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<link rel="stylesheet" href="globals/css/accordio.css">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<!--[if lt IE 7]>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	<link rel="stylesheet" href="globals/css/ie6_navi.css" type="text/css">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<link rel="stylesheet" href="globals/css/ie6_style.css" type="text/css">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<style type="text/css">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+/* The following line removes the "edit" box that pops up when previewing a page in Serena. */
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#thessm {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	display:none;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+/* Change the url in this line to point to the custom background image for the header of the page. */
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#hd {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	background-image:url(globals/image/background/hader.png);
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#leftcontent {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	display:none;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#maincontent {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	width:700px;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	padding-left:15px;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	margin-left:0px;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	width:700px;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#flashcontent {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	display:block;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	background: url(globals/image/background/gateway.jpg) no-repeat;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field a img {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	border:none;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#main_content {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	border-top:none;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field h2 a, #dmain_content_field p a {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	color:#8c0406;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field a {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	color:#333;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field a:visited {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	color:#555;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field a:hover {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	color:#ffd600;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+#dmain_content_field ul li {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	background-image:url(globals/image/background/bullet.png);
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style4 {color: #FFFFFF; font-weight: bold; font-size: 14px; }
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style6 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; }
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style11 {color: #990000}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style12 {color: #000000}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style15 {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	color: #990000;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	font-weight: bold;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	font-size: 18px;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+.style16 {font-weight: bold; color: #990000;}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</style>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+var c=0
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+var s
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+function photoGallery()
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+{
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+if (c%5==0){
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+document.getElementById('photo-gallery').src="globals/image/main/1.jpg" ;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+if (c%5==1){
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+document.getElementById('photo-gallery').src="globals/image/main/2.jpg";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+if (c%5==2){
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+document.getElementById('photo-gallery').src="globals/image/main/3.jpg";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+if (c%5==3){
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+document.getElementById('photo-gallery').src="globals/image/main/4.jpg";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+if (c%5==4){
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+document.getElementById('photo-gallery').src = "globals/image/main/5.jpg";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+c=c+1
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+s=setTimeout("photoGallery()",5000)
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</head>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<body onLoad="photoGallery()">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<div id="doc_container">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- BEGIN:HEADER -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <div id="hd">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <div id="mark">    </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!--mark-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <div id="search">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <div id="search_links">|
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <a href="http://www.pdn.ac.lk">UOP HOME</a> | <a href="#">SITE MAP</a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <form action="#" id="cse-search-box">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <input type="text" name="q" size="20" />
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <input type="submit" name="sa" value="Search" />
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </form>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+     
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!-- Google CSE Search Box Ends -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--search_field-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!--search-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <div id="nav">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li> <a href="index.html">Home</a> </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li><a href="#">About us
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="eng/about/deans_massage.html">Dean´s Message </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/about/mission.html">Our Mission/Our Vision </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+             <li><a href="eng/about/history.html">History </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/MainPages/Forms/general_information_latest.pdf"> General Information </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                  <li><a href="eng/about/Road Map.html">Location Access</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/about/statistics.html"> Faculty  Statistics </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/main/contactus.html"> Contact Information</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li><a href="">Academic
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="eng/academic/Undergraduate.html">Undergraduate Programmes </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/academic/Postgraduate.html">Postgraduate Programmes </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/Centers/edc/">Extended Education  Programmes </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="coursereg/index.php">Course Registration </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/academic/calnder.html">Academic Calendar </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/academic/timetable.html"> Timetable </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+               <li><hr></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                 <li><a href="eng//academic/Undergraduate_admission.html">Undergraduate Admission </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                   <li><a href="eng/academic/Postgraduate_admission.html">Postgraduate Admission </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+   <li><a href=""> Departments 
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="pages/departmentHome/CP/index_chemical.html">Chemical and Process Engineering </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <li><a href="civil/index.php">Civil Engineering   </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="http://www.ce.pdn.ac.lk/">Computer Engineering  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+             <li><a href="http://www.pdn.ac.lk/eng/pages/departmentHome/EE/index_elec.html">Electrical and Electronic Engineering  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <li><a href="pages/departmentHome/EM/index_maths.html">Engineering Mathematics  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/departmentHome/ME/index_mechanical.html">Mechanical Engineering   </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/departmentHome/PR/index_production.html">Production Engineering </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/departmentHome/Management/index_management.html">Engineering Management </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li><a href="">Centers & Units
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="cerps/" target="_blank">CERPS  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="http://www.cc.pdn.ac.lk/" target="_blank">Computing Center   </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/eltu/Index.html">English Language Teaching Unit  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/itcgu/index.html">Industrial Training & Career Guidance  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="https://eng.pdn.ac.lk/eeu/" target="_blank">Engineering Education Unit   </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="pages/Centers/edc/" target="_blank">National Engineering Design Center   </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="old/etcenter/" target="_blank">Engineering and Technology Center </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+             <li><a href="eng/workshop/index.html"> Engineering Workshops     </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/ew/index.html">Electronics Workshop </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/mvru/index.html"> Motor Vehicle Repair Unit  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li><a href="">Research
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="cerps/" target="_blank">CERPS  </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <li><a href=""> Publications
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if IE 7]><!-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--<![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </a>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li> <a href="/pages/Journal/2010_02_17_GaugeNews.pdf" target="_blank">Journals </a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- nav-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- END:TOP NAVIGATION -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- BEGIN: MAIN CONTENT -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <div id="page_container">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!--L&M&R container-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <div id="right_sidebar">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--R-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <div id="secondary_navigation">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div onblur="editableClick('dontUpdateButtons');" class="accordion_toggle"><a href="#">Administration	</a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div onblur="editableClick('dontUpdateButtons');" class="accordion_content">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/administration/administration.html">General Administration</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="http://eng.pdn.ac.lk/coursereg/dcf">Degree Claim</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/administration/Transcript.html">Transcript</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="eng/administration/Verification.html">Verification Of Result</a></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div  class="nontoggle"><a href="eng/academic/library.html" class=" style6">       Library</a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div  class="nontoggle"><a href="https://feels.pdn.ac.lk/"  target="_blank" class="style6">e-Learning </a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div  class="nontoggle"><a href="eeu/index.php?option=com_content&view=article&id=1&Itemid=101"  target="_blank" class="style6">Resourse Reservation </a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+         
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+               <div onblur="editableClick('dontUpdateButtons');" class="accordion_toggle"><a href="#">      Scholarships	</a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div onblur="editableClick('dontUpdateButtons');" class="accordion_content">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li></li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<div  class="nontoggle"><a href="http://www.pdn.ac.lk/eng/pages/Centers/edc/" class="style6">Consultations and Services</a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div onblur="editableClick('dontUpdateButtons');" class="accordion_toggle"><a href="">Societies  </a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div onblur="editableClick('dontUpdateButtons');" class="accordion_content">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+           
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <li><a href="http://www.ce.pdn.ac.lk/aces/web/" target="_blank">Association of Computer Engineering</a> </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <li> <a href="http://www.civil.pdn.ac.lk/ces/" target="_blank">Civil Engineering Society</a> </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                <li> <a href="http://www.pdn.ac.lk/eng/pages/societies/eees/" target="_blank">Electrical and Electronic Engineering</a> </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                  <li>Mechanical Engineering Society  </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                    <li>  Production Engineering    </li>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </ul>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div  class="nontoggle"><a href="http://www.pdn.ac.lk/eng/alumni/pefaa/" target="_blank" class="style6">Alumni (PEFAA)</a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+               
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+       
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--inside links -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--accordion_content-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <DIV class="nontogglequic">QUICK LINKS </DIV>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div class="style12 access" style="line-height:28px;"><strong><A id="webmail3" href="https://www.pdn.ac.lk/eng/old/eeu/web/index.php?option=com_content&view=article&id=12&Itemid=125" target="_blank" title="">Faculty Calenders</A></br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+             <A id="webmail" href="http://eng.pdn.ac.lk/coursereg/index.php"  target="_blank"title="">Course Registration </A> </br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+             <A id="webmail" href="http://eng.pdn.ac.lk/coursereg/dcf" target="_blank" title="">Degree Claim</A>  </br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <A id="webmail2" href="https://webmail.pdn.ac.lk/" target="_blank" title="">Web Mail </A></br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </strong></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--access-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--secondary_navigation-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!--right_sidebar-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!-- END: RIGHT NAVIGATION -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!-- BEGIN: BODY CONTENT -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <div id="main_content">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--F&L&M container, under breadcrumbs-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <div id="flashcontent">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <img src="globals/image/main/1.jpg" id="photo-gallery" width="720" height="313">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <div id="initiatives_bar">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div id="feature-buttons" >
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <div class="feature-column" style="width:720px; float:left; text-align:center; margin-right:29px; margin-left:29px; filter:alpha(opacity=100);  opacity:1;">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="justify">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <h3><a href="#" title="aaaa" class="style4 "> Scientists study the world as it is, Engineers create the world which has never been </a></h3>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <div class="feature-column" style="width:201px; float:left; text-align:center; margin-right:29px; margin-top:-3px;  filter:alpha(opacity=100);  opacity:1;"> <a href="" title=""></a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+          <div class="feature-column" style="width:201px; float:left; text-align:center; margin-right:29px;"> <a href="" title=""> </a></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <div id="maincontent">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <div id="dmain_content_field">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+         <div style="float:left; height: 300px; width:390px;  background-image:url(globals/image/background/news-events-bck.jpg)">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <H2><A href="" class="style15" style="border:none;"> NEWS</A></H2>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="justify">              
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                      <p align="center" class="style16">PRESIDENT'S AWARD FOR SCIENTIFIC PUBLICATIONS - 2013<br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                      <marquee>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              </marquee></p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <p align="left">Six researchers of the Faculty of Engineering, University of Peradeniya received the President's Award for Scientific Publications for highly rated scientific research published in the year 2013. His Excellency The President graced the awards ceremony that was held on 18th November 2015 in Colombo.</p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <p align="left"> (More information: http://www.nrc.gov.lk/index.php/component/content/article/79-
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+                news/414-the-president­s-awards-for-scientific-publication) <a href="PRESIDENTS AWARDS_2013.pdf" target="_blank">More..</a></a>. </p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <span class="style11"><blink>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="justify"></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            </blink>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="justify"></div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <span class="style12"><blink></blink></span></span>  
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="justify"><a href="eng/news/news.html">   More News.....</a> </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+         </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+         <div style="float:right; height: 300px; width:300px; overflow:hidden;background-image:url(globals/image/background/news-events-bck.jpg)" >
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <H2><A href="" class="style15" style="border:none;">Special Notice</A></H2>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <p ><strong>Degree Claim Period - E/10 Batch </strong></p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <p>Online Degree Claim Period is now open for E/10 batch students. Completed degree claims should be submitted online before 13 January 2016. Please check your name and the Date of birth and inform to the Dean’s office if there is any error. Please treat this request is very important for the preparation of Degree Certificate and the Transcript.     </p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+            <div align="center">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <p align="center" class="style16">&nbsp;</p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+              <p>&nbsp;</p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+           
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+        <!--dmain_content_field-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <!--maincontent-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <!--main_content-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!--page_container-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- BEGIN: FOOTER -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <div id="ft">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <p style="float:right; text-align:right;">| <a href="" title="Contact ">Contact </a> |<br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    </p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+    <p>UOP University,Peradeniya<br>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+      <a href="">&copy; 2010 UOP University</a>  | <a href="">Copyright </a><br />
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</p>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  </div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- ft -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+  <!-- END:FOOTER -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</div>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<!--doc_container-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<!-- Scripts -->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript" src="globals/js/prototype.js"></script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript" src="globals/js/effects.js"></script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript" src="globals/js/accordion.js"></script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	var verticalAccordions = $$('.accordion_toggle');
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	verticalAccordions.each(function(accordion) {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		$(accordion.next(0)).setStyle({
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		  height:'0px'
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		});
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	});
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		Event.observe(window, 'load', loadAccordions, false);
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		function loadAccordions() {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			var bottomAccordion = new accordion('secondary_navigation');	
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		}	
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+<script type="text/javascript">
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	<!--this javascript code changes the background color of the top 5 links on the right sidebar-->
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	var vc = document.getElementById('secondary_navigation').getElementsByTagName('div');
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	var j=0;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	for(var i=0;i<vc.length;i++) {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		if(vc[i].className=="accordion_toggle" && j<5) {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			vc[i].style.backgroundColor = "#333333";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			vc[i].onmouseover = function() {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+				this.style.backgroundColor = "#333333";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			vc[i].onmouseout = function() {
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+				this.style.backgroundColor = "#333333";
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+			j++;
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+		}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+	}
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</script>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</body>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+
+BEGIN DOWNLOAD https://www.pdn.ac.lk/eng/
+</html>
+END DOWNLOAD https://www.pdn.ac.lk/eng/
+

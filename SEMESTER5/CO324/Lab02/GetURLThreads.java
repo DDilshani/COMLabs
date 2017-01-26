@@ -15,25 +15,31 @@ public class GetURLThreads extends Thread {
 
 	}
 
+	@Override
 	public void run() {
 
 		try {
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 
+			content.append("\nBEGIN DOWNLOAD " + url +"\n");
 			String inputLine;
 
 			while ((inputLine = in.readLine()) != null) {
 
+				// content.append("\nBEGIN DOWNLOAD " + url +"\n");
 	            content.append(inputLine);
+	            yield();
+	            // content.append("\nEND DOWNLOAD " + url +"\n");
 			}
 
 			in.close();
+			content.append("\nEND DOWNLOAD " + url +"\n");
 
 		} catch (Exception e){
 
 			System.out.println(e);
-		// 	System.exit(-1);
+		
 		}
 		
 
@@ -55,7 +61,8 @@ public class GetURLThreads extends Thread {
 		for (Thread t : threads ) {
 			t.join();
 		}
-
+		
+		// sleep(1000);
 		System.out.println(content.toString());
 		
 	}

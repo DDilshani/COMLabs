@@ -3,14 +3,13 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-//get more than 1 url using a single buffer
+//get more than 1 url
 public class GetURL {
 
 	public static void main(String[] args) throws Exception {
 
 		StringBuffer content = new StringBuffer();
 
-		// To get urls from commandline input
 		for (String s : args) {
 
 			URL url = new URL(s);
@@ -21,7 +20,6 @@ public class GetURL {
 
 			String inputLine;
 
-			//appending content to string buffer
 			while ((inputLine = in.readLine()) != null) {
 	            content.append(inputLine);
 			}

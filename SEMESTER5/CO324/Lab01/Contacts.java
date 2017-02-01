@@ -15,8 +15,6 @@ public class Contacts {
 
 		String pathToFile = args[0];
 
-		contactsMap = new HashMap <String, List <String>>();
-
 		try{
 
 			//Read file

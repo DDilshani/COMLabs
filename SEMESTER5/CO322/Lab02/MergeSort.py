@@ -1,53 +1,54 @@
 #!/usr/bin/env python
 
-def QuickSort(array):
+# Recursive function
+def MergeSort(array):
 
-	start = 0
-	end = len(array) - 1
+	if len(array) > 1:
 
-	QuickSortHelper(array, start, end)
+		#  Spliting the array into halves
+		mid = len(array)//2
 
+		leftArray = array[:mid]
+		rightArray = array[mid:]
+
+		MergeSort(leftArray)
+		MergeSort(rightArray)
+
+		MergeHelper(leftArray,rightArray,array)
+		
 	return array
+		
+def MergeHelper(leftArray, rightArray, array):
 
-def QuickSortHelper(array, start, end):
+	# To keep array indexes
+	i = 0
+	j = 0
+	k = 0
 
-	if start < end:
-
-		pivot_point = partition(array, start, end)
-		QuickSortHelper(array, start, pivot_point-1)
-		QuickSortHelper(array, pivot_point+1, end)
-
-	return array
-
-
-def partition (array, start, end):
-
-	pivot = array[start]
-	pivot_id = start
-
-	leftMark = start + 1
-	rightMark = end
-
-	end = False
-
-	while not end:
-
-		while rightMark >= leftMark and array[rightMark] >= pivot:
-			rightMark = rightMark - 1
-
-		while leftMark <= rightMark and array[leftMark] <= pivot:
-			leftMark = leftMark + 1
-
-		if rightMark < leftMark:
-			end = True
+	# Checking foe the smallest value in given halves of the array and assigning it to the original array continuosly
+	while i < len(leftArray) and j < len(rightArray):
+		if leftArray[i] < rightArray[j]:
+			array[k] = leftArray[i]
+			i = i + 1
 		else:
-			array[leftMark], array[rightMark] = array[rightMark], array[leftMark]
+			array[k] = rightArray[j]
+			j = j + 1
+		k = k + 1
+
+	# Adding remaining elements of the left half to the original array
+	while i < len(leftArray):
+		array[k] = leftArray[i]
+		i = i + 1
+		k = k + 1
+
 	
-	# Assigning the pivot finally
-	array[rightMark], array[pivot_id] = array[pivot_id], array[rightMark]
-	pivot_id = rightMark
-	
-	return pivot_id
+	# Adding remaining elements of the right half to the original array
+	while j < len(rightArray):
+		array[k] = rightArray[j]
+		j = j + 1
+		k = k + 1
+
+	return array
 
 # Function to check whether two arrays are equal
 def check_array_equals(expected_array, actual_array):
@@ -66,7 +67,7 @@ print ('Original array: ' + str(test1))
 expected = sorted(test1)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test1)
+actual = MergeSort(test1)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -80,7 +81,7 @@ print ('Original array: ' + str(test2))
 expected = sorted(test2)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test2)
+actual = MergeSort(test2)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -94,7 +95,7 @@ print ('Original array: ' + str(test3))
 expected = sorted(test3)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test3)
+actual = MergeSort(test3)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -108,7 +109,7 @@ print ('Original array: ' + str(test4))
 expected = sorted(test4)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test4)
+actual = MergeSort(test4)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -121,7 +122,7 @@ print ('Original array: ' + str(test5))
 expected = sorted(test5)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test5)
+actual = MergeSort(test5)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -135,7 +136,7 @@ print ('Original array: ' + str(test6))
 expected = sorted(test6)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test6)
+actual = MergeSort(test6)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -149,7 +150,7 @@ print ('Original array: ' + str(test7))
 expected = sorted(test7)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test7)
+actual = MergeSort(test7)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -163,7 +164,7 @@ print ('Original array: ' + str(test8))
 expected = sorted(test8)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test8)
+actual = MergeSort(test8)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
@@ -177,7 +178,8 @@ print ('Original array: ' + str(test9))
 expected = sorted(test9)
 print ('Expected sorted array: ' + str(expected))
 
-actual = QuickSort(test9)
+actual = MergeSort(test9)
 print ('Actual sorted array: '+ str(actual))
 
 check_array_equals(expected, actual)
+

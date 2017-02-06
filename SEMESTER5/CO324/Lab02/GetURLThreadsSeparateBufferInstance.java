@@ -3,14 +3,15 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-//get contents of more than 1 url using a shared buffer
-public class GetURLThreads4 extends Thread {
+//get contents of more than 1 url using a separate buffer for each instance
+public class GetURLThreadsSeparateBufferInstance extends Thread {
 
-	// static 	StringBuffer content = new StringBuffer();
+	// Buffer and url as an instance variable 
 	private StringBuffer content;
-	URL url;
+	private URL url;
 
-	public GetURLThreads4(String url) throws MalformedURLException {
+	//Constructor needed to create buffer and URL instance
+	public GetURLThreadsSeparateBufferInstance(String url) throws MalformedURLException {
 
 		this.url = new URL(url);
 		this.content = new StringBuffer();
@@ -24,7 +25,7 @@ public class GetURLThreads4 extends Thread {
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 
-			this.content.append("BEGIN DOWNLOAD " + url +"\n");
+			this.content.append("\nBEGIN DOWNLOAD " + url +"\n");
 			String inputLine;
 
 			while ((inputLine = in.readLine()) != null) {
@@ -34,12 +35,12 @@ public class GetURLThreads4 extends Thread {
 			}
 
 			in.close();
-			this.content.append("END DOWNLOAD " + url +"\n");
+			this.content.append("\nEND DOWNLOAD " + url +"\n");
 
 		} catch (Exception e){
 
 			System.out.println(e);
-		// 	System.exit(-1);
+			System.out.println("Invalid Url!");
 		}
 		
 
@@ -48,17 +49,17 @@ public class GetURLThreads4 extends Thread {
 
 	public static void main(String[] args) throws Exception {
 
-		ArrayList <GetURLThreads4> threads = new ArrayList <GetURLThreads4>();
+		ArrayList <GetURLThreadsSeparateBufferInstance> threads = new ArrayList <GetURLThreadsSeparateBufferInstance>();
 
 		for (String s : args) {
 
-			GetURLThreads4 t = new GetURLThreads4(s);
+			GetURLThreadsSeparateBufferInstance t = new GetURLThreadsSeparateBufferInstance(s);
 			t.start();
 			threads.add(t);
 
 		}
 
-		for (GetURLThreads4 t : threads ) {
+		for (GetURLThreadsSeparateBufferInstance t : threads ) {
 			t.join();
 			System.out.println(t.content);
 		}

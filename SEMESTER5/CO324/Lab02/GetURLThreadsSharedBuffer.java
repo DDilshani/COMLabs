@@ -3,13 +3,17 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-//get more than 1 url
-public class GetURLThreads extends Thread {
+//get more than 1 url using a shared string buffer
+public class GetURLThreadsSharedBuffer extends Thread {
 
+	//Class variable
 	static 	StringBuffer content = new StringBuffer();
-	URL url;
 
-	public GetURLThreads(String url) throws MalformedURLException {
+	//Instance variable
+	private URL url;
+
+	// constructor is needed to create a URL object and a Thread for each commandline input
+	public GetURLThreadsSharedBuffer(String url) throws MalformedURLException {
 
 		this.url = new URL(url);
 
@@ -22,15 +26,14 @@ public class GetURLThreads extends Thread {
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 
+			// to see the downloads from each url clearly
 			content.append("\nBEGIN DOWNLOAD " + url +"\n");
 			String inputLine;
 
 			while ((inputLine = in.readLine()) != null) {
 
-				// content.append("\nBEGIN DOWNLOAD " + url +"\n");
 	            content.append(inputLine);
-	            yield();
-	            // content.append("\nEND DOWNLOAD " + url +"\n");
+	            yield(); // To observe the concurrent behaviour of threads (not in order) --> Not a synchronizing method
 			}
 
 			in.close();
@@ -39,6 +42,7 @@ public class GetURLThreads extends Thread {
 		} catch (Exception e){
 
 			System.out.println(e);
+			System.out.println("Invalid url!");
 		
 		}
 		
@@ -48,21 +52,24 @@ public class GetURLThreads extends Thread {
 
 	public static void main(String[] args) throws Exception {
 
+		// To keep threads
 		ArrayList <Thread> threads = new ArrayList <Thread>();
 
 		for (String s : args) {
 
-			Thread t = new GetURLThreads(s);
+			Thread t = new GetURLThreadsSharedBuffer(s);
 			t.start();
 			threads.add(t);
 
 		}
 
+		// Synchronizing threads using join.
+		//Nothing is printed if not joined
 		for (Thread t : threads ) {
 			t.join();
 		}
 		
-		// sleep(1000);
+		// sleep(1000); --> Using sleep will not synchronize threads 
 		System.out.println(content.toString());
 		
 	}

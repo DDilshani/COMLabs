@@ -8,7 +8,6 @@ public class GetURL {
 
 	public static void main(String[] args) throws Exception {
 
-		// List <String> content = new ArrayList <String>();
 		StringBuffer content = new StringBuffer();
 
 		for (String s : args) {
@@ -27,13 +26,9 @@ public class GetURL {
 
 			in.close();
 
-			// System.out.println(content);
-			// System.out.println(content);
-
-			// buff.append(content);
 		}
 
-		System.out.println("buffer = " + content);
+		System.out.println("buffer = " + content.toString());
 
 	}
 }

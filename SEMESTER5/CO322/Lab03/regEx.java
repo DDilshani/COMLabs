@@ -41,7 +41,12 @@ public class regEx {
 			}
 			
 
-			if ((count == line.length()) && (line != " ")){
+			if (count == line.length()){
+
+				if (line == " ") {
+					
+					break;
+				}
 				
 				System.out.println(line);
 

@@ -15,6 +15,8 @@ public class Contacts {
 
 		String pathToFile = args[0];
 
+		contactsMap = new HashMap <String, List <String>>();
+
 		try{
 
 			//Read file
@@ -94,6 +96,47 @@ public class Contacts {
 		
 
 		}
+	}
+
+	public String search(String name){
+	
+        /*TODO*/
+        if (contactsMap.containsKey(name)) {
+
+            return contactsMap.get(name).toString();
+
+        } else {
+
+            return ("Contacts for name "+ name +" is not found!");
+
+        }
+    }
+
+	public void add(String name, String details){
+        
+        String [] contacts = details.split(",");
+        
+        List <String> data = new ArrayList <>(Arrays.asList(contacts));
+        
+        contactsMap.put(name, data);
+        
+    }
+
+	public static writeToCSV(){
+
+		String eol = System.getProperty("line.separator");
+
+        try (Writer writer = new FileWriter("Contacts.csv")) {
+          for (Map.Entry<String, List<String>> entry : contactsMap.entrySet()) {
+            writer.append(entry.getKey())
+                  .append(',')
+                  .append((CharSequence) entry.getValue())
+                  .append(eol);
+          }
+          
+        } catch (IOException ex) {
+          ex.printStackTrace(System.err);
+        }
 	}
 
 	

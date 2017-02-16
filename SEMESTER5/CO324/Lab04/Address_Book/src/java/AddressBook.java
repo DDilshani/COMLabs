@@ -1,8 +1,12 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.*;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,13 +23,15 @@ import java.util.*;
 public class AddressBook {
     
     // instance address book
-    HashMap <String, List <String>> addressBook = new HashMap <String, List <String>>();
+    public HashMap <String, List <String>> contactsMap;
     
     //read from file and create Address Book
     public AddressBook(String fileName) throws Exception{
     
         /*TODO*/
         //Create your address book
+        contactsMap = new HashMap <String, List <String>>();
+        
         //Read file
         BufferedReader br = new BufferedReader(new FileReader(fileName));
 
@@ -41,7 +47,7 @@ public class AddressBook {
             // Storing contacts in an array list
              List <String> contacts = new ArrayList <>(Arrays.asList(data));
 
-            addressBook.put(array[0], contacts);
+            contactsMap.put(array[0], contacts);
 
             line = br.readLine();
 
@@ -52,9 +58,9 @@ public class AddressBook {
     public String search(String name){
 	
         /*TODO*/
-        if (addressBook.containsKey(name)) {
+        if (contactsMap.containsKey(name)) {
 
-            return addressBook.get(name).toString();
+            return contactsMap.get(name).toString();
 
         } else {
 
@@ -63,12 +69,31 @@ public class AddressBook {
         }
     }
     
-    public void add(String name, String contacts){
+    public synchronized void add(String name, String details){
+        
+        String [] contacts = details.split(",");
         
         List <String> data = new ArrayList <>(Arrays.asList(contacts));
         
-        addressBook.put(name, data);
+        contactsMap.put(name, data);
         
+    }
+    
+    public void writeToCSV(){
+        
+        String eol = System.getProperty("line.separator");
+
+        try (Writer writer = new FileWriter("Contacts.csv")) {
+          for (Map.Entry<String, List<String>> entry : contactsMap.entrySet()) {
+            writer.append(entry.getKey())
+                  .append(',')
+                  .append((CharSequence) entry.getValue())
+                  .append(eol);
+          }
+          
+        } catch (IOException ex) {
+          ex.printStackTrace(System.err);
+        }
     }
 }
 

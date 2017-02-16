@@ -4,8 +4,11 @@
  * and open the template in the editor.
  */
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.Writer;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.ServletConfig;
@@ -124,5 +127,10 @@ public class NewEntryServlet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+    
+    public void destroy (){
+        
+        addressBook.writeToCSV();
+    }
 
 }

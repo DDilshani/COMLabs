@@ -1,7 +1,16 @@
 {
     "elements": {
-        "div": {},
-        "form": {}
+        "div": {
+            "attributes": {
+                "style": {}
+            }
+        },
+        "form": {
+            "attributes": {
+                "method": {},
+                "action": {}
+            }
+        }
     },
     "attributes": {}
 }

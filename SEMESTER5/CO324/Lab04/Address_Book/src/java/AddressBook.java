@@ -6,6 +6,7 @@ import java.io.Writer;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.*;
+import java.io.*;
 
 
 /*
@@ -24,6 +25,7 @@ public class AddressBook {
     
     // instance address book
     public HashMap <String, List <String>> contactsMap;
+    private String pathToCSV;
     
     //read from file and create Address Book
     public AddressBook(String fileName) throws Exception{
@@ -31,6 +33,7 @@ public class AddressBook {
         /*TODO*/
         //Create your address book
         contactsMap = new HashMap <String, List <String>>();
+        this.pathToCSV = fileName;
         
         //Read file
         BufferedReader br = new BufferedReader(new FileReader(fileName));
@@ -79,21 +82,24 @@ public class AddressBook {
         
     }
     
-    public void writeToCSV(){
+    public void writeToCSV() throws IOException{
         
-        String eol = System.getProperty("line.separator");
+       BufferedWriter bw = new BufferedWriter(new FileWriter(pathToCSV));
 
-        try (Writer writer = new FileWriter("Contacts.csv")) {
-          for (Map.Entry<String, List<String>> entry : contactsMap.entrySet()) {
-            writer.append(entry.getKey())
-                  .append(',')
-                  .append((CharSequence) entry.getValue())
-                  .append(eol);
-          }
-          
-        } catch (IOException ex) {
-          ex.printStackTrace(System.err);
-        }
+    	for (String key : contactsMap.keySet() ) {
+
+    		List <String> temp = contactsMap.get(key);
+    		temp.add(0, key);
+
+    		String content = String.join(",", temp);
+    		// System.out.println(content);
+
+    		// bw.write(key);
+    		bw.write(content);
+    		bw.write("\n");
+    		bw.flush();
+    		
+    	}
     }
 }
 

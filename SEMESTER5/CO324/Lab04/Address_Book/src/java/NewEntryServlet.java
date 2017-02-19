@@ -130,7 +130,11 @@ public class NewEntryServlet extends HttpServlet {
     
     public void destroy (){
         
-        addressBook.writeToCSV();
+        try {
+            addressBook.writeToCSV();
+        } catch (IOException ex) {
+            Logger.getLogger(NewEntryServlet.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
 }

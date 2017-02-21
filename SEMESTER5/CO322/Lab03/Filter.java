@@ -21,8 +21,6 @@ public class Filter {
 			
 		}
 
-		int [] wordLetterSum = new int [26];
-
 		BufferedReader br = new BufferedReader(new FileReader(pathToFile));
 
 		String line;
@@ -31,6 +29,7 @@ public class Filter {
 
 			// System.out.println(line);
 			char [] word = line.toCharArray();
+			int [] wordLetterSum = new int [26];
 			boolean match = true;
 
 			for (char c : word ) {
@@ -41,7 +40,7 @@ public class Filter {
 					// System.out.println(index);
 					wordLetterSum[index] = wordLetterSum[index] + 1;
 
-					if(wordLetterSum[index] > sampleLetterSum[index]){
+					if(sampleLetterSum[index] == 0){
 
 						match = false;
 						break;

@@ -75,7 +75,7 @@ public class AddressBook {
 
         } else {
 
-            return ("Contacts for name "+ name +" is not found!");
+            return null;
 
         }
     }

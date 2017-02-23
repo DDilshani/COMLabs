@@ -52,15 +52,8 @@ public class AddressBookServlet extends HttpServlet {
             ServletContext sc = config.getServletContext();
             path = sc.getRealPath(filename);
     }
-           
-//        try{    
-//            addressBook = new AddressBook(path);
-//        } catch (Exception ex) {
-//            Logger.getLogger(AddressBookServlet.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-        
       
-//    }
+        
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -107,12 +100,12 @@ public class AddressBookServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        String name = request.getParameter("name");
-        
         HttpSession session = request.getSession();
         
-        AddressBook addressBook;
-        String id = "contacts";
+        String id = "USER";
+        
+        AddressBook addressBook = (AddressBook) session.getAttribute(id);
+        
            
         if(session.isNew()){
         
@@ -120,28 +113,27 @@ public class AddressBookServlet extends HttpServlet {
                 
                 addressBook = new AddressBook(path);
                 session.setAttribute(id, addressBook);
-                
-                
+                               
             } catch (Exception ex) {
                 Logger.getLogger(AddressBookServlet.class.getName()).log(Level.SEVERE, null, ex);
             }
         
         } 
         
-        addressBook = (AddressBook) session.getAttribute(id);
+        String name = request.getParameter("name");
         
         String details;
 
-//        HttpSession session = request.getSession(true);    
-
         if ((details = addressBook.search(name)) != null) {
+            
             response.setStatus(HttpServletResponse.SC_OK);
             PrintWriter out = response.getWriter();
             out.println(name +" : "+details);
-        } else
+            
+        } else {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
-        
-        
+        }
+       
     }
 
     /**
@@ -157,38 +149,38 @@ public class AddressBookServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        String name = request.getParameter("name");
-        String contacts = request.getParameter("contacts");
+        HttpSession session = request.getSession();
+        String id = "USER";
         
-        AddressBook addressBook;
-        String id = "details";
-        
-        HttpSession session = request.getSession();   
-        
+        AddressBook addressBook = (AddressBook)session.getAttribute(id);
+    
         if(session.isNew()){
         
             try {
                 addressBook = new AddressBook(path);
-                session.setAttribute(id, addressBook);
+//                session.setAttribute(id, addressBook);
                 
             } catch (Exception ex) {
                 Logger.getLogger(AddressBookServlet.class.getName()).log(Level.SEVERE, null, ex);
             }
         
-        }
+        } 
         
-        addressBook = (AddressBook)session.getAttribute(id);
+//        addressBook = (AddressBook)session.getAttribute(id);
+        
+        String name = request.getParameter("name");
+        String contacts = request.getParameter("contacts");
 
         addressBook.add(name, contacts);
-        
-        session.setAttribute(id, addressBook);
 
         response.setStatus(SC_OK);
         PrintWriter out = response.getWriter();
         out.println("<p>Your contact details added!</p>"); 
 
-        String content = addressBook.search(name);
-        out.println("<p>"+ name + ": "+ content +"</p>");
+//        String content = addressBook.search(name);
+        out.println("<p>"+ name + ": "+ contacts +"</p>");
+        
+        session.setAttribute(id, addressBook);
        
         
         

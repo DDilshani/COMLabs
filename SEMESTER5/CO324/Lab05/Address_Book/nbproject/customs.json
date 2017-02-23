@@ -1,0 +1,16 @@
+{
+    "elements": {
+        "div": {
+            "attributes": {
+                "style": {}
+            }
+        },
+        "form": {
+            "attributes": {
+                "method": {},
+                "action": {}
+            }
+        }
+    },
+    "attributes": {}
+}

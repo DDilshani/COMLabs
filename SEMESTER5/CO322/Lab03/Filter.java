@@ -113,12 +113,18 @@ public class Filter {
 
 		Complexity of running through each character in a word = M operations 
 		Complexity of running through each word in the file = N operations
-		Complexity of running through each word in the file and running through each character of the word = N * M operations = O(N * M)
 
-		Total Complexity of the implementation = O(n) + O (N * M)
+		Complexity of running through each word in the file 
+		and running through each character of the word 		= N * M operations = O(N * M)
+
+		Total runtime complexity of the implementation = O(n) + O (N * M)
+
+		Additional space complexity = 0
+		(Implementation is done without storing the given text file since the same 
+		text file is not used again for operations accoding to the given design criterias)
 
 		----------------------------------------------------
-		Complexity of the final implementation = O (N * M)
+		Runtime complexity of the final implementation = O (N * M)
 		----------------------------------------------------
 
 

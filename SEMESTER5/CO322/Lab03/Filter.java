@@ -1,46 +1,63 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.*;
 
 public class Filter {
 
+	private String pathToFile;
+	private String letters;
 
-	public static void main(String[] args) throws Exception {
+	private boolean [] sampleLetterCheck;
+	private boolean [] wordLetterCheck;
 
-		String pathToFile = args[0];
-		String letters = args[1];
+	public Filter(String pathToFile, String letters){
+
+		this.pathToFile = pathToFile;
+		this.letters = letters;
+
+		// Initialising arrays with false
+		this.sampleLetterCheck = new boolean [26];
+		this.wordLetterCheck = new boolean [26];
+	}
+
+	// Returns a boolean array containing the letter positions of given as input argument as true
+	public void getSampleCheck(){
 
 		char [] charLetters = letters.toCharArray();
 
-		int [] sampleLetterSum = new int [26];
-
+		// Marking presence of given characters
 		for (char c : charLetters ) {
 
-			int index = c - 'a';
-			sampleLetterSum[index] = sampleLetterSum[index] + 1;
+			int index = c - 'a';	// getting the letter index corresponding to alpabet numbered from 0 - 25 (a - z)
+			sampleLetterCheck[index] = true;	// making respective letter position of alphabet true
 			
 		}
+	}
+
+	// Displays words containing given letters
+	public void printWords() throws IOException {
 
 		BufferedReader br = new BufferedReader(new FileReader(pathToFile));
 
 		String line;
 
+		// Read file
 		while ((line = br.readLine()) != null) {
 
-			// System.out.println(line);
 			char [] word = line.toCharArray();
-			int [] wordLetterSum = new int [26];
-			boolean match = true;
+
+			wordLetterCheck = new boolean [26]; // Initialising false for current word
+
+			boolean match = true; // Initialising match detector
 
 			for (char c : word ) {
 
+				// filter characters belonging to alphabet
 				if((c >= 'a') && (c <= 'z') ){
 
 					int index = c - 'a';
-					// System.out.println(index);
-					wordLetterSum[index] = wordLetterSum[index] + 1;
+					wordLetterCheck[index] = true;
 
-					if(sampleLetterSum[index] == 0){
+					// Check whether current letter is contained in the sample letters given
+					if(!sampleLetterCheck[index]){
 
 						match = false;
 						break;
@@ -54,17 +71,58 @@ public class Filter {
 
 			}
 
+			// displaying words found
 			if (match){
 
 				System.out.println(line);
 
 			}
 			
-
-	
-			// line = br.readLine();
-			
 		}
+
+
+	}
+
+
+	public static void main(String[] args) throws IOException {
+
+		String pathToFile = args[0];
+		String letters = args[1];
+
+		Filter filter = new Filter(pathToFile, letters);
+
+		filter.getSampleCheck();
+		filter.printWords();
+
+		/*
+		RUN TIME COMPLEXITY ANALYSIS
+		------------------------------
+
+		Let,
+		
+		Number of characters given as input = n
+		Number of words in the text file = N
+		Maximum word length = M
+
+		Consider the getSample() funcyion:
+
+		Complexity of running through given string = O(n)
+		
+
+		Consider the printWords() funcyion:
+
+		Complexity of running through each character in a word = M operations 
+		Complexity of running through each word in the file = N operations
+		Complexity of running through each word in the file and running through each character of the word = N * M operations = O(N * M)
+
+		Total Complexity of the implementation = O(n) + O (N * M)
+
+		----------------------------------------------------
+		Complexity of the final implementation = O (N * M)
+		----------------------------------------------------
+
+
+		*/
 		
 	}
 

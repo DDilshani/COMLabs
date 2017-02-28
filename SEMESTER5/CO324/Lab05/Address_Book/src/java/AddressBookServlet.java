@@ -52,9 +52,10 @@ public class AddressBookServlet extends HttpServlet {
             ServletContext sc = config.getServletContext();
             path = sc.getRealPath(filename);
     }
-      
-        
-
+    
+    
+    
+    
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.

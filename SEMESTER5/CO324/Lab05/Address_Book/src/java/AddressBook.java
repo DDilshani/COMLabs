@@ -15,6 +15,7 @@ import java.io.*;
  * and open the template in the editor.
  */
 
+
 /**
  *
  * @author Nathasha
@@ -32,7 +33,7 @@ public class AddressBook {
     
         /*TODO*/
         //Create your address book
-        contactsMap = new HashMap <String, List <String>>();
+        contactsMap = new HashMap <>();
         this.pathToCSV = fileName;
         
         //Read file

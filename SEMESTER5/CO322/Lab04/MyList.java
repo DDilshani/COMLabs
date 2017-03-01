@@ -2,7 +2,7 @@
 
 public class MyList <T> {
 
-	private Node head;
+	private Node head = null;
 	private Node tail; 
 
 	public MyList(){
@@ -20,9 +20,35 @@ public class MyList <T> {
 
 	}
 
-	public void add(T data){
+	public void add(<T> data){
 
-		
+		head.setData(data);
+	}
+
+	public boolean isEmpty(){
+
+		return (head == null);
+
+	}
+
+	public boolean hasElements(){
+
+		return !(head == null);
+
+	}
+
+	public <T> remove(){
+
+		if (this.isEmpty()) {
+			
+			return null;
+
+		} else {
+
+			T data = head.getData();
+			int next = head.getPointer();
+
+		}
 	}
 }
 

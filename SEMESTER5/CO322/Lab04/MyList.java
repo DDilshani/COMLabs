@@ -1,28 +1,36 @@
 
+public class MyList <T> extends Node <T> {
 
-public class MyList <T> {
-
-	private Node head = null;
-	private Node tail; 
+	public Node <T> head = null;
+	
 
 	public MyList(){
 
-		Node node = new Node();
-		this.head = node;
-		this.tail = null;
+		this.head = new Node <T>();
+		// this.head = node;
+		
+	}
+
+	public MyList(T data){
+
+		this.head = new Node <T>(data);
+		// this.head = node;
 
 	}
 
-	public MyList(Node node){
+	public void add(T data){
 
-		this.head = node;
-		this.tail = null;
+		if(this.isEmpty()){
 
-	}
+			head = new Node <T>(data);
 
-	public void add(<T> data){
+		} else {
 
-		head.setData(data);
+			Node <T> temp = head;
+			head = new Node <T> (data, temp);
+
+		}
+	
 	}
 
 	public boolean isEmpty(){
@@ -37,7 +45,7 @@ public class MyList <T> {
 
 	}
 
-	public <T> remove(){
+	public T remove(){
 
 		if (this.isEmpty()) {
 			
@@ -45,51 +53,13 @@ public class MyList <T> {
 
 		} else {
 
+			// Node temp = head;
 			T data = head.getData();
-			int next = head.getPointer();
+			Node <T> next = head.getNextNode();
+			head = next;
+			return data;
 
 		}
 	}
 }
 
-public class Node <T> {
-
-	private T data;
-	private int pointer;
-
-	public Node(){
-
-		this.data = null;
-		this.pointer = null;
-	}
-
-	public Node(T data, int pointer){
-
-		this.data = data;
-		this.pointer = pointer;
-
-	}
-
-	public T getData(){
-
-		return this.data
-	}
-
-	public T getPointer(){
-
-		return this.pointer;
-	}
-
-	public T setData(T data){
-
-		this.data = data;
-	}
-
-	public T setPointer(int pointer){
-
-		this.pointer = pointer;
-	}
-
-
-
-}

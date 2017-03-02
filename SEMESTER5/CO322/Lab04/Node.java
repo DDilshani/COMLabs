@@ -42,6 +42,11 @@ public class Node <T> {
 		this.next = next;
 	}
 
+	public void printNode(){
+
+		System.out.println(data);
+	}
+
 
 
 }

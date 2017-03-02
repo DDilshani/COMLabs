@@ -61,5 +61,19 @@ public class MyList <T> extends Node <T> {
 
 		}
 	}
+
+	public void printMyList(){
+
+		Node <T> current = head;
+
+		while(current.getNextNode() != null){
+
+			current.printNode();
+			System.out.println(", ");
+			current = current.getNextNode();
+
+		}
+
+	}
 }
 

@@ -1,13 +1,12 @@
+// Class for a Linked List
+//Author : E/13/175
 
 public class MyList <T> {
-	// extends Node <T> 
 
-	public Node <T> head = null;
-	
+	public Node <T> head = null;	//Pointer to the head of the list
 
 	public MyList(){
 
-		// this.head = new Node <T>();	
 	}
 
 	public MyList(T data){
@@ -19,12 +18,12 @@ public class MyList <T> {
 
 		if(this.isEmpty()){
 
-			head = new Node <T>(data);
+			head = new Node <T>(data);	//create new node and add data
 
 		} else {
 
-			Node <T> temp = head;
-			head = new Node <T> (data, temp);
+			Node <T> temp = head;	//gettting current head
+			head = new Node <T> (data, temp); // creating a new node with new data pointing to previous head
 
 		}
 	
@@ -32,7 +31,7 @@ public class MyList <T> {
 
 	public boolean isEmpty(){
 
-		return (head == null);
+		return (head == null); //check whether head is pointing to a node
 
 	}
 
@@ -50,27 +49,43 @@ public class MyList <T> {
 
 		} else {
 
-			// Node temp = head;
-			T data = head.getData();
-			Node <T> next = head.getNext();
-			head = next;
-			return data;
+			T data = head.getData(); // getting data in the current head
+			Node <T> next = head.getNext(); // getting the next node of current head
+			head = next; // Setting the next node as current head
+			return data; 
 
 		}
 	}
 
-	public void printMyList(){
+	@Override
+	public String toString(){
 
-		Node <T> current = head;
+		Node <T> iterator = head;
 
-		while(current.getNext() != null){
+		String toPrint = "";
 
-			current.printNode();
-			System.out.println(", ");
-			current = current.getNext();
+		if (this.hasElements()) {
+
+			// Printing till one before the tail 
+			while(iterator.getNext() != null){
+
+				String node = iterator.toString();
+				String delimiter = ", ";
+				iterator = iterator.getNext(); //Iterator incremented
+			
+				toPrint = toPrint + node + delimiter;
+
+			}
+
+			// Printing the last node (tail) 
+			String node = iterator.toString();
+			toPrint = toPrint + node;
 
 		}
 
+		toPrint = "[" + toPrint + "]";
+
+		return toPrint;
 	}
 }
 

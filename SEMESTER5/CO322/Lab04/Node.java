@@ -1,7 +1,7 @@
 public class Node <T> {
 
-	private T data;
-	private Node <T> next;
+	private T data; //Type safe data
+	private Node <T> next;	//Node type pointer to next node
 
 	public Node(){
 
@@ -12,6 +12,7 @@ public class Node <T> {
 	public Node(T data){
 
 		this.data = data;
+		this.next = null;
 		
 	}
 
@@ -42,9 +43,10 @@ public class Node <T> {
 		this.next = next;
 	}
 
-	public void printNode(){
+	@Override
+	public String toString(){
 
-		System.out.println(data);
+		return data.toString();
 	}
 
 

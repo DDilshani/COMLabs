@@ -1,21 +1,18 @@
 
-public class MyList <T> extends Node <T> {
+public class MyList <T> {
+	// extends Node <T> 
 
 	public Node <T> head = null;
 	
 
 	public MyList(){
 
-		this.head = new Node <T>();
-		// this.head = node;
-		
+		// this.head = new Node <T>();	
 	}
 
 	public MyList(T data){
 
 		this.head = new Node <T>(data);
-		// this.head = node;
-
 	}
 
 	public void add(T data){
@@ -55,7 +52,7 @@ public class MyList <T> extends Node <T> {
 
 			// Node temp = head;
 			T data = head.getData();
-			Node <T> next = head.getNextNode();
+			Node <T> next = head.getNext();
 			head = next;
 			return data;
 
@@ -66,11 +63,11 @@ public class MyList <T> extends Node <T> {
 
 		Node <T> current = head;
 
-		while(current.getNextNode() != null){
+		while(current.getNext() != null){
 
 			current.printNode();
 			System.out.println(", ");
-			current = current.getNextNode();
+			current = current.getNext();
 
 		}
 

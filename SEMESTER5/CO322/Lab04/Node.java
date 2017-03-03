@@ -27,7 +27,7 @@ public class Node <T> {
 		return data;
 	}
 
-	public Node <T> getNextNode(){
+	public Node <T> getNext(){
 
 		return next;
 	}
@@ -37,7 +37,7 @@ public class Node <T> {
 		this.data = data;
 	}
 
-	public void setNextNode(Node <T> next){
+	public void setNext(Node <T> next){
 
 		this.next = next;
 	}

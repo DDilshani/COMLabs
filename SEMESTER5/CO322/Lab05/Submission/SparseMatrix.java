@@ -22,24 +22,43 @@ public class SparseMatrix {
     // put A[i][j] = value  
     public void set(int i, int j, int value){
 
-    	int key = i * size + j; // Generating a unique index to be taken as the key
-    	matrix.put(key, value);	// Inserting values at unique key
+        if(value != 0) {
+
+            if (i < size && j < size){
+
+            	int key = i * size + j; // Generating a unique index to be taken as the key
+            	matrix.put(key, value);	// Inserting values at unique key
+            
+            } else {
+
+                System.out.println("Invalid Matrix Index!");
+            }
+        }
 
     }
     
     // return value at A[i][j]
     public int get(int i, int j){ 
 
-    	int key = i * size + j; // Computing relevant unique index
+        if(i < size && j < size){
 
-    	if(matrix.containsKey(key)){ // Check whether the unique index is available as a key in hashmap
+            int key = i * size + j; // Computing relevant unique index
 
-    		return matrix.get(key); // if so return relevant value for the key
+            if(matrix.containsKey(key)){ // Check whether the unique index is available as a key in hashmap
 
-    	} else {
+                return matrix.get(key); // if so return relevant value for the key
 
-    		return 0; // return 0 for sparse entries
-    	}
+            } else {
+
+                return 0; // return 0 for sparse entries
+            }
+
+        } else {
+
+            System.out.println("Invalid Matrix Index!");
+            return -1;
+        }
+    	
 
     }
 

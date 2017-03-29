@@ -42,6 +42,12 @@ usart_init(){
 	UCSR0C |= (1<<UCSZ01);
 
 	//USCR0C --> UPMn1, UPMn0 = 0 --> set parity bits = 0
+}
 
+usart_send(){
 
+}
+
+usart_receive(){
+	
 }

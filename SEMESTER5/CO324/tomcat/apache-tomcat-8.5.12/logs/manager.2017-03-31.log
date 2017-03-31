@@ -1,6 +1,0 @@
-31-Mar-2017 15:46:52.899 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
-31-Mar-2017 15:46:52.900 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
-31-Mar-2017 15:46:56.535 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
-31-Mar-2017 15:46:56.918 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
-31-Mar-2017 15:46:56.937 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/tmp/context745368109190193095.xml'
-31-Mar-2017 15:46:56.982 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/StockTicker'

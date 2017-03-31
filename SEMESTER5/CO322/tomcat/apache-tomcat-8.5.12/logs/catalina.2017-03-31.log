@@ -1,0 +1,941 @@
+31-Mar-2017 15:46:29.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-24-generic
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_91/jre
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+31-Mar-2017 15:46:29.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/logging.properties
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=cachex.pdn.ac.lk
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=3128
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|*.pdn.ac.lk
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=cachex.pdn.ac.lk
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=3128
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/temp
+31-Mar-2017 15:46:29.740 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/jdk1.8.0_91/jre/lib/amd64:/usr/local/jdk1.8.0_91/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Mar-2017 15:46:29.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2017 15:46:29.917 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2017 15:46:29.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2017 15:46:29.922 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2017 15:46:29.922 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 730 ms
+31-Mar-2017 15:46:29.972 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Mar-2017 15:46:29.972 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+31-Mar-2017 15:46:29.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml
+31-Mar-2017 15:46:30.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml has finished in 463 ms
+31-Mar-2017 15:46:30.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT
+31-Mar-2017 15:46:30.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT has finished in 47 ms
+31-Mar-2017 15:46:30.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager
+31-Mar-2017 15:46:33.981 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager has finished in 3,472 ms
+31-Mar-2017 15:46:33.981 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples
+31-Mar-2017 15:46:42.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples has finished in 8,825 ms
+31-Mar-2017 15:46:42.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs
+31-Mar-2017 15:46:42.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs has finished in 110 ms
+31-Mar-2017 15:46:42.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager
+31-Mar-2017 15:46:43.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager has finished in 177 ms
+31-Mar-2017 15:46:43.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+31-Mar-2017 15:46:43.114 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+31-Mar-2017 15:46:43.123 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 13201 ms
+31-Mar-2017 15:46:56.941 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml
+31-Mar-2017 15:46:56.977 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml has finished in 36 ms
+31-Mar-2017 15:46:56.982 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/StockTicker]] after start() had already been called. The second call will be ignored.
+31-Mar-2017 15:46:57.312 INFO [http-nio-8080-exec-6] stockTicker.PriceUpdate.init Started stock price updates
+31-Mar-2017 15:46:57.313 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:46:57 IST 2017, Price: 102
+31-Mar-2017 15:46:59.313 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:46:59 IST 2017, Price: 98
+31-Mar-2017 15:47:01.314 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:01 IST 2017, Price: 92
+31-Mar-2017 15:47:03.314 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:03 IST 2017, Price: 108
+31-Mar-2017 15:47:05.315 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:05 IST 2017, Price: 94
+31-Mar-2017 15:47:07.315 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:07 IST 2017, Price: 97
+31-Mar-2017 15:47:09.316 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:09 IST 2017, Price: 104
+31-Mar-2017 15:47:11.316 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:11 IST 2017, Price: 105
+31-Mar-2017 15:47:13.317 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:13 IST 2017, Price: 101
+31-Mar-2017 15:47:15.317 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:15 IST 2017, Price: 97
+31-Mar-2017 15:47:17.317 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:17 IST 2017, Price: 92
+31-Mar-2017 15:47:19.318 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:19 IST 2017, Price: 98
+31-Mar-2017 15:47:21.318 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:21 IST 2017, Price: 101
+31-Mar-2017 15:47:23.319 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:23 IST 2017, Price: 96
+31-Mar-2017 15:47:25.319 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:25 IST 2017, Price: 93
+31-Mar-2017 15:47:27.320 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:27 IST 2017, Price: 93
+31-Mar-2017 15:47:29.320 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:29 IST 2017, Price: 102
+31-Mar-2017 15:47:31.321 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:31 IST 2017, Price: 93
+31-Mar-2017 15:47:33.321 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:33 IST 2017, Price: 104
+31-Mar-2017 15:47:35.322 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:35 IST 2017, Price: 105
+31-Mar-2017 15:47:37.322 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:37 IST 2017, Price: 91
+31-Mar-2017 15:47:39.323 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:39 IST 2017, Price: 97
+31-Mar-2017 15:47:41.323 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:41 IST 2017, Price: 97
+31-Mar-2017 15:47:43.323 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:43 IST 2017, Price: 90
+31-Mar-2017 15:47:45.324 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:45 IST 2017, Price: 100
+31-Mar-2017 15:47:47.324 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:47 IST 2017, Price: 107
+31-Mar-2017 15:47:49.325 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:49 IST 2017, Price: 105
+31-Mar-2017 15:47:51.325 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:51 IST 2017, Price: 96
+31-Mar-2017 15:47:53.325 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:53 IST 2017, Price: 97
+31-Mar-2017 15:47:55.326 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:55 IST 2017, Price: 106
+31-Mar-2017 15:47:57.326 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:57 IST 2017, Price: 97
+31-Mar-2017 15:47:59.327 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:47:59 IST 2017, Price: 105
+31-Mar-2017 15:48:01.327 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:01 IST 2017, Price: 107
+31-Mar-2017 15:48:03.328 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:03 IST 2017, Price: 90
+31-Mar-2017 15:48:05.328 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:05 IST 2017, Price: 96
+31-Mar-2017 15:48:07.329 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:07 IST 2017, Price: 97
+31-Mar-2017 15:48:09.329 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:09 IST 2017, Price: 105
+31-Mar-2017 15:48:11.329 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:11 IST 2017, Price: 106
+31-Mar-2017 15:48:13.330 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:13 IST 2017, Price: 107
+31-Mar-2017 15:48:15.330 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:15 IST 2017, Price: 94
+31-Mar-2017 15:48:17.331 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:17 IST 2017, Price: 103
+31-Mar-2017 15:48:19.331 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:19 IST 2017, Price: 97
+31-Mar-2017 15:48:21.332 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:21 IST 2017, Price: 95
+31-Mar-2017 15:48:23.332 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:23 IST 2017, Price: 106
+31-Mar-2017 15:48:25.332 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:25 IST 2017, Price: 90
+31-Mar-2017 15:48:27.333 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:27 IST 2017, Price: 92
+31-Mar-2017 15:48:29.333 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:29 IST 2017, Price: 91
+31-Mar-2017 15:48:31.334 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:31 IST 2017, Price: 108
+31-Mar-2017 15:48:33.334 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:33 IST 2017, Price: 91
+31-Mar-2017 15:48:35.334 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:35 IST 2017, Price: 92
+31-Mar-2017 15:48:37.335 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:37 IST 2017, Price: 101
+31-Mar-2017 15:48:39.335 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:39 IST 2017, Price: 101
+31-Mar-2017 15:48:41.336 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:41 IST 2017, Price: 95
+31-Mar-2017 15:48:43.336 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:43 IST 2017, Price: 109
+31-Mar-2017 15:48:45.336 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:45 IST 2017, Price: 108
+31-Mar-2017 15:48:47.337 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:47 IST 2017, Price: 103
+31-Mar-2017 15:48:49.337 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:49 IST 2017, Price: 95
+31-Mar-2017 15:48:51.338 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:51 IST 2017, Price: 94
+31-Mar-2017 15:48:53.338 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:53 IST 2017, Price: 105
+31-Mar-2017 15:48:55.338 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:55 IST 2017, Price: 91
+31-Mar-2017 15:48:57.339 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:57 IST 2017, Price: 90
+31-Mar-2017 15:48:59.339 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:48:59 IST 2017, Price: 94
+31-Mar-2017 15:49:01.340 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:01 IST 2017, Price: 94
+31-Mar-2017 15:49:03.340 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:03 IST 2017, Price: 105
+31-Mar-2017 15:49:05.341 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:05 IST 2017, Price: 104
+31-Mar-2017 15:49:07.341 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:07 IST 2017, Price: 92
+31-Mar-2017 15:49:09.341 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:09 IST 2017, Price: 95
+31-Mar-2017 15:49:11.342 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:11 IST 2017, Price: 96
+31-Mar-2017 15:49:13.342 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:13 IST 2017, Price: 98
+31-Mar-2017 15:49:15.343 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:15 IST 2017, Price: 91
+31-Mar-2017 15:49:17.343 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:17 IST 2017, Price: 92
+31-Mar-2017 15:49:19.344 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:19 IST 2017, Price: 101
+31-Mar-2017 15:49:21.344 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:21 IST 2017, Price: 97
+31-Mar-2017 15:49:23.345 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:23 IST 2017, Price: 96
+31-Mar-2017 15:49:25.345 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:25 IST 2017, Price: 100
+31-Mar-2017 15:49:27.346 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:27 IST 2017, Price: 100
+31-Mar-2017 15:49:29.346 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:29 IST 2017, Price: 103
+31-Mar-2017 15:49:31.346 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:31 IST 2017, Price: 104
+31-Mar-2017 15:49:33.347 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:33 IST 2017, Price: 109
+31-Mar-2017 15:49:35.347 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:35 IST 2017, Price: 103
+31-Mar-2017 15:49:37.348 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:37 IST 2017, Price: 94
+31-Mar-2017 15:49:39.348 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:39 IST 2017, Price: 103
+31-Mar-2017 15:49:41.349 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:41 IST 2017, Price: 96
+31-Mar-2017 15:49:43.349 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:43 IST 2017, Price: 92
+31-Mar-2017 15:49:45.349 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:45 IST 2017, Price: 95
+31-Mar-2017 15:49:47.350 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:47 IST 2017, Price: 107
+31-Mar-2017 15:49:49.350 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:49 IST 2017, Price: 108
+31-Mar-2017 15:49:51.351 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:51 IST 2017, Price: 97
+31-Mar-2017 15:49:53.351 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:53 IST 2017, Price: 101
+31-Mar-2017 15:49:55.351 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:55 IST 2017, Price: 103
+31-Mar-2017 15:49:57.352 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:57 IST 2017, Price: 95
+31-Mar-2017 15:49:59.352 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:49:59 IST 2017, Price: 103
+31-Mar-2017 15:50:01.353 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:01 IST 2017, Price: 108
+31-Mar-2017 15:50:03.353 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:03 IST 2017, Price: 91
+31-Mar-2017 15:50:05.353 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:05 IST 2017, Price: 93
+31-Mar-2017 15:50:07.354 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:07 IST 2017, Price: 95
+31-Mar-2017 15:50:09.354 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:09 IST 2017, Price: 97
+31-Mar-2017 15:50:11.355 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:11 IST 2017, Price: 93
+31-Mar-2017 15:50:13.355 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:13 IST 2017, Price: 102
+31-Mar-2017 15:50:15.355 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:15 IST 2017, Price: 100
+31-Mar-2017 15:50:17.356 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:17 IST 2017, Price: 90
+31-Mar-2017 15:50:19.356 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:19 IST 2017, Price: 94
+31-Mar-2017 15:50:21.357 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:21 IST 2017, Price: 91
+31-Mar-2017 15:50:23.357 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:23 IST 2017, Price: 103
+31-Mar-2017 15:50:25.357 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:25 IST 2017, Price: 100
+31-Mar-2017 15:50:27.358 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:27 IST 2017, Price: 107
+31-Mar-2017 15:50:29.358 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:29 IST 2017, Price: 105
+31-Mar-2017 15:50:31.359 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:31 IST 2017, Price: 102
+31-Mar-2017 15:50:33.359 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:33 IST 2017, Price: 107
+31-Mar-2017 15:50:35.359 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:35 IST 2017, Price: 108
+31-Mar-2017 15:50:37.360 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:37 IST 2017, Price: 98
+31-Mar-2017 15:50:39.360 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:39 IST 2017, Price: 105
+31-Mar-2017 15:50:41.361 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:41 IST 2017, Price: 102
+31-Mar-2017 15:50:43.361 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:43 IST 2017, Price: 102
+31-Mar-2017 15:50:45.361 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:45 IST 2017, Price: 108
+31-Mar-2017 15:50:47.362 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:47 IST 2017, Price: 95
+31-Mar-2017 15:50:49.362 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:49 IST 2017, Price: 106
+31-Mar-2017 15:50:51.362 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:51 IST 2017, Price: 106
+31-Mar-2017 15:50:53.363 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:53 IST 2017, Price: 92
+31-Mar-2017 15:50:55.363 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:55 IST 2017, Price: 99
+31-Mar-2017 15:50:57.364 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:57 IST 2017, Price: 102
+31-Mar-2017 15:50:59.364 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:50:59 IST 2017, Price: 97
+31-Mar-2017 15:51:01.364 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:01 IST 2017, Price: 96
+31-Mar-2017 15:51:03.365 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:03 IST 2017, Price: 99
+31-Mar-2017 15:51:05.365 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:05 IST 2017, Price: 103
+31-Mar-2017 15:51:07.366 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:07 IST 2017, Price: 107
+31-Mar-2017 15:51:09.366 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:09 IST 2017, Price: 94
+31-Mar-2017 15:51:11.366 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:11 IST 2017, Price: 97
+31-Mar-2017 15:51:13.367 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:13 IST 2017, Price: 109
+31-Mar-2017 15:51:15.367 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:15 IST 2017, Price: 96
+31-Mar-2017 15:51:17.368 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:17 IST 2017, Price: 97
+31-Mar-2017 15:51:19.368 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:19 IST 2017, Price: 95
+31-Mar-2017 15:51:21.368 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:21 IST 2017, Price: 91
+31-Mar-2017 15:51:23.369 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:23 IST 2017, Price: 97
+31-Mar-2017 15:51:25.369 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:25 IST 2017, Price: 101
+31-Mar-2017 15:51:27.370 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:27 IST 2017, Price: 107
+31-Mar-2017 15:51:29.370 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:29 IST 2017, Price: 91
+31-Mar-2017 15:51:31.370 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:31 IST 2017, Price: 106
+31-Mar-2017 15:51:33.371 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:33 IST 2017, Price: 91
+31-Mar-2017 15:51:35.371 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:35 IST 2017, Price: 90
+31-Mar-2017 15:51:37.372 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:37 IST 2017, Price: 98
+31-Mar-2017 15:51:39.372 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:39 IST 2017, Price: 92
+31-Mar-2017 15:51:41.372 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:41 IST 2017, Price: 99
+31-Mar-2017 15:51:43.373 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:43 IST 2017, Price: 106
+31-Mar-2017 15:51:45.373 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:45 IST 2017, Price: 91
+31-Mar-2017 15:51:47.373 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:47 IST 2017, Price: 90
+31-Mar-2017 15:51:49.374 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:49 IST 2017, Price: 99
+31-Mar-2017 15:51:51.374 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:51 IST 2017, Price: 101
+31-Mar-2017 15:51:53.375 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:53 IST 2017, Price: 94
+31-Mar-2017 15:51:55.375 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:55 IST 2017, Price: 93
+31-Mar-2017 15:51:57.375 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:57 IST 2017, Price: 97
+31-Mar-2017 15:51:59.376 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:51:59 IST 2017, Price: 94
+31-Mar-2017 15:52:01.376 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:01 IST 2017, Price: 105
+31-Mar-2017 15:52:03.376 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:03 IST 2017, Price: 101
+31-Mar-2017 15:52:05.377 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:05 IST 2017, Price: 92
+31-Mar-2017 15:52:07.377 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:07 IST 2017, Price: 104
+31-Mar-2017 15:52:09.377 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:09 IST 2017, Price: 95
+31-Mar-2017 15:52:11.378 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:11 IST 2017, Price: 108
+31-Mar-2017 15:52:13.378 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:13 IST 2017, Price: 104
+31-Mar-2017 15:52:15.379 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:15 IST 2017, Price: 93
+31-Mar-2017 15:52:17.379 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:17 IST 2017, Price: 106
+31-Mar-2017 15:52:19.379 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:19 IST 2017, Price: 102
+31-Mar-2017 15:52:21.380 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:21 IST 2017, Price: 96
+31-Mar-2017 15:52:23.380 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:23 IST 2017, Price: 107
+31-Mar-2017 15:52:25.380 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:25 IST 2017, Price: 103
+31-Mar-2017 15:52:27.381 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:27 IST 2017, Price: 91
+31-Mar-2017 15:52:29.381 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:29 IST 2017, Price: 105
+31-Mar-2017 15:52:31.382 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:31 IST 2017, Price: 97
+31-Mar-2017 15:52:33.382 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:33 IST 2017, Price: 91
+31-Mar-2017 15:52:35.382 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:35 IST 2017, Price: 104
+31-Mar-2017 15:52:37.383 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:37 IST 2017, Price: 98
+31-Mar-2017 15:52:39.383 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:39 IST 2017, Price: 90
+31-Mar-2017 15:52:41.383 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:41 IST 2017, Price: 93
+31-Mar-2017 15:52:43.384 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:43 IST 2017, Price: 96
+31-Mar-2017 15:52:45.384 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:45 IST 2017, Price: 91
+31-Mar-2017 15:52:47.385 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:47 IST 2017, Price: 90
+31-Mar-2017 15:52:49.385 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:49 IST 2017, Price: 99
+31-Mar-2017 15:52:51.385 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:51 IST 2017, Price: 99
+31-Mar-2017 15:52:53.385 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:53 IST 2017, Price: 91
+31-Mar-2017 15:52:53.797 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Address_Book]
+31-Mar-2017 15:52:53.805 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [Address_Book]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 15:52:54.328 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+31-Mar-2017 15:52:54.330 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 15:52:54.833 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/StockTicker]
+31-Mar-2017 15:52:55.386 INFO [Thread-6] stockTicker.Stock.run Time: Fri Mar 31 15:52:55 IST 2017, Price: 104
+31-Mar-2017 15:52:56.938 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] stockTicker.PriceUpdate.destroy Stopped stock price updates
+31-Mar-2017 15:52:56.947 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [StockTicker]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 15:52:56.948 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [StockTicker] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ stockTicker.PriceUpdate.doGet(PriceUpdate.java:31)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2017 15:52:57.449 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+31-Mar-2017 15:52:57.464 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1067)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1577)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+31-Mar-2017 15:52:57.968 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+31-Mar-2017 15:52:57.971 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 15:52:58.472 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+31-Mar-2017 15:52:58.475 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 15:52:58.977 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+31-Mar-2017 15:52:58.980 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1579)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1525)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1477)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:447)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 16:24:44.392 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml
+31-Mar-2017 16:24:44.420 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml has finished in 28 ms
+31-Mar-2017 16:24:44.420 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml
+31-Mar-2017 16:24:44.442 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml has finished in 22 ms
+31-Mar-2017 16:24:44.443 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT
+31-Mar-2017 16:24:44.455 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT has finished in 12 ms
+31-Mar-2017 16:24:44.455 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager
+31-Mar-2017 16:24:44.471 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager has finished in 16 ms
+31-Mar-2017 16:24:44.471 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples
+31-Mar-2017 16:24:44.702 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples has finished in 231 ms
+31-Mar-2017 16:24:44.702 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs
+31-Mar-2017 16:24:44.730 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs has finished in 23 ms
+31-Mar-2017 16:24:44.730 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager
+31-Mar-2017 16:24:44.756 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager has finished in 25 ms
+31-Mar-2017 16:25:31.878 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/StockTicker]
+31-Mar-2017 17:02:19.085 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml
+31-Mar-2017 17:02:19.115 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/StockTicker.xml has finished in 30 ms
+31-Mar-2017 17:02:19.120 INFO [http-nio-8080-exec-28] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/StockTicker]] after start() had already been called. The second call will be ignored.
+31-Mar-2017 17:02:19.390 INFO [http-nio-8080-exec-21] stockTicker.PriceUpdate.init Started stock price updates
+31-Mar-2017 17:02:19.391 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:19 IST 2017, Price: 100
+31-Mar-2017 17:02:21.391 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:21 IST 2017, Price: 105
+31-Mar-2017 17:02:23.391 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:23 IST 2017, Price: 103
+31-Mar-2017 17:02:25.392 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:25 IST 2017, Price: 95
+31-Mar-2017 17:02:27.392 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:27 IST 2017, Price: 102
+31-Mar-2017 17:02:29.393 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:29 IST 2017, Price: 103
+31-Mar-2017 17:02:31.393 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:31 IST 2017, Price: 91
+31-Mar-2017 17:02:33.393 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:33 IST 2017, Price: 104
+31-Mar-2017 17:02:35.394 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:35 IST 2017, Price: 104
+31-Mar-2017 17:02:37.394 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:37 IST 2017, Price: 107
+31-Mar-2017 17:02:39.394 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:39 IST 2017, Price: 109
+31-Mar-2017 17:02:41.395 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:41 IST 2017, Price: 98
+31-Mar-2017 17:02:43.395 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:43 IST 2017, Price: 106
+31-Mar-2017 17:02:45.395 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:45 IST 2017, Price: 106
+31-Mar-2017 17:02:47.396 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:47 IST 2017, Price: 100
+31-Mar-2017 17:02:49.396 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:49 IST 2017, Price: 93
+31-Mar-2017 17:02:51.396 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:51 IST 2017, Price: 97
+31-Mar-2017 17:02:53.397 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:53 IST 2017, Price: 101
+31-Mar-2017 17:02:55.397 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:55 IST 2017, Price: 92
+31-Mar-2017 17:02:57.397 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:57 IST 2017, Price: 94
+31-Mar-2017 17:02:59.398 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:02:59 IST 2017, Price: 91
+31-Mar-2017 17:03:01.398 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:01 IST 2017, Price: 107
+31-Mar-2017 17:03:03.399 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:03 IST 2017, Price: 90
+31-Mar-2017 17:03:05.399 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:05 IST 2017, Price: 103
+31-Mar-2017 17:03:07.399 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:07 IST 2017, Price: 97
+31-Mar-2017 17:03:09.400 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:09 IST 2017, Price: 99
+31-Mar-2017 17:03:11.400 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:11 IST 2017, Price: 107
+31-Mar-2017 17:03:13.400 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:13 IST 2017, Price: 93
+31-Mar-2017 17:03:15.401 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:15 IST 2017, Price: 101
+31-Mar-2017 17:03:17.401 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:17 IST 2017, Price: 100
+31-Mar-2017 17:03:19.401 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:19 IST 2017, Price: 97
+31-Mar-2017 17:03:21.402 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:21 IST 2017, Price: 93
+31-Mar-2017 17:03:23.402 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:23 IST 2017, Price: 101
+31-Mar-2017 17:03:25.402 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:25 IST 2017, Price: 99
+31-Mar-2017 17:03:27.403 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:27 IST 2017, Price: 104
+31-Mar-2017 17:03:29.403 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:29 IST 2017, Price: 101
+31-Mar-2017 17:03:31.403 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:31 IST 2017, Price: 100
+31-Mar-2017 17:03:33.404 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:33 IST 2017, Price: 108
+31-Mar-2017 17:03:35.404 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:35 IST 2017, Price: 100
+31-Mar-2017 17:03:37.404 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:37 IST 2017, Price: 98
+31-Mar-2017 17:03:39.405 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:39 IST 2017, Price: 100
+31-Mar-2017 17:03:41.405 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:41 IST 2017, Price: 98
+31-Mar-2017 17:03:43.405 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:43 IST 2017, Price: 92
+31-Mar-2017 17:03:45.406 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:45 IST 2017, Price: 103
+31-Mar-2017 17:03:47.406 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:47 IST 2017, Price: 98
+31-Mar-2017 17:03:49.406 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:49 IST 2017, Price: 99
+31-Mar-2017 17:03:51.407 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:51 IST 2017, Price: 108
+31-Mar-2017 17:03:53.407 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:53 IST 2017, Price: 102
+31-Mar-2017 17:03:55.408 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:55 IST 2017, Price: 99
+31-Mar-2017 17:03:57.408 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:57 IST 2017, Price: 107
+31-Mar-2017 17:03:59.408 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:03:59 IST 2017, Price: 91
+31-Mar-2017 17:04:01.409 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:01 IST 2017, Price: 99
+31-Mar-2017 17:04:03.409 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:03 IST 2017, Price: 95
+31-Mar-2017 17:04:05.409 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:05 IST 2017, Price: 105
+31-Mar-2017 17:04:07.410 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:07 IST 2017, Price: 101
+31-Mar-2017 17:04:09.410 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:09 IST 2017, Price: 107
+31-Mar-2017 17:04:11.410 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:11 IST 2017, Price: 108
+31-Mar-2017 17:04:13.411 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:13 IST 2017, Price: 101
+31-Mar-2017 17:04:15.411 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:15 IST 2017, Price: 103
+31-Mar-2017 17:04:17.411 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:17 IST 2017, Price: 106
+31-Mar-2017 17:04:19.412 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:19 IST 2017, Price: 104
+31-Mar-2017 17:04:21.412 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:21 IST 2017, Price: 94
+31-Mar-2017 17:04:23.412 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:23 IST 2017, Price: 109
+31-Mar-2017 17:04:25.412 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:25 IST 2017, Price: 100
+31-Mar-2017 17:04:27.413 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:27 IST 2017, Price: 104
+31-Mar-2017 17:04:29.413 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:29 IST 2017, Price: 93
+31-Mar-2017 17:04:31.414 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:31 IST 2017, Price: 102
+31-Mar-2017 17:04:33.414 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:33 IST 2017, Price: 102
+31-Mar-2017 17:04:35.414 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:35 IST 2017, Price: 91
+31-Mar-2017 17:04:37.415 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:37 IST 2017, Price: 95
+31-Mar-2017 17:04:39.415 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:39 IST 2017, Price: 102
+31-Mar-2017 17:04:41.415 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:41 IST 2017, Price: 97
+31-Mar-2017 17:04:43.416 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:43 IST 2017, Price: 95
+31-Mar-2017 17:04:45.416 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:45 IST 2017, Price: 90
+31-Mar-2017 17:04:47.416 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:47 IST 2017, Price: 107
+31-Mar-2017 17:04:49.417 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:49 IST 2017, Price: 93
+31-Mar-2017 17:04:51.417 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:51 IST 2017, Price: 107
+31-Mar-2017 17:04:53.417 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:53 IST 2017, Price: 94
+31-Mar-2017 17:04:55.418 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:55 IST 2017, Price: 104
+31-Mar-2017 17:04:57.418 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:57 IST 2017, Price: 103
+31-Mar-2017 17:04:59.418 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:04:59 IST 2017, Price: 96
+31-Mar-2017 17:05:01.419 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:01 IST 2017, Price: 95
+31-Mar-2017 17:05:03.419 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:03 IST 2017, Price: 106
+31-Mar-2017 17:05:05.419 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:05 IST 2017, Price: 98
+31-Mar-2017 17:05:07.420 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:07 IST 2017, Price: 109
+31-Mar-2017 17:05:09.420 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:09 IST 2017, Price: 102
+31-Mar-2017 17:05:11.420 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:11 IST 2017, Price: 94
+31-Mar-2017 17:05:13.421 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:13 IST 2017, Price: 109
+31-Mar-2017 17:05:15.421 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:15 IST 2017, Price: 108
+31-Mar-2017 17:05:17.422 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:17 IST 2017, Price: 96
+31-Mar-2017 17:05:19.422 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:19 IST 2017, Price: 96
+31-Mar-2017 17:05:21.422 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:21 IST 2017, Price: 90
+31-Mar-2017 17:05:23.423 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:23 IST 2017, Price: 95
+31-Mar-2017 17:05:25.423 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:25 IST 2017, Price: 107
+31-Mar-2017 17:05:27.423 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:27 IST 2017, Price: 108
+31-Mar-2017 17:05:29.424 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:29 IST 2017, Price: 90
+31-Mar-2017 17:05:31.424 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:31 IST 2017, Price: 105
+31-Mar-2017 17:05:33.424 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:33 IST 2017, Price: 92
+31-Mar-2017 17:05:35.425 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:35 IST 2017, Price: 95
+31-Mar-2017 17:05:37.425 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:37 IST 2017, Price: 108
+31-Mar-2017 17:05:39.426 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:39 IST 2017, Price: 98
+31-Mar-2017 17:05:41.426 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:41 IST 2017, Price: 103
+31-Mar-2017 17:05:43.426 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:43 IST 2017, Price: 104
+31-Mar-2017 17:05:45.427 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:45 IST 2017, Price: 91
+31-Mar-2017 17:05:47.427 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:47 IST 2017, Price: 100
+31-Mar-2017 17:05:49.427 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:49 IST 2017, Price: 99
+31-Mar-2017 17:05:51.428 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:51 IST 2017, Price: 92
+31-Mar-2017 17:05:53.428 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:53 IST 2017, Price: 104
+31-Mar-2017 17:05:55.428 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:55 IST 2017, Price: 105
+31-Mar-2017 17:05:57.429 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:57 IST 2017, Price: 102
+31-Mar-2017 17:05:59.429 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:05:59 IST 2017, Price: 107
+31-Mar-2017 17:06:01.429 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:01 IST 2017, Price: 103
+31-Mar-2017 17:06:03.430 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:03 IST 2017, Price: 102
+31-Mar-2017 17:06:05.430 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:05 IST 2017, Price: 106
+31-Mar-2017 17:06:07.430 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:07 IST 2017, Price: 97
+31-Mar-2017 17:06:09.431 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:09 IST 2017, Price: 91
+31-Mar-2017 17:06:11.431 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:11 IST 2017, Price: 102
+31-Mar-2017 17:06:13.431 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:13 IST 2017, Price: 101
+31-Mar-2017 17:06:15.432 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:15 IST 2017, Price: 98
+31-Mar-2017 17:06:17.432 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:17 IST 2017, Price: 105
+31-Mar-2017 17:06:19.432 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:19 IST 2017, Price: 108
+31-Mar-2017 17:06:21.433 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:21 IST 2017, Price: 94
+31-Mar-2017 17:06:23.433 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:23 IST 2017, Price: 102
+31-Mar-2017 17:06:25.433 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:25 IST 2017, Price: 109
+31-Mar-2017 17:06:27.434 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:27 IST 2017, Price: 101
+31-Mar-2017 17:06:29.434 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:29 IST 2017, Price: 96
+31-Mar-2017 17:06:31.434 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:31 IST 2017, Price: 95
+31-Mar-2017 17:06:33.435 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:33 IST 2017, Price: 103
+31-Mar-2017 17:06:35.435 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:35 IST 2017, Price: 96
+31-Mar-2017 17:06:37.435 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:37 IST 2017, Price: 96
+31-Mar-2017 17:06:39.436 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:39 IST 2017, Price: 97
+31-Mar-2017 17:06:41.436 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:41 IST 2017, Price: 109
+31-Mar-2017 17:06:43.436 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:43 IST 2017, Price: 105
+31-Mar-2017 17:06:45.437 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:45 IST 2017, Price: 100
+31-Mar-2017 17:06:47.437 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:47 IST 2017, Price: 99
+31-Mar-2017 17:06:49.437 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:49 IST 2017, Price: 98
+31-Mar-2017 17:06:51.438 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:51 IST 2017, Price: 108
+31-Mar-2017 17:06:53.438 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:53 IST 2017, Price: 103
+31-Mar-2017 17:06:55.438 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:55 IST 2017, Price: 96
+31-Mar-2017 17:06:57.439 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:57 IST 2017, Price: 104
+31-Mar-2017 17:06:59.439 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:06:59 IST 2017, Price: 108
+31-Mar-2017 17:07:01.439 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:01 IST 2017, Price: 93
+31-Mar-2017 17:07:03.440 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:03 IST 2017, Price: 90
+31-Mar-2017 17:07:05.440 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:05 IST 2017, Price: 99
+31-Mar-2017 17:07:07.440 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:07 IST 2017, Price: 91
+31-Mar-2017 17:07:09.441 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:09 IST 2017, Price: 103
+31-Mar-2017 17:07:11.441 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:11 IST 2017, Price: 104
+31-Mar-2017 17:07:13.441 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:13 IST 2017, Price: 109
+31-Mar-2017 17:07:15.442 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:15 IST 2017, Price: 108
+31-Mar-2017 17:07:17.442 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:17 IST 2017, Price: 108
+31-Mar-2017 17:07:19.442 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:19 IST 2017, Price: 100
+31-Mar-2017 17:07:21.443 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:21 IST 2017, Price: 95
+31-Mar-2017 17:07:23.443 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:23 IST 2017, Price: 109
+31-Mar-2017 17:07:25.443 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:25 IST 2017, Price: 103
+31-Mar-2017 17:07:27.444 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:27 IST 2017, Price: 97
+31-Mar-2017 17:07:29.444 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:29 IST 2017, Price: 106
+31-Mar-2017 17:07:31.444 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:31 IST 2017, Price: 98
+31-Mar-2017 17:07:33.445 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:33 IST 2017, Price: 90
+31-Mar-2017 17:07:35.445 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:35 IST 2017, Price: 109
+31-Mar-2017 17:07:37.445 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:37 IST 2017, Price: 100
+31-Mar-2017 17:07:39.446 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:39 IST 2017, Price: 104
+31-Mar-2017 17:07:41.446 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:41 IST 2017, Price: 100
+31-Mar-2017 17:07:43.446 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:43 IST 2017, Price: 101
+31-Mar-2017 17:07:45.447 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:45 IST 2017, Price: 94
+31-Mar-2017 17:07:47.447 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:47 IST 2017, Price: 96
+31-Mar-2017 17:07:49.447 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:49 IST 2017, Price: 106
+31-Mar-2017 17:07:51.448 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:51 IST 2017, Price: 98
+31-Mar-2017 17:07:53.448 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:53 IST 2017, Price: 93
+31-Mar-2017 17:07:55.448 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:55 IST 2017, Price: 91
+31-Mar-2017 17:07:57.449 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:57 IST 2017, Price: 107
+31-Mar-2017 17:07:59.449 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:07:59 IST 2017, Price: 98
+31-Mar-2017 17:08:01.449 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:01 IST 2017, Price: 108
+31-Mar-2017 17:08:03.450 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:03 IST 2017, Price: 100
+31-Mar-2017 17:08:05.450 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:05 IST 2017, Price: 94
+31-Mar-2017 17:08:07.450 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:07 IST 2017, Price: 96
+31-Mar-2017 17:08:09.450 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:09 IST 2017, Price: 101
+31-Mar-2017 17:08:11.451 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:11 IST 2017, Price: 91
+31-Mar-2017 17:08:13.451 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:13 IST 2017, Price: 95
+31-Mar-2017 17:08:15.451 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:15 IST 2017, Price: 103
+31-Mar-2017 17:08:17.452 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:17 IST 2017, Price: 98
+31-Mar-2017 17:08:19.452 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:19 IST 2017, Price: 93
+31-Mar-2017 17:08:21.452 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:21 IST 2017, Price: 95
+31-Mar-2017 17:08:23.453 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:23 IST 2017, Price: 93
+31-Mar-2017 17:08:25.453 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:25 IST 2017, Price: 96
+31-Mar-2017 17:08:27.453 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:27 IST 2017, Price: 106
+31-Mar-2017 17:08:29.454 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:29 IST 2017, Price: 92
+31-Mar-2017 17:08:31.454 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:31 IST 2017, Price: 101
+31-Mar-2017 17:08:33.454 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:33 IST 2017, Price: 91
+31-Mar-2017 17:08:35.455 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:35 IST 2017, Price: 95
+31-Mar-2017 17:08:37.455 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:37 IST 2017, Price: 107
+31-Mar-2017 17:08:39.455 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:39 IST 2017, Price: 98
+31-Mar-2017 17:08:41.456 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:41 IST 2017, Price: 96
+31-Mar-2017 17:08:43.456 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:43 IST 2017, Price: 106
+31-Mar-2017 17:08:45.456 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:45 IST 2017, Price: 104
+31-Mar-2017 17:08:47.457 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:47 IST 2017, Price: 99
+31-Mar-2017 17:08:49.457 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:49 IST 2017, Price: 102
+31-Mar-2017 17:08:51.457 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:51 IST 2017, Price: 107
+31-Mar-2017 17:08:53.457 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:53 IST 2017, Price: 105
+31-Mar-2017 17:08:55.458 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:55 IST 2017, Price: 97
+31-Mar-2017 17:08:57.458 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:57 IST 2017, Price: 108
+31-Mar-2017 17:08:59.458 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:08:59 IST 2017, Price: 109
+31-Mar-2017 17:09:01.459 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:01 IST 2017, Price: 102
+31-Mar-2017 17:09:03.459 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:03 IST 2017, Price: 92
+31-Mar-2017 17:09:05.460 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:05 IST 2017, Price: 97
+31-Mar-2017 17:09:07.460 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:07 IST 2017, Price: 109
+31-Mar-2017 17:09:09.460 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:09 IST 2017, Price: 101
+31-Mar-2017 17:09:11.461 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:11 IST 2017, Price: 98
+31-Mar-2017 17:09:13.461 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:13 IST 2017, Price: 92
+31-Mar-2017 17:09:15.461 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:15 IST 2017, Price: 91
+31-Mar-2017 17:09:17.461 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:17 IST 2017, Price: 101
+31-Mar-2017 17:09:19.462 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:19 IST 2017, Price: 105
+31-Mar-2017 17:09:21.462 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:21 IST 2017, Price: 104
+31-Mar-2017 17:09:23.462 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:23 IST 2017, Price: 108
+31-Mar-2017 17:09:25.463 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:25 IST 2017, Price: 100
+31-Mar-2017 17:09:27.463 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:27 IST 2017, Price: 96
+31-Mar-2017 17:09:29.463 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:29 IST 2017, Price: 99
+31-Mar-2017 17:09:31.464 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:31 IST 2017, Price: 105
+31-Mar-2017 17:09:33.464 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:33 IST 2017, Price: 104
+31-Mar-2017 17:09:35.464 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:35 IST 2017, Price: 102
+31-Mar-2017 17:09:37.465 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:37 IST 2017, Price: 90
+31-Mar-2017 17:09:39.465 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:39 IST 2017, Price: 102
+31-Mar-2017 17:09:41.465 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:41 IST 2017, Price: 101
+31-Mar-2017 17:09:43.466 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:43 IST 2017, Price: 91
+31-Mar-2017 17:09:45.466 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:45 IST 2017, Price: 103
+31-Mar-2017 17:09:47.466 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:47 IST 2017, Price: 98
+31-Mar-2017 17:09:49.467 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:49 IST 2017, Price: 97
+31-Mar-2017 17:09:51.467 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:51 IST 2017, Price: 95
+31-Mar-2017 17:09:53.467 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:53 IST 2017, Price: 107
+31-Mar-2017 17:09:55.467 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:55 IST 2017, Price: 102
+31-Mar-2017 17:09:57.468 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:57 IST 2017, Price: 93
+31-Mar-2017 17:09:59.468 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:09:59 IST 2017, Price: 109
+31-Mar-2017 17:10:01.468 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:01 IST 2017, Price: 104
+31-Mar-2017 17:10:03.469 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:03 IST 2017, Price: 97
+31-Mar-2017 17:10:05.469 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:05 IST 2017, Price: 105
+31-Mar-2017 17:10:07.469 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:07 IST 2017, Price: 101
+31-Mar-2017 17:10:09.470 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:09 IST 2017, Price: 91
+31-Mar-2017 17:10:11.470 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:11 IST 2017, Price: 96
+31-Mar-2017 17:10:13.470 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:13 IST 2017, Price: 90
+31-Mar-2017 17:10:15.471 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:15 IST 2017, Price: 94
+31-Mar-2017 17:10:17.471 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:17 IST 2017, Price: 108
+31-Mar-2017 17:10:19.471 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:19 IST 2017, Price: 103
+31-Mar-2017 17:10:21.471 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:21 IST 2017, Price: 106
+31-Mar-2017 17:10:23.472 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:23 IST 2017, Price: 104
+31-Mar-2017 17:10:25.472 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:25 IST 2017, Price: 107
+31-Mar-2017 17:10:27.472 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:27 IST 2017, Price: 105
+31-Mar-2017 17:10:29.473 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:29 IST 2017, Price: 108
+31-Mar-2017 17:10:31.473 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:31 IST 2017, Price: 97
+31-Mar-2017 17:10:33.473 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:33 IST 2017, Price: 92
+31-Mar-2017 17:10:35.474 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:35 IST 2017, Price: 96
+31-Mar-2017 17:10:37.474 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:37 IST 2017, Price: 100
+31-Mar-2017 17:10:39.474 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:39 IST 2017, Price: 100
+31-Mar-2017 17:10:41.475 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:41 IST 2017, Price: 107
+31-Mar-2017 17:10:43.475 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:43 IST 2017, Price: 109
+31-Mar-2017 17:10:45.475 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:45 IST 2017, Price: 94
+31-Mar-2017 17:10:47.476 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:47 IST 2017, Price: 99
+31-Mar-2017 17:10:49.476 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:49 IST 2017, Price: 93
+31-Mar-2017 17:10:51.476 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:51 IST 2017, Price: 95
+31-Mar-2017 17:10:53.477 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:53 IST 2017, Price: 91
+31-Mar-2017 17:10:55.477 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:55 IST 2017, Price: 101
+31-Mar-2017 17:10:57.477 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:57 IST 2017, Price: 107
+31-Mar-2017 17:10:59.477 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:10:59 IST 2017, Price: 106
+31-Mar-2017 17:11:01.478 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:01 IST 2017, Price: 107
+31-Mar-2017 17:11:03.478 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:03 IST 2017, Price: 101
+31-Mar-2017 17:11:05.478 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:05 IST 2017, Price: 92
+31-Mar-2017 17:11:07.479 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:07 IST 2017, Price: 99
+31-Mar-2017 17:11:09.479 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:09 IST 2017, Price: 95
+31-Mar-2017 17:11:11.479 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:11 IST 2017, Price: 100
+31-Mar-2017 17:11:13.480 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:13 IST 2017, Price: 102
+31-Mar-2017 17:11:15.480 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:15 IST 2017, Price: 104
+31-Mar-2017 17:11:17.480 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:17 IST 2017, Price: 97
+31-Mar-2017 17:11:19.480 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:19 IST 2017, Price: 91
+31-Mar-2017 17:11:21.481 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:21 IST 2017, Price: 98
+31-Mar-2017 17:11:23.481 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:23 IST 2017, Price: 107
+31-Mar-2017 17:11:25.481 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:25 IST 2017, Price: 93
+31-Mar-2017 17:11:27.482 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:27 IST 2017, Price: 106
+31-Mar-2017 17:11:29.482 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:29 IST 2017, Price: 97
+31-Mar-2017 17:11:31.482 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:31 IST 2017, Price: 96
+31-Mar-2017 17:11:33.483 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:33 IST 2017, Price: 95
+31-Mar-2017 17:11:35.483 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:35 IST 2017, Price: 93
+31-Mar-2017 17:11:37.483 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:37 IST 2017, Price: 100
+31-Mar-2017 17:11:39.483 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:39 IST 2017, Price: 107
+31-Mar-2017 17:11:41.484 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:41 IST 2017, Price: 100
+31-Mar-2017 17:11:43.484 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:43 IST 2017, Price: 90
+31-Mar-2017 17:11:45.484 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:45 IST 2017, Price: 100
+31-Mar-2017 17:11:47.485 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:47 IST 2017, Price: 91
+31-Mar-2017 17:11:49.485 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:49 IST 2017, Price: 92
+31-Mar-2017 17:11:51.485 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:51 IST 2017, Price: 90
+31-Mar-2017 17:11:53.485 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:53 IST 2017, Price: 99
+31-Mar-2017 17:11:55.486 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:55 IST 2017, Price: 106
+31-Mar-2017 17:11:57.486 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:57 IST 2017, Price: 93
+31-Mar-2017 17:11:59.486 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:11:59 IST 2017, Price: 101
+31-Mar-2017 17:12:01.487 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:01 IST 2017, Price: 99
+31-Mar-2017 17:12:03.487 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:03 IST 2017, Price: 94
+31-Mar-2017 17:12:05.487 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:05 IST 2017, Price: 109
+31-Mar-2017 17:12:07.487 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:07 IST 2017, Price: 101
+31-Mar-2017 17:12:09.488 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:09 IST 2017, Price: 104
+31-Mar-2017 17:12:11.488 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:11 IST 2017, Price: 109
+31-Mar-2017 17:12:13.488 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:13 IST 2017, Price: 101
+31-Mar-2017 17:12:15.489 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:15 IST 2017, Price: 103
+31-Mar-2017 17:12:17.489 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:17 IST 2017, Price: 102
+31-Mar-2017 17:12:19.489 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:19 IST 2017, Price: 92
+31-Mar-2017 17:12:21.489 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:21 IST 2017, Price: 106
+31-Mar-2017 17:12:23.490 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:23 IST 2017, Price: 94
+31-Mar-2017 17:12:25.490 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:25 IST 2017, Price: 105
+31-Mar-2017 17:12:27.490 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:27 IST 2017, Price: 98
+31-Mar-2017 17:12:29.491 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:29 IST 2017, Price: 91
+31-Mar-2017 17:12:31.491 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:31 IST 2017, Price: 105
+31-Mar-2017 17:12:33.491 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:33 IST 2017, Price: 100
+31-Mar-2017 17:12:35.492 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:35 IST 2017, Price: 101
+31-Mar-2017 17:12:37.492 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:37 IST 2017, Price: 93
+31-Mar-2017 17:12:39.492 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:39 IST 2017, Price: 95
+31-Mar-2017 17:12:41.492 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:41 IST 2017, Price: 98
+31-Mar-2017 17:12:43.493 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:43 IST 2017, Price: 91
+31-Mar-2017 17:12:45.493 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:45 IST 2017, Price: 107
+31-Mar-2017 17:12:47.493 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:47 IST 2017, Price: 93
+31-Mar-2017 17:12:49.494 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:49 IST 2017, Price: 96
+31-Mar-2017 17:12:51.494 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:51 IST 2017, Price: 108
+31-Mar-2017 17:12:53.494 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:53 IST 2017, Price: 105
+31-Mar-2017 17:12:55.495 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:55 IST 2017, Price: 93
+31-Mar-2017 17:12:57.495 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:57 IST 2017, Price: 92
+31-Mar-2017 17:12:59.495 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:12:59 IST 2017, Price: 102
+31-Mar-2017 17:13:01.496 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:01 IST 2017, Price: 95
+31-Mar-2017 17:13:03.496 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:03 IST 2017, Price: 103
+31-Mar-2017 17:13:05.496 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:05 IST 2017, Price: 106
+31-Mar-2017 17:13:07.496 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:07 IST 2017, Price: 93
+31-Mar-2017 17:13:09.497 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:09 IST 2017, Price: 92
+31-Mar-2017 17:13:11.497 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:11 IST 2017, Price: 102
+31-Mar-2017 17:13:13.497 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:13 IST 2017, Price: 105
+31-Mar-2017 17:13:15.498 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:15 IST 2017, Price: 97
+31-Mar-2017 17:13:17.498 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:17 IST 2017, Price: 106
+31-Mar-2017 17:13:19.498 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:19 IST 2017, Price: 108
+31-Mar-2017 17:13:21.498 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:21 IST 2017, Price: 98
+31-Mar-2017 17:13:23.499 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:23 IST 2017, Price: 103
+31-Mar-2017 17:13:25.499 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:25 IST 2017, Price: 97
+31-Mar-2017 17:13:27.499 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:27 IST 2017, Price: 98
+31-Mar-2017 17:13:29.500 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:29 IST 2017, Price: 93
+31-Mar-2017 17:13:31.500 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:31 IST 2017, Price: 109
+31-Mar-2017 17:13:33.500 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:33 IST 2017, Price: 103
+31-Mar-2017 17:13:35.501 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:35 IST 2017, Price: 91
+31-Mar-2017 17:13:37.501 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:37 IST 2017, Price: 93
+31-Mar-2017 17:13:39.501 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:39 IST 2017, Price: 105
+31-Mar-2017 17:13:41.501 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:41 IST 2017, Price: 106
+31-Mar-2017 17:13:43.502 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:43 IST 2017, Price: 96
+31-Mar-2017 17:13:45.502 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:45 IST 2017, Price: 98
+31-Mar-2017 17:13:47.502 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:47 IST 2017, Price: 104
+31-Mar-2017 17:13:49.503 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:49 IST 2017, Price: 102
+31-Mar-2017 17:13:51.503 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:51 IST 2017, Price: 90
+31-Mar-2017 17:13:53.503 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:53 IST 2017, Price: 106
+31-Mar-2017 17:13:55.504 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:55 IST 2017, Price: 96
+31-Mar-2017 17:13:57.504 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:57 IST 2017, Price: 91
+31-Mar-2017 17:13:59.504 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:13:59 IST 2017, Price: 92
+31-Mar-2017 17:14:01.504 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:01 IST 2017, Price: 92
+31-Mar-2017 17:14:03.505 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:03 IST 2017, Price: 96
+31-Mar-2017 17:14:05.505 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:05 IST 2017, Price: 98
+31-Mar-2017 17:14:07.505 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:07 IST 2017, Price: 91
+31-Mar-2017 17:14:09.506 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:09 IST 2017, Price: 106
+31-Mar-2017 17:14:11.506 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:11 IST 2017, Price: 109
+31-Mar-2017 17:14:13.506 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:13 IST 2017, Price: 108
+31-Mar-2017 17:14:15.506 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:15 IST 2017, Price: 95
+31-Mar-2017 17:14:17.507 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:17 IST 2017, Price: 109
+31-Mar-2017 17:14:19.507 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:19 IST 2017, Price: 108
+31-Mar-2017 17:14:21.507 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:21 IST 2017, Price: 104
+31-Mar-2017 17:14:23.508 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:23 IST 2017, Price: 97
+31-Mar-2017 17:14:25.508 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:25 IST 2017, Price: 107
+31-Mar-2017 17:14:27.508 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:27 IST 2017, Price: 102
+31-Mar-2017 17:14:29.508 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:29 IST 2017, Price: 94
+31-Mar-2017 17:14:31.509 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:31 IST 2017, Price: 108
+31-Mar-2017 17:14:33.509 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:33 IST 2017, Price: 91
+31-Mar-2017 17:14:35.509 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:35 IST 2017, Price: 91
+31-Mar-2017 17:14:37.510 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:37 IST 2017, Price: 106
+31-Mar-2017 17:14:39.510 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:39 IST 2017, Price: 109
+31-Mar-2017 17:14:41.510 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:41 IST 2017, Price: 96
+31-Mar-2017 17:14:43.511 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:43 IST 2017, Price: 106
+31-Mar-2017 17:14:45.511 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:45 IST 2017, Price: 98
+31-Mar-2017 17:14:47.511 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:47 IST 2017, Price: 99
+31-Mar-2017 17:14:49.511 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:49 IST 2017, Price: 96
+31-Mar-2017 17:14:51.512 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:51 IST 2017, Price: 106
+31-Mar-2017 17:14:53.512 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:53 IST 2017, Price: 96
+31-Mar-2017 17:14:55.512 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:55 IST 2017, Price: 99
+31-Mar-2017 17:14:57.513 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:57 IST 2017, Price: 103
+31-Mar-2017 17:14:59.513 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:14:59 IST 2017, Price: 103
+31-Mar-2017 17:15:01.513 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:01 IST 2017, Price: 104
+31-Mar-2017 17:15:03.514 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:03 IST 2017, Price: 93
+31-Mar-2017 17:15:05.514 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:05 IST 2017, Price: 92
+31-Mar-2017 17:15:07.514 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:07 IST 2017, Price: 92
+31-Mar-2017 17:15:09.514 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:09 IST 2017, Price: 90
+31-Mar-2017 17:15:11.515 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:11 IST 2017, Price: 92
+31-Mar-2017 17:15:13.515 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:13 IST 2017, Price: 97
+31-Mar-2017 17:15:15.515 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:15 IST 2017, Price: 90
+31-Mar-2017 17:15:17.516 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:17 IST 2017, Price: 101
+31-Mar-2017 17:15:19.516 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:19 IST 2017, Price: 109
+31-Mar-2017 17:15:21.516 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:21 IST 2017, Price: 94
+31-Mar-2017 17:15:23.517 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:23 IST 2017, Price: 101
+31-Mar-2017 17:15:25.517 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:25 IST 2017, Price: 91
+31-Mar-2017 17:15:27.517 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:27 IST 2017, Price: 104
+31-Mar-2017 17:15:29.517 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:29 IST 2017, Price: 97
+31-Mar-2017 17:15:31.518 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:31 IST 2017, Price: 106
+31-Mar-2017 17:15:33.518 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:33 IST 2017, Price: 109
+31-Mar-2017 17:15:35.518 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:35 IST 2017, Price: 95
+31-Mar-2017 17:15:37.519 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:37 IST 2017, Price: 105
+31-Mar-2017 17:15:38.177 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2017 17:15:38.230 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2017 17:15:38.280 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+31-Mar-2017 17:15:39.519 INFO [Thread-7] stockTicker.Stock.run Time: Fri Mar 31 17:15:39 IST 2017, Price: 93
+31-Mar-2017 17:15:40.397 INFO [localhost-startStop-3] stockTicker.PriceUpdate.destroy Stopped stock price updates
+31-Mar-2017 17:15:40.403 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [StockTicker] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ stockTicker.PriceUpdate.doGet(PriceUpdate.java:31)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2017 17:15:40.430 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2017 17:15:40.431 SEVERE [http-nio-8080-exec-21] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NullPointerException
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:393)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 17:15:40.431 SEVERE [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NullPointerException
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:393)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 17:15:40.433 SEVERE [http-nio-8080-exec-21] org.apache.coyote.http11.Http11Processor.endRequest Error finishing response
+ java.lang.NullPointerException
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:520)
+	at org.apache.coyote.http11.Http11OutputBuffer.finishResponse(Http11OutputBuffer.java:319)
+	at org.apache.coyote.http11.Http11Processor.endRequest(Http11Processor.java:1458)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:823)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 17:15:40.433 SEVERE [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.endRequest Error finishing response
+ java.lang.NullPointerException
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:520)
+	at org.apache.coyote.http11.Http11OutputBuffer.finishResponse(Http11OutputBuffer.java:319)
+	at org.apache.coyote.http11.Http11Processor.endRequest(Http11Processor.java:1458)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:823)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2017 17:15:40.434 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2017 17:15:40.435 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2017 17:15:40.435 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

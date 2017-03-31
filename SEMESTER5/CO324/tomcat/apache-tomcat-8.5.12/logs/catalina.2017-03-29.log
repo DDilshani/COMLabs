@@ -1,0 +1,159 @@
+29-Mar-2017 18:41:32.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+29-Mar-2017 18:41:32.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+29-Mar-2017 18:41:32.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+29-Mar-2017 18:41:32.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2017 18:41:32.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-24-generic
+29-Mar-2017 18:41:32.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2017 18:41:32.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_91/jre
+29-Mar-2017 18:41:32.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/logging.properties
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=3128
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|*.pdn.ac.lk
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=3128
+29-Mar-2017 18:41:32.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2017 18:41:32.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2017 18:41:32.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:41:32.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:41:32.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/temp
+29-Mar-2017 18:41:32.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/jdk1.8.0_91/jre/lib/amd64:/usr/local/jdk1.8.0_91/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+29-Mar-2017 18:41:32.483 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:41:32.497 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:41:32.507 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:41:32.509 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:41:32.510 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 471 ms
+29-Mar-2017 18:41:32.528 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Mar-2017 18:41:32.528 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+29-Mar-2017 18:41:32.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT
+29-Mar-2017 18:41:32.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT has finished in 256 ms
+29-Mar-2017 18:41:32.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager
+29-Mar-2017 18:41:32.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager has finished in 62 ms
+29-Mar-2017 18:41:32.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples
+29-Mar-2017 18:41:33.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples has finished in 807 ms
+29-Mar-2017 18:41:33.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs
+29-Mar-2017 18:41:33.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs has finished in 28 ms
+29-Mar-2017 18:41:33.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager
+29-Mar-2017 18:41:33.736 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager has finished in 42 ms
+29-Mar-2017 18:41:33.738 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+29-Mar-2017 18:41:33.757 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+29-Mar-2017 18:41:33.762 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1252 ms
+29-Mar-2017 18:41:53.930 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2017 18:41:53.931 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:41:53.983 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:41:54.034 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+29-Mar-2017 18:41:54.059 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:41:54.060 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:41:54.061 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:41:54.061 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:13.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+29-Mar-2017 18:42:13.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-24-generic
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_91/jre
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/logging.properties
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=3128
+29-Mar-2017 18:42:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|*.pdn.ac.lk
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=3128
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/temp
+29-Mar-2017 18:42:13.166 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/jdk1.8.0_91/jre/lib/amd64:/usr/local/jdk1.8.0_91/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+29-Mar-2017 18:42:13.264 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:13.276 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:42:13.278 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:13.279 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:42:13.283 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 355 ms
+29-Mar-2017 18:42:13.304 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Mar-2017 18:42:13.304 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+29-Mar-2017 18:42:13.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT
+29-Mar-2017 18:42:13.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT has finished in 200 ms
+29-Mar-2017 18:42:13.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager
+29-Mar-2017 18:42:13.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager has finished in 36 ms
+29-Mar-2017 18:42:13.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples
+29-Mar-2017 18:42:13.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples has finished in 330 ms
+29-Mar-2017 18:42:13.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs
+29-Mar-2017 18:42:13.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs has finished in 14 ms
+29-Mar-2017 18:42:13.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager
+29-Mar-2017 18:42:13.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager has finished in 19 ms
+29-Mar-2017 18:42:13.915 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+29-Mar-2017 18:42:13.937 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+29-Mar-2017 18:42:13.941 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 658 ms
+29-Mar-2017 18:42:30.799 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2017 18:42:30.799 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:30.852 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:30.903 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+29-Mar-2017 18:42:30.927 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:30.927 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:30.928 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:30.929 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:39.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-24-generic
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_91/jre
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/logging.properties
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2017 18:42:39.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=3128
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|*.pdn.ac.lk
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=cachex.pdn.ac.lk
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=3128
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/temp
+29-Mar-2017 18:42:39.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/jdk1.8.0_91/jre/lib/amd64:/usr/local/jdk1.8.0_91/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+29-Mar-2017 18:42:39.202 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:39.217 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:42:39.219 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:39.221 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2017 18:42:39.221 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 355 ms
+29-Mar-2017 18:42:39.243 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Mar-2017 18:42:39.243 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+29-Mar-2017 18:42:39.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT
+29-Mar-2017 18:42:39.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/ROOT has finished in 210 ms
+29-Mar-2017 18:42:39.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager
+29-Mar-2017 18:42:39.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/host-manager has finished in 37 ms
+29-Mar-2017 18:42:39.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples
+29-Mar-2017 18:42:39.747 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/examples has finished in 247 ms
+29-Mar-2017 18:42:39.747 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs
+29-Mar-2017 18:42:39.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/docs has finished in 15 ms
+29-Mar-2017 18:42:39.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager
+29-Mar-2017 18:42:39.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/webapps/manager has finished in 25 ms
+29-Mar-2017 18:42:39.790 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+29-Mar-2017 18:42:39.799 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+29-Mar-2017 18:42:39.821 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 599 ms
+29-Mar-2017 18:42:40.434 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml
+29-Mar-2017 18:42:40.484 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/e13175/Desktop/GitHub/COMLabs/SEMESTER5/CO322/tomcat/apache-tomcat-8.5.12/conf/Catalina/localhost/Address_Book.xml has finished in 50 ms
+29-Mar-2017 18:42:40.489 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Address_Book]] after start() had already been called. The second call will be ignored.
+29-Mar-2017 18:42:47.147 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2017 18:42:47.148 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:47.200 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:47.251 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+29-Mar-2017 18:42:47.269 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:47.270 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2017 18:42:47.271 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2017 18:42:47.271 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

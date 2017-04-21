@@ -8,7 +8,7 @@ public class UDPClient {
     final static String data = "Hello there!";
     final static int PORT = 1234;
     final static int BUFSIZE = 1024;
-    final static int PCKTS = 1000;
+    final static int PCKTS = 30000;
 
     public static void main(String args[]) {
 
@@ -19,19 +19,38 @@ public class UDPClient {
                 byte[] dataArray = data.getBytes();
                 DatagramPacket requestPacket = new DatagramPacket(dataArray, dataArray.length, aHost, PORT);
             
-            for (int i=0; i <= PCKTS ; i++) {
+            // For throughput test
+            System.out.println("---------------Throughput Test-------------------");
+
+            for (int i=0; i < PCKTS ; i++) {
                 aSocket.send(requestPacket);
-                System.out.println("in");
+                System.out.println(i + " Packet sent!");
 
-                // byte[] buffer = new byte[BUFSIZE];
-                // DatagramPacket recievePacket = new DatagramPacket(buffer, buffer.length);
-                // aSocket.receive(recievePacket);
-                // System.out.println("Reply:" + new String(recievePacket.getData()));
+            }
 
+            //For RTT test
+            System.out.println("-------------------RTT Test-------------------");
+            byte[] buffer = new byte[BUFSIZE];
+            DatagramPacket recievePacket = new DatagramPacket(buffer, buffer.length);
+
+            for (int i=0; i<3 ; i++) {
+                
+                long startTime = System.currentTimeMillis();
+                
+                aSocket.send(requestPacket);
+                aSocket.receive(recievePacket);
+
+                long endTime = System.currentTimeMillis();
+
+                System.out.println("Reply:" + new String(recievePacket.getData()));
+
+                long rtt = endTime - startTime;
+                System.out.println("RTT for packet " + i+ " : " + rtt+ " ms");
             }
 
         } catch (Exception e) {
             System.out.println("Socket: " + e.getMessage());
-        } 
+        }
+
     }
 }

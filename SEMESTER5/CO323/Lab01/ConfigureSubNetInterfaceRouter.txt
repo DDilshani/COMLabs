@@ -1,0 +1,46 @@
+Router>enable
+Router#co
+Router#conf t
+Router#conf terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#int fa
+% Incomplete command.
+Router(config)#int fa
+Router(config)#int fastEthernet 
+% Incomplete command.
+Router(config)#int fastEthernet 0/0
+Router(config-if)#exit
+Router(config)#int fa
+Router(config)#int fastEthernet 0/0.20
+Router(config-subif)#ip address 192.168.20.1 255.255.255.0
+
+% Configuring IP routing on a LAN subinterface is only allowed if that
+subinterface is already configured as part of an IEEE 802.10, IEEE 802.1Q,
+or ISL vLAN.
+
+Router(config-subif)#encap
+Router(config-subif)#encapsulation do
+Router(config-subif)#encapsulation dot1Q vl
+                                         ^
+% Invalid input detected at '^' marker.
+	
+Router(config-subif)#encapsulation dot1Q 20
+Router(config-subif)#
+Router(config-subif)#ip address 192.168.20.1 255.255.255.0
+Router(config-subif)#exit
+Router(config)#int fastEthernet 0/0.30
+Router(config-subif)#encapsulation dot1Q 30
+Router(config-subif)#ip address 192.168.30.1 255.255.255.0
+Router(config-subif)#
+Router(config-subif)#
+Router(config-subif)#no shut
+Router(config-subif)#no shutdown 
+Router(config-subif)#exit
+Router(config)#int fastEthernet 0/0.20
+Router(config-subif)#no s
+Router(config-subif)#no shut
+Router(config-subif)#no shutdown 
+Router(config-subif)#exit
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console

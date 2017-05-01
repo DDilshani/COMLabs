@@ -13,21 +13,43 @@ struct TrieNode *createTrieNode() {
 
 void insert(struct TrieNode *root, const char *word) {
     //TODO implement logic for inserting a word to the tree
-    for (int i = 0; i < ARRAY_SIZE(word); i++){
 
-		if (root -> children == NULL){
+    int i;
+    TrieNode * relRoot = root;
 
-			children = (TrieNode *)(sizeof(TrieNode) * ALPHABET_SIZE);
-			TrieNode * child = children[CHAR_TO_INDEX(word[i])];
+    for (i = 0; i < ARRAY_SIZE(word); i++){
+
+        int index = CHAR_TO_INDEX[word[i]];
+
+		if (relRoot -> children == NULL){
+
+			relRoot -> children = (TrieNode *)(sizeof(TrieNode) * ALPHABET_SIZE);
+            
+            int j;
+            for (j = 0; j < ALPHABET_SIZE; j++){
+                relRoot -> children[j] = NULL;
+            }
+
+			TrieNode * child = relRoot -> children[index];
+            child = createTrieNode();
 			child -> label = word[i];
-			children -> isEndOfWord = false;
-			
-		} else {
+            relRoot = child;
+            
+        } else {
 
-			TrieNode * child = children[CHAR_TO_INDEX(word[i])]; 
+            TrieNode * child = relRoot -> children[index]; 
+            if(!child){
+                child = createTrieNode();
+            }
+
+            child -> label = word[i];
+            relRoot = child;
+
 		}
     	
     }
+
+    relRoot -> isEndOfWord = true;
 }
 
 struct TrieNode *search(struct TrieNode *root, const char *word) {

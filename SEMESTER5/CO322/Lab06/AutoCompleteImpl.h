@@ -8,7 +8,7 @@
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
 
 typedef struct trienode{
-    struct TrieNode *children[ALPHABET_SIZE];
+    struct trienode *children[ALPHABET_SIZE];
     // struct TrieNode *children;
     char label;
     bool isEndOfWord;

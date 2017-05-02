@@ -24,8 +24,12 @@ int main() {
     }
 
     //TODO populate tree with word list
-    TrieNode *root = createTrieNode();
-    insert(root, words[0]);
+    TrieNode *root = createNode();
+    // int i;
+    // for (i = 0; i < 26; i++){
+    //     printf("%d\n", root -> children[i] -> isEndOfWord );
+    // }
+    // insert(root, words[0]);
 
     while (1) {
         printf("Enter keyword: ");

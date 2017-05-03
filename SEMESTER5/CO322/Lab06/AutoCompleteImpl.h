@@ -7,9 +7,8 @@
 #define ARRAY_SIZE(a) sizeof(a)/sizeof(a[0])
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
 
-typedef struct trienode{
-    struct trienode *children[ALPHABET_SIZE];
-    // struct TrieNode *children;
+typedef struct TrieNode{
+    struct TrieNode *children[ALPHABET_SIZE];
     char label;
     bool isEndOfWord;
 } TrieNode;
@@ -17,5 +16,5 @@ typedef struct trienode{
 
 TrieNode *createNode();
 TrieNode *search(TrieNode *root, const char *word);
-void traverse(char prefix[], TrieNode *root);
+void traverse(char prefix[], TrieNode *root, int size);
 void insert(TrieNode *root, const char *word);

@@ -2,14 +2,16 @@
 
 TrieNode *createTrieNode() {
     //TODO implement logic for creating an Trie node
+
     TrieNode *node = (TrieNode *)malloc(sizeof(TrieNode));
 
+    //Initializing the node
     int i;
     for (i = 0; i < ALPHABET_SIZE; i++){
         node -> children[i] = NULL;
     }
 
-    node -> label = '#';
+    node -> label = 0;
     node -> isEndOfWord = false;
 
     return node;
@@ -17,57 +19,57 @@ TrieNode *createTrieNode() {
 
 void insert(TrieNode *root, const char *word) {
     //TODO implement logic for inserting a word to the tree
+
     if (root == NULL){
         return;
     }
 
     int i, index;
-    TrieNode * relRoot = root;
+    TrieNode * currentRoot = root;
 
-    for (i = 0; i < strlen(word)-1; i++){
+    for (i = 0; i < strlen(word); i++){
 
         index = CHAR_TO_INDEX(word[i]);
-        // printf("%d\n", index);
-        TrieNode * child = relRoot -> children[index];
+        TrieNode * child = currentRoot -> children[index];
 
         if (child == NULL){
 
-            child = createTrieNode();
+            child = createTrieNode();	//create new node
             child -> label = word[i];
-
+            currentRoot -> children[index] = child;
         } 
 
-        relRoot = child;
+        currentRoot = child;
         
     }
 
-    // Make the last node a leaf
-    relRoot -> isEndOfWord = true;
-    return;
+    // Mark the last node as a leaf
+    currentRoot -> isEndOfWord = true;
 }
 
 TrieNode *search(TrieNode *root, const char *word) {
     //TODO implement search logic for Tries tree.
     //TODO This function should return last node of the node sequence where we found given word
+
     int i, index;
-    TrieNode * relRoot = root;
+    TrieNode * currentRoot = root;
     
     for (i = 0; i < strlen(word); i++){
 
         index = CHAR_TO_INDEX(word[i]);
-        TrieNode *child = relRoot -> children[index];
+        TrieNode *child = currentRoot -> children[index];
 
         if (!child){
             return NULL;
         }
         // if (!(child -> isEndOfWord) && (child)) {
 
-        relRoot = child;
+        currentRoot = child;
         // }
 
     }
 
-    return relRoot;
+    return currentRoot;
 }
 
 void traverse(char prefix[], TrieNode *root, int size) {
@@ -84,17 +86,18 @@ void traverse(char prefix[], TrieNode *root, int size) {
         for (i = 0; i < size; i++){
             printf("%c", prefix[i]);
         }
+        printf("\n");
     }
 
-    printf("\n");
+    
 
     for (i = 0; i < ALPHABET_SIZE; i++){
         TrieNode *child = currentRoot -> children[i];
         
         if (child != NULL){
 
-            prefix[size] = child -> label;
-            traverse(prefix, child, size + 1);
+            prefix[size] = child -> label; // insert the current nodes label to the prefix
+            traverse(prefix, child, size + 1); // traverse the rest of the tree
 
         }
     }

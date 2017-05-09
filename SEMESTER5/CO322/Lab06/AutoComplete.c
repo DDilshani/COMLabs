@@ -26,10 +26,13 @@ int main() {
     //TODO populate tree with word list
     TrieNode *root = createTrieNode();
     // printf("%p\n",(void*)root );
-    root -> label = '*';
+    root -> label = '*';	//Marking the root node
     int i;
     for (i = 0; i < NUMBER_OF_WORDS; i++){
-        insert(root, words[i]);
+    	char *word = words[i];
+    	int length = strcspn(word, "\r\n");	// get the length of the string eliminating CR and LF
+    	word[length] = 0; // trim the word length by inseting null character
+        insert(root, word);
     }
 
     while (1) {
@@ -40,8 +43,8 @@ int main() {
         printf("\n********************* Possible Words ********************\n");
 
         //TODO traverse the tree and provide possible word list
-        TrieNode *subRoot = search(root, str);
-        traverse(str, subRoot, strlen(str));
+        TrieNode *subRoot = search(root, str); // get the end of entered word
+        traverse(str, subRoot, strlen(str));	// Traverse the sub tree
 
         printf("==========================================================\n");
     }

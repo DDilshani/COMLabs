@@ -26,7 +26,7 @@ int main() {
     //TODO populate tree with word list
     TrieNode *root = createTrieNode();
     // printf("%p\n",(void*)root );
-    root -> label = '*';	//Marking the root node
+    root -> label = "*";	//Marking the root node
     int i;
     for (i = 0; i < NUMBER_OF_WORDS; i++){
     	char *word = words[i];

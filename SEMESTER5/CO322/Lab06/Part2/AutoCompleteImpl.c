@@ -35,9 +35,13 @@ void insert(TrieNode *root, const char *word) {
         if (child == NULL){
 
             child = createTrieNode();	//create new node
-            child -> label = word[i];
+            child -> label = word;
+            child -> isEndOfWord = true;
             currentRoot -> children[index] = child;
+            return;
+
         } 
+        while()
 
         currentRoot = child;
         

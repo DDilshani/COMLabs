@@ -157,6 +157,7 @@ TrieNode *search(TrieNode *root, char *word) {
             
             if (bp == strlen(word)){
                 found = true;
+                printf("return child\n");
                 return child;
 
             } else {

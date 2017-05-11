@@ -54,13 +54,13 @@ int breakPoint(char *label, char *word){
     return breakPoint;
 }
 
-char * getgetSubString(char * word, int start, int length){
+char * getSubString(char * word, int start, int length){
 
-    char *getSubString = (char *)malloc(length + 1);
-    memcpy(getSubString, &word[start], length);
-    getSubString[length] = '\0';
+    char *subString = (char *)malloc(length + 1);
+    memcpy(subString, &word[start], length);
+    subString[length] = '\0';
 
-    return getSubString;
+    return subString;
 }
 
 void insert(TrieNode *root, char *word) {

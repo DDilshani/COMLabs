@@ -136,12 +136,12 @@ TrieNode *search(TrieNode *root, char *word) {
         return NULL;
     }
 
-    int i, index;
+    int index;
     TrieNode * currentRoot = root;
     
     while (strlen(word) > 0){
 
-        index = CHAR_TO_INDEX(word[i]);
+        index = CHAR_TO_INDEX(word[0]);
         TrieNode *child = currentRoot -> children[index];
         bool found = false;
 

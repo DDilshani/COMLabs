@@ -76,6 +76,8 @@ void insert(TrieNode *root, char *word) {
     // for (i = 0; i < strlen(word); i++){
     while(strlen(word) > 0){
 
+        printf("%s\n", word);
+
         index = CHAR_TO_INDEX(word[i]);
         TrieNode * child = currentRoot -> children[index];
 

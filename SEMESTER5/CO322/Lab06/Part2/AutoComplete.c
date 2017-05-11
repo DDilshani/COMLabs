@@ -33,7 +33,7 @@ int main() {
     	int length = strcspn(word, "\r\n");	// get the length of the string eliminating CR and LF
     	word[length] = 0; // trim the word length by inseting null character
         insert(root, word);
-        printf("%d\n", i);
+        // printf("%d\n", i);
     }
 
     while (1) {

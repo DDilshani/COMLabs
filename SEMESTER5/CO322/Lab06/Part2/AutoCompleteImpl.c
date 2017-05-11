@@ -129,30 +129,50 @@ void insert(TrieNode *root, char *word) {
     }
 }
 
-// TrieNode *search(TrieNode *root, const char *word) {
-//     //TODO implement search logic for Tries tree.
-//     //TODO This function should return last node of the node sequence where we found given word
+TrieNode *search(TrieNode *root, char *word) {
+    //TODO implement search logic for Tries tree.
+    //TODO This function should return last node of the node sequence where we found given word
+    if (root == NULL){
+        return NULL;
+    }
 
-//     int i, index;
-//     TrieNode * currentRoot = root;
+    int i, index;
+    TrieNode * currentRoot = root;
     
-//     for (i = 0; i < strlen(word); i++){
+    while (strlen(word) > 0){
 
-//         index = CHAR_TO_INDEX(word[i]);
-//         TrieNode *child = currentRoot -> children[index];
+        index = CHAR_TO_INDEX(word[i]);
+        TrieNode *child = currentRoot -> children[index];
+        bool found = false;
 
-//         if (!child){
-//             return NULL;
-//         }
-//         // if (!(child -> isEndOfWord) && (child)) {
+        if (!child){
+            return NULL;
+        }
 
-//         currentRoot = child;
-//         // }
+        int bp = breakPoint(child -> label, word);
 
-//     }
+        if (bp > 0){
+            
+            if (bp == strlen(word)){
+                found = true;
+                return child;
 
-//     return currentRoot;
-// }
+            } else {
+
+                word = getSubString(word, bp, strlen(word) - bp);
+                currentRoot = child;
+                found = true;
+                break;
+            }
+        }
+        
+        if (!found){
+            return NULL;
+        }
+    }
+
+    return currentRoot;
+}
 
 // void traverse(char prefix[], TrieNode *root, int size) {
 //     //TODO implement tree traversal logic here. Use this to traverse underneath tree

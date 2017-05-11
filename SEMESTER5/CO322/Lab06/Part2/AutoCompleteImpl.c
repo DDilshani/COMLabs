@@ -12,7 +12,7 @@ TrieNode *createTrieNode() {
         node -> children[i] = NULL;
     }
 
-    node -> childrenCount = 0;
+    // node -> childrenCount = 0;
     node -> label = NULL;
     node -> isEndOfWord = false;
 
@@ -54,13 +54,13 @@ int breakPoint(char *label, char *word){
     return breakPoint;
 }
 
-char * breakString(char * word, int start, int length){
+char * getgetSubString(char * word, int start, int length){
 
-    char *subString = (char *)malloc(length + 1);
-    memcpy(subString, &word[start], length);
-    subString[length] = '\0';
+    char *getSubString = (char *)malloc(length + 1);
+    memcpy(getSubString, &word[start], length);
+    getSubString[length] = '\0';
 
-    return subString;
+    return getSubString;
 }
 
 void insert(TrieNode *root, const char *word) {
@@ -96,20 +96,20 @@ void insert(TrieNode *root, const char *word) {
                 return;
             }
 
-            char * nextWord = subString(word, bp, strlen(word) - bp);
+            char * nextWord = getSubString(word, bp, strlen(word) - bp);
             word = nextWord;
             currentRoot = child;
             break;
 
         } else {
 
-            char *labelRest = subString(child -> label, bp, strlen(child -> label) - bp);
+            char *labelRest = getSubString(child -> label, bp, strlen(child -> label) - bp);
             TrieNode *nextChild = createLabeledTrieNode(labelRest);
             nextChild -> children = child -> children;
             nextChild -> isEndOfWord = child -> isEndOfWord;
             int nextChildIndex = CHAR_TO_INDEX(labelRest[0]);
 
-            child -> label = subString(child -> label, 0, bp);
+            child -> label = getSubString(child -> label, 0, bp);
             child -> children[nextChildIndex] = nextChild;
             child -> isEndOfWord = false;
 
@@ -118,7 +118,7 @@ void insert(TrieNode *root, const char *word) {
                 return;
             }
 
-            char *nextWord = subString(word, bp, strlen(word) - bp);
+            char *nextWord = getSubString(word, bp, strlen(word) - bp);
             nextChildIndex = CHAR_TO_INDEX(nextWord[0]);
             child -> children[nextChildIndex] = createLabeledTrieNode(nextWord);
             return;

@@ -27,14 +27,14 @@ int main() {
     TrieNode *root = createTrieNode();
     // printf("%p\n",(void*)root );
     root -> label = "*";	//Marking the root node
-    int i = 11;
-    // for (i = 0; i < 1; i++){
+    int i;
+    for (i = 0; i < 1; i++){
     	char *word = words[i];
     	int length = strcspn(word, "\r\n");	// get the length of the string eliminating CR and LF
     	word[length] = 0; // trim the word length by inseting null character
         insert(root, word);
-        printf("%s\n", word);
-    // }
+        // printf("%s\n", word);
+    }
 
     while (1) {
         printf("Enter keyword: ");

@@ -83,7 +83,7 @@ void insert(TrieNode *root, char *word) {
         if (child == NULL){
 
             child = createLabeledTrieNode(word);    //create new node with label
-            printf("%s\n", child -> label);
+            // printf("%s\n", child -> label);
             currentRoot -> children[index] = child;
             return;
 
@@ -157,7 +157,7 @@ TrieNode *search(TrieNode *root, char *word) {
             
             if (bp == strlen(word)){
                 found = true;
-                printf("return child\n");
+                // printf("return child\n");
                 return child;
 
             } else {
@@ -194,13 +194,16 @@ void traverse(char prefix[], TrieNode *root, int size) {
         printf("\n");
     }
 
+    int current = strlen(prefix);
+
     for (i = 0; i < ALPHABET_SIZE; i++){
         TrieNode *child = currentRoot -> children[i];
         
         if (child != NULL){
 
+            prefix[current] = '\0';
             strcat(prefix, child -> label); // insert the current nodes label to the prefix
-            printf("%s\n", prefix);
+            // printf("%s\n", prefix);
             traverse(prefix, child, strlen(prefix)); // traverse the rest of the tree
 
         }

@@ -43,8 +43,8 @@ int main() {
         printf("\n********************* Possible Words ********************\n");
 
         //TODO traverse the tree and provide possible word list
-        // TrieNode *subRoot = search(root, str); // get the end of entered word
-        // traverse(str, subRoot, strlen(str));	// Traverse the sub tree
+        TrieNode *subRoot = search(root, str); // get the end of entered word
+        traverse(str, subRoot, strlen(str));	// Traverse the sub tree
 
         printf("==========================================================\n");
     }

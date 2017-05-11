@@ -128,59 +128,59 @@ void insert(TrieNode *root, const char *word) {
     }
 }
 
-TrieNode *search(TrieNode *root, const char *word) {
-    //TODO implement search logic for Tries tree.
-    //TODO This function should return last node of the node sequence where we found given word
+// TrieNode *search(TrieNode *root, const char *word) {
+//     //TODO implement search logic for Tries tree.
+//     //TODO This function should return last node of the node sequence where we found given word
 
-    int i, index;
-    TrieNode * currentRoot = root;
+//     int i, index;
+//     TrieNode * currentRoot = root;
     
-    for (i = 0; i < strlen(word); i++){
+//     for (i = 0; i < strlen(word); i++){
 
-        index = CHAR_TO_INDEX(word[i]);
-        TrieNode *child = currentRoot -> children[index];
+//         index = CHAR_TO_INDEX(word[i]);
+//         TrieNode *child = currentRoot -> children[index];
 
-        if (!child){
-            return NULL;
-        }
-        // if (!(child -> isEndOfWord) && (child)) {
+//         if (!child){
+//             return NULL;
+//         }
+//         // if (!(child -> isEndOfWord) && (child)) {
 
-        currentRoot = child;
-        // }
+//         currentRoot = child;
+//         // }
 
-    }
+//     }
 
-    return currentRoot;
-}
+//     return currentRoot;
+// }
 
-void traverse(char prefix[], TrieNode *root, int size) {
-    //TODO implement tree traversal logic here. Use this to traverse underneath tree
-    //TODO TIP: use this function to print words once you find the node in search function
-     if (root == NULL){
-        return;
-    }
+// void traverse(char prefix[], TrieNode *root, int size) {
+//     //TODO implement tree traversal logic here. Use this to traverse underneath tree
+//     //TODO TIP: use this function to print words once you find the node in search function
+//      if (root == NULL){
+//         return;
+//     }
 
-    TrieNode * currentRoot = root;
-    int i;
+//     TrieNode * currentRoot = root;
+//     int i;
 
-    if(currentRoot -> isEndOfWord){
-        for (i = 0; i < size; i++){
-            printf("%c", prefix[i]);
-        }
-        printf("\n");
-    }
+//     if(currentRoot -> isEndOfWord){
+//         for (i = 0; i < size; i++){
+//             printf("%c", prefix[i]);
+//         }
+//         printf("\n");
+//     }
 
     
 
-    for (i = 0; i < ALPHABET_SIZE; i++){
-        TrieNode *child = currentRoot -> children[i];
+//     for (i = 0; i < ALPHABET_SIZE; i++){
+//         TrieNode *child = currentRoot -> children[i];
         
-        if (child != NULL){
+//         if (child != NULL){
 
-            prefix[size] = child -> label; // insert the current nodes label to the prefix
-            traverse(prefix, child, size + 1); // traverse the rest of the tree
+//             prefix[size] = child -> label; // insert the current nodes label to the prefix
+//             traverse(prefix, child, size + 1); // traverse the rest of the tree
 
-        }
-    }
+//         }
+//     }
     
-}
+// }

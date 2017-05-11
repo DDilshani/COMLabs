@@ -63,7 +63,7 @@ char * getgetSubString(char * word, int start, int length){
     return getSubString;
 }
 
-void insert(TrieNode *root, const char *word) {
+void insert(TrieNode *root, char *word) {
     //TODO implement logic for inserting a word to the tree
 
     if (root == NULL){

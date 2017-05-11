@@ -6,15 +6,61 @@ TrieNode *createTrieNode() {
     TrieNode *node = (TrieNode *)malloc(sizeof(TrieNode));
 
     //Initializing the node
+    // node -> children = (TrieNode **)malloc(sizeof(TrieNode *));
     int i;
     for (i = 0; i < ALPHABET_SIZE; i++){
         node -> children[i] = NULL;
     }
 
-    node -> label = 0;
+    node -> childrenCount = 0;
+    node -> label = NULL;
     node -> isEndOfWord = false;
 
     return node;
+}
+
+TrieNode *createLabeledTrieNode(char *label){
+
+    TrieNode *node = createTrieNode();
+    node -> label = (char *)malloc(strlen(label) + 1);
+    if (node -> label != NULL){
+        strcpy(node -> label, label);
+    }
+    node -> isEndOfWord = true;
+    return node;
+}
+
+int breakPoint(char *label, char *word){
+
+    int lenLabel = strlen(label);
+    int lenWord = strlen(word);
+    int length;
+
+    if (lenWord > lenLabel){
+        length = lenLabel;
+    } else {
+        length = lenWord;
+    }
+
+    int breakPoint = 0, i;
+    for (i = 0; i < length; i++){
+        if (label[i] == word[i]){
+            breakPoint++;
+        } else {
+            break;
+        }
+    }
+
+    return breakPoint;
+}
+
+char * breakString(char * word, int start, int length){
+
+    char *subString = (char *)malloc(length + 1);
+    memcpy(subString, &word[start], length);
+    subString[length] = '\0';
+
+    return subString;
 }
 
 void insert(TrieNode *root, const char *word) {
@@ -24,31 +70,62 @@ void insert(TrieNode *root, const char *word) {
         return;
     }
 
-    int i, index;
+    int i = 0, index;
     TrieNode * currentRoot = root;
 
-    for (i = 0; i < strlen(word); i++){
+    // for (i = 0; i < strlen(word); i++){
+    while(strlen(word) > 0){
 
         index = CHAR_TO_INDEX(word[i]);
         TrieNode * child = currentRoot -> children[index];
 
         if (child == NULL){
 
-            child = createTrieNode();	//create new node
-            child -> label = word;
-            child -> isEndOfWord = true;
+            child = createLabeledTrieNode(word);	//create new node with label
             currentRoot -> children[index] = child;
             return;
 
         } 
-        while()
+        
+        int bp = breakPoint(child -> label, word);
 
-        currentRoot = child;
+        if (bp == strlen(child -> label)){
+            
+            if (bp == strlen(word)){
+                child -> isEndOfWord = true;
+                return;
+            }
+
+            char * nextWord = subString(word, bp, strlen(word) - bp);
+            word = nextWord;
+            currentRoot = child;
+            break;
+
+        } else {
+
+            char *labelRest = subString(child -> label, bp, strlen(child -> label) - bp);
+            TrieNode *nextChild = createLabeledTrieNode(labelRest);
+            nextChild -> children = child -> children;
+            nextChild -> isEndOfWord = child -> isEndOfWord;
+            int nextChildIndex = CHAR_TO_INDEX(labelRest[0]);
+
+            child -> label = subString(child -> label, 0, bp);
+            child -> children[nextChildIndex] = nextChild;
+            child -> isEndOfWord = false;
+
+            if (bp == strlen(word)){
+                child -> isEndOfWord = true;
+                return;
+            }
+
+            char *nextWord = subString(word, bp, strlen(word) - bp);
+            nextChildIndex = CHAR_TO_INDEX(nextWord[0]);
+            child -> children[nextChildIndex] = createLabeledTrieNode(nextWord);
+            return;
+
+        }
         
     }
-
-    // Mark the last node as a leaf
-    currentRoot -> isEndOfWord = true;
 }
 
 TrieNode *search(TrieNode *root, const char *word) {

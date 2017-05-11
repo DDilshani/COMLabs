@@ -16,5 +16,5 @@ typedef struct TrieNode{
 
 TrieNode *createTrieNode();
 TrieNode *search(TrieNode *root, char *word);
-void traverse(char prefix[], TrieNode *root, int size);
+void traverse(char prefix[], TrieNode *root);
 void insert(TrieNode *root, char *word);

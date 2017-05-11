@@ -76,7 +76,7 @@ void insert(TrieNode *root, char *word) {
     // for (i = 0; i < strlen(word); i++){
     while(strlen(word) > 0){
 
-        printf("%s\n", word);
+        // printf("%s\n", word);
 
         index = CHAR_TO_INDEX(word[i]);
         TrieNode * child = currentRoot -> children[index];
@@ -179,7 +179,7 @@ TrieNode *search(TrieNode *root, char *word) {
 void traverse(char prefix[], TrieNode *root, int size) {
     //TODO implement tree traversal logic here. Use this to traverse underneath tree
     //TODO TIP: use this function to print words once you find the node in search function
-     if (root == NULL){
+    if (root == NULL){
         return;
     }
 
@@ -188,7 +188,7 @@ void traverse(char prefix[], TrieNode *root, int size) {
 
     if(currentRoot -> isEndOfWord){
         // for (i = 0; i < size; i++){
-            printf("%s\n", prefix);
+        printf("%s\n", prefix);
         // }
         // printf("\n");
     }
@@ -199,6 +199,7 @@ void traverse(char prefix[], TrieNode *root, int size) {
         if (child != NULL){
 
             strcat(prefix, child -> label); // insert the current nodes label to the prefix
+            printf("%s\n", prefix);
             traverse(prefix, child, strlen(prefix)); // traverse the rest of the tree
 
         }

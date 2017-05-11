@@ -188,10 +188,10 @@ void traverse(char prefix[], TrieNode *root, int size) {
     int i;
 
     if(currentRoot -> isEndOfWord){
-        // for (i = 0; i < size; i++){
-        printf("%s\n", prefix);
-        // }
-        // printf("\n");
+        for (i = 0; i < size; i++){
+        printf("%c", prefix[i]);
+        }
+        printf("\n");
     }
 
     for (i = 0; i < ALPHABET_SIZE; i++){

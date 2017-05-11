@@ -105,7 +105,8 @@ void insert(TrieNode *root, char *word) {
 
             char *labelRest = getSubString(child -> label, bp, strlen(child -> label) - bp);
             TrieNode *nextChild = createLabeledTrieNode(labelRest);
-            nextChild -> children[] = child -> children[];
+            memcpy(nextChild -> children, child -> children, sizeof(TrieNode*)*ALPHABET_SIZE);
+            // nextChild -> children[] = child -> children[];
             nextChild -> isEndOfWord = child -> isEndOfWord;
             int nextChildIndex = CHAR_TO_INDEX(labelRest[0]);
 

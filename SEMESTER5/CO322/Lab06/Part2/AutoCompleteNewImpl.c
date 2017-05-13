@@ -49,7 +49,7 @@ void split(TrieNode *t, int k){
     
 }
 
-void insert(TrieNode *root, char *word, int n) {
+TrieNode* insert(TrieNode *root, char *word, int n) {
     //TODO implement logic for inserting a word to the tree
     if (!n){
         n = strlen(word) + 1;

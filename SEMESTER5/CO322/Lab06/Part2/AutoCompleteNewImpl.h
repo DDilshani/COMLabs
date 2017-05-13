@@ -19,7 +19,7 @@ TrieNode *createTrieNode();
 TrieNode *createLabeledTrieNode(char *label, int n);
 int breakPoint(char *label, int n, char *word, int m);
 void split(TrieNode *t, int k);
-void insert(TrieNode *root, char *word, int n);
+TrieNode* insert(TrieNode *root, char *word, int n);
 TrieNode *search(TrieNode *root, char *word, int n);
 
 // void traverse(char prefix[], TrieNode *root);

@@ -1,136 +1,52 @@
-#include "AutoCompleteNewImpl.h"
+#include "AutoCompleteImpl.h"
 
-TrieNode *createTrieNode() {
-    //TODO implement logic for creating an Trie node
+#define NUMBER_OF_WORDS (354935)
+#define INPUT_WORD_SIZE (100)
 
-    TrieNode *node = (TrieNode *)malloc(sizeof(TrieNode));
-
-    //Initializing the node
-    // node -> children = (TrieNode **)malloc(sizeof(TrieNode *));
-
-    // node -> childrenCount = 0;
-    node -> label = NULL;
-    node -> length = 0;
-    node -> parent = NULL;
-    node -> sister = NULL;
-
-    return node;
+char *receiveInput(char *s) {
+    scanf("%99s", s);
+    return s;
 }
 
-TrieNode *createLabeledTrieNode(char *label, int n){
+int main() {
+    int word_count = 0;
+    char* words[NUMBER_OF_WORDS];
 
-    TrieNode *node = createTrieNode();
-    node -> label = (char *)malloc(n);
-    strncpy(node->label, label, n);
-    return node;
-}
+    FILE *fp = fopen("resources/dictionary.txt", "r");
+    if (fp == 0){
+        fprintf(stderr, "Error while opening dictionary file");
+        exit(1);
+    }
+    words[word_count] = malloc(INPUT_WORD_SIZE);
+    while (fgets(words[word_count], INPUT_WORD_SIZE, fp)) {
+        word_count++;
+        words[word_count] = malloc(INPUT_WORD_SIZE);
+    }
 
-int breakPoint(char *label, int n, char *word, int m){
-
+    //TODO populate tree with word list
+    TrieNode *root = createTrieNode();
+    // printf("%p\n",(void*)root );
+    root -> label = "*";    //Marking the root node
     int i;
-    for (i = 0; i < n; i++){
-        if ( i == m || label[i] != word[i]){
-            return i;
-        } 
+    for (i = 0; i < NUMBER_OF_WORDS; i++){
+        char *word = words[i];
+        int length = strcspn(word, "\r\n"); // get the length of the string eliminating CR and LF
+        word[length] = 0; // trim the word length by inseting null character
+        insert(root, word, strlen(word) + 1);
+        // printf("%s\n", word);
     }
 
-    return n;
+    while (1) {
+        printf("Enter keyword: ");
+        char str[100];
+        receiveInput(str);
+        printf("\n==========================================================\n");
+        printf("\n********************* Possible Words ********************\n");
+
+        //TODO traverse the tree and provide possible word list
+        // TrieNode *subRoot = search(root, str); // get the end of entered word
+        // traverse(str, subRoot); // Traverse the sub tree
+
+        printf("==========================================================\n");
+    }
 }
-
-void split(TrieNode *t, int k){
-
-    TrieNode * p = createLabeledTrieNode(t -> label+k, t -> length-k);
-    p -> parent = t -> parent;
-    t -> parent = p;
-    char * a = (char *)malloc(k);
-    strncpy(a, t -> label, k);
-    t -> label = a;
-    t -> length = k;
-    
-}
-
-void insert(TrieNode *root, char *word, int n) {
-    //TODO implement logic for inserting a word to the tree
-    if (!n){
-        n = strlen(word) + 1;
-    }
-
-    if (!root){
-        return createLabeledTrieNode(word, n);
-    }
-
-    int k = breakPoint(word, n, root -> label, root -> length);
-
-    if (k == 0){
-        root -> sister = insert( root -> sister, word, n);     
-    } else if (k < n){
-        
-        if (k < root -> length){
-            split(root, k);
-        }
-        root -> parent = insert(root -> parent, word+k, n-k);
-    }
-
-    return root;
-}
-
-TrieNode *search(TrieNode *root, char *word, int n) {
-    //TODO implement search logic for Tries tree.
-    //TODO This function should return last node of the node sequence where we found given word
-    if (!n){
-        n = strlen(word) + 1;
-    }
-    if (!root){
-       return 0;
-    }
-
-    int k = breakPoint(word, n, root -> label, root -> length);
-    
-    if (k == 0){
-       return search(root -> sister, word, n);
-    }
-
-    if (k == n){
-       return root;
-    }
-
-    if (k == root -> length){
-       return search(root -> parent, word+k, n-k);
-    }
-
-    return 0;
-}
-
-// void traverse(char prefix[], TrieNode *root) {
-//     //TODO implement tree traversal logic here. Use this to traverse underneath tree
-//     //TODO TIP: use this function to print words once you find the node in search function
-//     if (root == NULL){
-//         return;
-//     }
-
-//     TrieNode * currentRoot = root;
-//     int i;
-
-//     if(currentRoot -> isEndOfWord){
-//         // for (i = 0; i < size; i++){
-//         printf("%s\n", prefix);
-//         // }
-//         // printf("\n");
-//     }
-
-//     int current = strlen(prefix);
-
-//     for (i = 0; i < ALPHABET_SIZE; i++){
-//         TrieNode *child = currentRoot -> children[i];
-        
-//         if (child != NULL){
-
-//             prefix[current] = '\0';
-//             strcat(prefix, child -> label); // insert the current nodes label to the prefix
-//             // printf("%s\n", prefix);
-//             traverse(prefix, child); // traverse the rest of the tree
-
-//         }
-//     }
-    
-// }

@@ -1,4 +1,4 @@
-#include "AutoCompleteImpl.h"
+#include "AutoCompleteNewImpl.h"
 
 #define NUMBER_OF_WORDS (354935)
 #define INPUT_WORD_SIZE (100)

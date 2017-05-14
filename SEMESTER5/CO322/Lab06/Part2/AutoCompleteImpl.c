@@ -49,7 +49,7 @@ int getBreakPoint(char *label, char *word){
     return breakPoint;
 }
 
-char * SplitString(char * word, int start, int length){
+char * splitString(char * word, int start, int length){
 
     char *subString = (char *)malloc(length + 1);
     memcpy(subString, &word[start], length);

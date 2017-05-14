@@ -14,16 +14,13 @@ TrieNode *createTrieNode() {
     return node;
 }
 
-// TrieNode *createLabeledTrieNode(char *label){
+void addAsChild(TrieNode *parent, TrieNode *child){
 
-//     TrieNode *node = createTrieNode();
-//     node -> label = (char *)malloc(strlen(label) + 1);
-//     if (node -> label != NULL){
-//         strcpy(node -> label, label);
-//     }
-//     node -> isEndOfWord = true;
-//     return node;
-// }
+    int n = parent -> childrenCount;
+    parent -> children = (TrieNode **)realloc(parent -> children, (n + 1)* sizeof(TrieNode *));
+    parent -> children[n] = child;
+    parent -> childrenCount = n + 1;
+}
 
 int getBreakPoint(char *label, char *word){
 
@@ -122,10 +119,11 @@ void insert(TrieNode *root, char *word) {
                     child -> isEndOfWord = false;   // not an end of word
    
                     // Make the current child as the parent of the created new nextChild 
-                    int n = child -> childrenCount;
-                    child -> children = (TrieNode**)realloc(child -> children, (n + 1)* sizeof(TrieNode*));
-                    child -> children[n] = nextChild;
-                    child -> childrenCount = n + 1;
+                    addAsChild(child, nextChild);
+                    // int n = child -> childrenCount;
+                    // child -> children = (TrieNode**)realloc(child -> children, (n + 1)* sizeof(TrieNode*));
+                    // child -> children[n] = nextChild;
+                    // child -> childrenCount = n + 1;
 
                     if (breakPoint == strlen(word)){    // Entire word matches with the part of the label
 
@@ -144,10 +142,11 @@ void insert(TrieNode *root, char *word) {
                     newChild -> isEndOfWord = true;  // Mark as end of word
 
                     // Make the current child as the parent of the created new child
-                    int m = child -> childrenCount;
-                    child -> children = (TrieNode**)realloc(child -> children, (m + 1)* sizeof(TrieNode*));
-                    child -> children[m] = newChild;
-                    child -> childrenCount = m + 1;
+                    addAsChild(child, newChild);
+                    // int m = child -> childrenCount;
+                    // child -> children = (TrieNode**)realloc(child -> children, (m + 1)* sizeof(TrieNode*));
+                    // child -> children[m] = newChild;
+                    // child -> childrenCount = m + 1;
                     return;
 
                 }
@@ -162,10 +161,11 @@ void insert(TrieNode *root, char *word) {
             newNode -> isEndOfWord = true; // Mark as end of word
 
             // Add the new node as a child to the current child node
-            int n = currentRoot -> childrenCount;
-            currentRoot -> children = (TrieNode**)realloc(currentRoot -> children, (n + 1)* sizeof(TrieNode*));
-            currentRoot -> children[n] = newNode;
-            currentRoot -> childrenCount = n + 1;
+            addAsChild(currentRoot, newNode);
+            // int n = currentRoot -> childrenCount;
+            // currentRoot -> children = (TrieNode**)realloc(currentRoot -> children, (n + 1)* sizeof(TrieNode*));
+            // currentRoot -> children[n] = newNode;
+            // currentRoot -> childrenCount = n + 1;
 
             return; // Finish insert   
         }
@@ -181,15 +181,15 @@ TrieNode *search(TrieNode *root, char *word, char *prefix) {
 
     TrieNode * currentRoot = root;
     
-    while (strlen(word) > 0){
+    while (strlen(word) > 0){   //search till the end of word
 
         bool match = false;
         int i;
 
-        for (i = 0; i < currentRoot -> childrenCount; i++){
+        for (i = 0; i < currentRoot -> childrenCount; i++){ //Search through all children
 
             TrieNode *child = currentRoot -> children[i];
-            int breakPoint = getBreakPoint(child -> label, word);
+            int breakPoint = getBreakPoint(child -> label, word);   
 
             if (breakPoint > 0){
                 
@@ -200,7 +200,8 @@ TrieNode *search(TrieNode *root, char *word, char *prefix) {
 
                 } else {
 
-                    strcat(prefix, splitString(word, 0, breakPoint));    // add the matching prefix from the word to the current prefix
+                    char * matchedPrefix = splitString(word, 0, breakPoint); // get the matched prefix from word
+                    strcat(prefix, matchedPrefix);    // add the matching prefix from the word to the current prefix
                     word = splitString(word, breakPoint, strlen(word) - breakPoint);    // make the new word equivalent to the remaining part of the word
                     currentRoot = child;
                     match = true;

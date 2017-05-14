@@ -3,10 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define ALPHABET_SIZE (26)
-#define ARRAY_SIZE(a) sizeof(a)/sizeof(a[0])
-#define CHAR_TO_INDEX(c) ((int)c - (int)'a')
-
 typedef struct TrieNode{
     struct TrieNode **children;
     int childrenCount;
@@ -14,19 +10,12 @@ typedef struct TrieNode{
     bool isEndOfWord;
 } TrieNode;
 
-// Helper Functions
-
-// Function to compare two strings and get the last index of the matching prefix
-int getBreakPoint(char *label, char *word);
-
-// Function to split the given string from given index upto a given length
-char * SplitString(char * word, int start, int length);
-
-// Function to add a given node as a child to the given parent
-void addAsChild(TrieNode *parent, TrieNode *child);
-
 TrieNode *createTrieNode();
 TrieNode *search(TrieNode *root, char *word, char *prefix);
 void traverse(TrieNode *root, char prefix[]);
 void insert(TrieNode *root, char *word);
 
+// Helper Functions
+int getBreakPoint(char *label, char *word);
+char * SplitString(char * word, int start, int length);
+void addAsChild(TrieNode *parent, TrieNode *child);

@@ -14,6 +14,7 @@ TrieNode *createTrieNode() {
     return node;
 }
 
+// Function to compare two strings and get the last index of the matching prefix
 int getBreakPoint(char *label, char *word){
 
     int lenLabel = strlen(label);
@@ -38,6 +39,7 @@ int getBreakPoint(char *label, char *word){
     return breakPoint;
 }
 
+// Function to split the given string from given index upto a given length
 char * splitString(char * word, int start, int length){
 
     char *subString = (char *)malloc(length + 1);
@@ -47,6 +49,7 @@ char * splitString(char * word, int start, int length){
     return subString;
 }
 
+// Function to split the given string from given index upto a given length
 void addAsChild(TrieNode *parent, TrieNode *child){
 
     int n = parent -> childrenCount;

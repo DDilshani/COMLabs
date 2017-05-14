@@ -55,13 +55,14 @@ int main() {
         printf("\n********************* Possible Words ********************\n");
 
         //TODO traverse the tree and provide possible word list
+        
         char prefix [100]; // to collect the prefixes while searching
         prefix[0] = '\0';
 
         //Time calculation for traverse
         start = clock();
 
-        TrieNode *subRoot = search(root, str, prefix);
+        TrieNode *subRoot = search(root, str, prefix); // get the nearest root with matching prefix
 
         if(subRoot == NULL){
             printf("\nNo matching word found!!!.......\n");
@@ -71,7 +72,7 @@ int main() {
             strcat(prefix, subRoot->label); // add the nearest root's label to the prefix
         }
 
-        traverse(subRoot, prefix);
+        traverse(subRoot, prefix); //go throgh all possible words in the subtree and print
 
         printf("==========================================================\n");
         

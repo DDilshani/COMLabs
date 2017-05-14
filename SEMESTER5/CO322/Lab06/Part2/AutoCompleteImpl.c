@@ -75,7 +75,7 @@ void insert(TrieNode *root, char *word) {
         for (i = 0; i < currentRoot -> childrenCount; i++){
 
             // Access each child
-            TrieNode * child = currentRoot -> children[index];
+            TrieNode * child = currentRoot -> children[i];
             
             // Get the last index of matching prefix comparing with the word to be inserted and the label in the child node
             int breakPoint = getBreakPoint(child -> label, word);

@@ -70,7 +70,7 @@ void insert(TrieNode *root, char *word) {
     while(true){
 
         bool match = false; //  variable to keep track matching prefix found or not
-        int i, m;
+        int i;
 
         for (i = 0; i < currentRoot -> childrenCount; i++){
 
@@ -141,10 +141,10 @@ void insert(TrieNode *root, char *word) {
                     // Create new child node and enter the rest of the remaining word
                     TrieNode *newChild = createTrieNode();
                     newChild -> label = wordRest;
-                    newChild -> isEndOfWord = true  // Mark as end of word
+                    newChild -> isEndOfWord = true;  // Mark as end of word
 
                     // Make the current child as the parent of the created new child
-                    m = child -> childrenCount;
+                    int m = child -> childrenCount;
                     child -> children = (TrieNode**)realloc(child -> children, (m + 1)* sizeof(TrieNode*));
                     child -> children[m] = newChild;
                     child -> childrenCount = m + 1;

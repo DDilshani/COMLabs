@@ -35,8 +35,9 @@ void insert(TrieNode *root, char *word) {
     while(true){ // keep finding
 
         bool isChild = false;
+		int i;
 
-        for(int i = 0; i < current->numChildren; i++){
+        for(i = 0; i < current->numChildren; i++){
 
         	// get the each child by 
             TrieNode * temp = current->children[i];
@@ -131,8 +132,10 @@ TrieNode *search(TrieNode *root, char *word, char * nodeWord) {
 
     while(strlen(word) > 0){ // keep running until whole finish all the characters serching
         bool isChild = false;
-
-        for(int j = 0; j < current->numChildren; j++){
+		
+		int j;
+		
+        for(j = 0; j < current->numChildren; j++){
 
             TrieNode * temp = current->children[j];
             // get number of maching characters
@@ -176,8 +179,10 @@ void traverse(char *prefix, TrieNode *finalNode) {
  	
     /*if(finalNode == NULL)  
     	return;*/
-
-    for(int j = 0; j < finalNode->numChildren; j++){
+	
+	int j;
+	
+    for(j = 0; j < finalNode->numChildren; j++){
     	
     	prefix[length] =  '\0';  // give the end of the word otherwise it will imposible to concatanate strings
         TrieNode * temp = finalNode->children[j];
@@ -201,8 +206,10 @@ int getNextPrefix(char * word1, char * word2){
     	k=w1;
     else
     	k=w2;
-
-    for(int i = 0;i < k;i++){
+	
+	int i;
+	
+    for(i = 0;i < k;i++){
 
         if(word1[i] == word2[i])
         	prefix_counter++;

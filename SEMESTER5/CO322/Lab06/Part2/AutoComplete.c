@@ -28,7 +28,7 @@ int main() {
     // printf("%p\n",(void*)root );
     root -> label = "*";	//Marking the root node
     int i;
-    for (i = 0; i < 1; i++){
+    for (i = 0; i < NUMBER_OF_WORDS; i++){
     	char *word = words[i];
     	int length = strcspn(word, "\r\n");	// get the length of the string eliminating CR and LF
     	word[length] = 0; // trim the word length by inseting null character
@@ -44,8 +44,24 @@ int main() {
         printf("\n********************* Possible Words ********************\n");
 
         //TODO traverse the tree and provide possible word list
-        TrieNode *subRoot = search(root, str); // get the end of entered word
-        traverse(str, subRoot);	// Traverse the sub tree
+        char *nodeChar = (char*)malloc(100); 
+        nodeChar[0] = '\0';
+
+        TrieNode * prefix_end_node; // last node in the matching process
+        // get the node that equal to final character of prefix
+        prefix_end_node = search(root, str, nodeChar);
+
+
+        if(prefix_end_node != NULL){
+            // this will add together the maching characters and lable of the final node
+            strcat(nodeChar, prefix_end_node->label);
+        }
+
+        if(prefix_end_node == NULL){
+            printf("\n  **** Sorry there is no any maching word as, %s **** \n\n",str );
+        }
+
+        traverse(nodeChar, prefix_end_node);
 
         printf("==========================================================\n");
     }

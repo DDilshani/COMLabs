@@ -189,7 +189,7 @@ TrieNode *search(TrieNode *root, char *word, char *prefix) {
         for (i = 0; i < currentRoot -> childrenCount; i++){
 
             TrieNode *child = currentRoot -> children[i];
-            int breakPoint = breakPoint(child -> label, word);
+            int breakPoint = getBreakPoint(child -> label, word);
 
             if (breakPoint > 0){
                 

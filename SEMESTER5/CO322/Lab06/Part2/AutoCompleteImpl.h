@@ -8,13 +8,22 @@
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
 
 typedef struct TrieNode{
-    struct TrieNode *children[ALPHABET_SIZE];
+    struct TrieNode **children;
+    int childrenCount;
     char *label;
     bool isEndOfWord;
 } TrieNode;
 
 
 TrieNode *createTrieNode();
-TrieNode *search(TrieNode *root, char *word);
+TrieNode *search(TrieNode *root, char *word, char *prefix);
 void traverse(char prefix[], TrieNode *root);
 void insert(TrieNode *root, char *word);
+
+// Helper Functions
+
+// Function to compare two strings and get the last index of the matching prefix
+int getBreakPoint(char *label, char *word);
+
+// Function to split the given string from given index upto a given length
+char * SplitString(char * word, int start, int length);

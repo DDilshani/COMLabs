@@ -162,10 +162,10 @@ void insert(TrieNode *root, char *word) {
             newNode -> isEndOfWord = true; // Mark as end of word
 
             // Add the new node as a child to the current child node
-            int n = child -> childrenCount;
-            child -> children = (TrieNode**)realloc(child -> children, (n + 1)* sizeof(TrieNode*));
-            child -> children[n] = newNode;
-            child -> childrenCount = n + 1;
+            int n = currentRoot -> childrenCount;
+            currentRoot -> children = (TrieNode**)realloc(currentRoot -> children, (n + 1)* sizeof(TrieNode*));
+            currentRoot -> children[n] = newNode;
+            currentRoot -> childrenCount = n + 1;
 
             return; // Finish insert   
         }

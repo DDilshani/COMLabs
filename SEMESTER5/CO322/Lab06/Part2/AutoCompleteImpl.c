@@ -14,6 +14,47 @@ TrieNode *createTrieNode() {
     return node;
 }
 
+int getBreakPoint(char *label, char *word){
+
+    int lenLabel = strlen(label);
+    int lenWord = strlen(word);
+    int length;
+
+    if (lenWord > lenLabel){
+        length = lenLabel;
+    } else {
+        length = lenWord;
+    }
+
+    int breakPoint = 0, i;
+    for (i = 0; i < length; i++){
+        if (label[i] == word[i]){
+            breakPoint++;
+        } else {
+            break;
+        }
+    }
+
+    return breakPoint;
+}
+
+char * splitString(char * word, int start, int length){
+
+    char *subString = (char *)malloc(length + 1);
+    memcpy(subString, &word[start], length);
+    subString[length] = '\0';
+
+    return subString;
+}
+
+void addAsChild(TrieNode *parent, TrieNode *child){
+
+    int n = parent -> childrenCount;
+    parent -> children = (TrieNode **)realloc(parent -> children, (n + 1)* sizeof(TrieNode *));
+    parent -> children[n] = child;
+    parent -> childrenCount = n + 1;
+}
+
 void insert(TrieNode *root, char *word) {
     //TODO implement logic for inserting a word to the tree
 
@@ -200,43 +241,3 @@ void traverse(TrieNode *root, char prefix[]) {
 }
 
 
-void addAsChild(TrieNode *parent, TrieNode *child){
-
-    int n = parent -> childrenCount;
-    parent -> children = (TrieNode **)realloc(parent -> children, (n + 1)* sizeof(TrieNode *));
-    parent -> children[n] = child;
-    parent -> childrenCount = n + 1;
-}
-
-int getBreakPoint(char *label, char *word){
-
-    int lenLabel = strlen(label);
-    int lenWord = strlen(word);
-    int length;
-
-    if (lenWord > lenLabel){
-        length = lenLabel;
-    } else {
-        length = lenWord;
-    }
-
-    int breakPoint = 0, i;
-    for (i = 0; i < length; i++){
-        if (label[i] == word[i]){
-            breakPoint++;
-        } else {
-            break;
-        }
-    }
-
-    return breakPoint;
-}
-
-char * splitString(char * word, int start, int length){
-
-    char *subString = (char *)malloc(length + 1);
-    memcpy(subString, &word[start], length);
-    subString[length] = '\0';
-
-    return subString;
-}

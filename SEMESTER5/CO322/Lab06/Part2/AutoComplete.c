@@ -43,7 +43,7 @@ int main() {
 
     clock_t end = clock();
 
-    double insertionTime = (double)(end - begin) / CLOCKS_PER_SEC;
+    double insertionTime = (double)(end - start) / CLOCKS_PER_SEC;
 
     printf("Time to insert: %lf\n", insertionTime);
 
@@ -77,7 +77,7 @@ int main() {
         
         end = clock();
 
-        double traversalTime = (double)(end - begin) / CLOCKS_PER_SEC;
+        double traversalTime = (double)(end - start) / CLOCKS_PER_SEC;
 
         printf("Time to traverse: %lf\n", traversalTime);
     }

@@ -1,4 +1,5 @@
 #include "AutoCompleteImpl.h"
+#include <time.h>
 
 #define NUMBER_OF_WORDS (354935)
 #define INPUT_WORD_SIZE (100)
@@ -28,13 +29,23 @@ int main() {
     // printf("%p\n",(void*)root );
     root -> label = "*";	//Marking the root node
     int i;
+
+    //To get time to insert
+    clock_t start = clock();
+
     for (i = 0; i < NUMBER_OF_WORDS; i++){
-    	char *word = words[i];
-    	int length = strcspn(word, "\r\n");	// get the length of the string eliminating CR and LF
-    	word[length] = 0; // trim the word length by inseting null character
+        char *word = words[i];
+        int length = strcspn(word, "\r\n"); // get the length of the string eliminating CR and LF
+        word[length] = 0; // trim the word length by inseting null character
         insert(root, word);
         // printf("%s\n", word);
     }
+
+    clock_t end = clock();
+
+    double insertionTime = (double)(end - begin) / CLOCKS_PER_SEC;
+
+    printf("Time to insert: %lf\n", insertionTime);
 
     while (1) {
         printf("Enter keyword: ");
@@ -44,25 +55,30 @@ int main() {
         printf("\n********************* Possible Words ********************\n");
 
         //TODO traverse the tree and provide possible word list
-        char *nodeChar = (char*)malloc(100); 
-        nodeChar[0] = '\0';
+        char prefix [100]; // to collect the prefixes while searching
+        prefix[0] = '\0';
 
-        TrieNode * prefix_end_node; // last node in the matching process
-        // get the node that equal to final character of prefix
-        prefix_end_node = search(root, str, nodeChar);
+        //Time calculation for traverse
+        start = clock();
 
+        TrieNode *subRoot = search(root, str, prefix);
 
-        if(prefix_end_node != NULL){
-            // this will add together the maching characters and lable of the final node
-            strcat(nodeChar, prefix_end_node->label);
+        if(subRoot == NULL){
+            printf("\nNo matching word found!!!.......\n");
         }
 
-        if(prefix_end_node == NULL){
-            printf("\n  **** Sorry there is no any maching word as, %s **** \n\n",str );
+        if(subRoot != NULL){
+            strcat(prefix, subRoot->label); // add the nearest root's label to the prefix
         }
 
-        traverse(nodeChar, prefix_end_node);
+        traverse(subRoot, prefix);
 
         printf("==========================================================\n");
+        
+        end = clock();
+
+        double traversalTime = (double)(end - begin) / CLOCKS_PER_SEC;
+
+        printf("Time to traverse: %lf\n", traversalTime);
     }
 }

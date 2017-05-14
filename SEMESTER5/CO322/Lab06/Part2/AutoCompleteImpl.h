@@ -22,8 +22,11 @@ int getBreakPoint(char *label, char *word);
 // Function to split the given string from given index upto a given length
 char * SplitString(char * word, int start, int length);
 
+// Function to add a given node as a child to the given parent
+void addAsChild(TrieNode *parent, TrieNode *child);
+
 TrieNode *createTrieNode();
 TrieNode *search(TrieNode *root, char *word, char *prefix);
-void traverse(char prefix[], TrieNode *root);
+void traverse(TrieNode *root, char prefix[]);
 void insert(TrieNode *root, char *word);
 

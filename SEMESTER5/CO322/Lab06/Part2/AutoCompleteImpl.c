@@ -14,47 +14,6 @@ TrieNode *createTrieNode() {
     return node;
 }
 
-void addAsChild(TrieNode *parent, TrieNode *child){
-
-    int n = parent -> childrenCount;
-    parent -> children = (TrieNode **)realloc(parent -> children, (n + 1)* sizeof(TrieNode *));
-    parent -> children[n] = child;
-    parent -> childrenCount = n + 1;
-}
-
-int getBreakPoint(char *label, char *word){
-
-    int lenLabel = strlen(label);
-    int lenWord = strlen(word);
-    int length;
-
-    if (lenWord > lenLabel){
-        length = lenLabel;
-    } else {
-        length = lenWord;
-    }
-
-    int breakPoint = 0, i;
-    for (i = 0; i < length; i++){
-        if (label[i] == word[i]){
-            breakPoint++;
-        } else {
-            break;
-        }
-    }
-
-    return breakPoint;
-}
-
-char * splitString(char * word, int start, int length){
-
-    char *subString = (char *)malloc(length + 1);
-    memcpy(subString, &word[start], length);
-    subString[length] = '\0';
-
-    return subString;
-}
-
 void insert(TrieNode *root, char *word) {
     //TODO implement logic for inserting a word to the tree
 
@@ -120,10 +79,6 @@ void insert(TrieNode *root, char *word) {
    
                     // Make the current child as the parent of the created new nextChild 
                     addAsChild(child, nextChild);
-                    // int n = child -> childrenCount;
-                    // child -> children = (TrieNode**)realloc(child -> children, (n + 1)* sizeof(TrieNode*));
-                    // child -> children[n] = nextChild;
-                    // child -> childrenCount = n + 1;
 
                     if (breakPoint == strlen(word)){    // Entire word matches with the part of the label
 
@@ -143,10 +98,6 @@ void insert(TrieNode *root, char *word) {
 
                     // Make the current child as the parent of the created new child
                     addAsChild(child, newChild);
-                    // int m = child -> childrenCount;
-                    // child -> children = (TrieNode**)realloc(child -> children, (m + 1)* sizeof(TrieNode*));
-                    // child -> children[m] = newChild;
-                    // child -> childrenCount = m + 1;
                     return;
 
                 }
@@ -162,11 +113,6 @@ void insert(TrieNode *root, char *word) {
 
             // Add the new node as a child to the current child node
             addAsChild(currentRoot, newNode);
-            // int n = currentRoot -> childrenCount;
-            // currentRoot -> children = (TrieNode**)realloc(currentRoot -> children, (n + 1)* sizeof(TrieNode*));
-            // currentRoot -> children[n] = newNode;
-            // currentRoot -> childrenCount = n + 1;
-
             return; // Finish insert   
         }
     }     
@@ -218,7 +164,7 @@ TrieNode *search(TrieNode *root, char *word, char *prefix) {
     return currentRoot;
 }
 
-void traverse(char prefix[], TrieNode *root) {
+void traverse(TrieNode *root, char prefix[]) {
     //TODO implement tree traversal logic here. Use this to traverse underneath tree
     //TODO TIP: use this function to print words once you find the node in search function
     if (root == NULL){
@@ -246,9 +192,51 @@ void traverse(char prefix[], TrieNode *root) {
             prefix[endPoint] = '\0';
             strcat(prefix, child -> label); // insert the current nodes label to the prefix
             // printf("%s\n", prefix);
-            traverse(prefix, child); // traverse the rest of the tree
+            traverse(child, prefix); // traverse the rest of the tree
 
         }
     }
     
+}
+
+
+void addAsChild(TrieNode *parent, TrieNode *child){
+
+    int n = parent -> childrenCount;
+    parent -> children = (TrieNode **)realloc(parent -> children, (n + 1)* sizeof(TrieNode *));
+    parent -> children[n] = child;
+    parent -> childrenCount = n + 1;
+}
+
+int getBreakPoint(char *label, char *word){
+
+    int lenLabel = strlen(label);
+    int lenWord = strlen(word);
+    int length;
+
+    if (lenWord > lenLabel){
+        length = lenLabel;
+    } else {
+        length = lenWord;
+    }
+
+    int breakPoint = 0, i;
+    for (i = 0; i < length; i++){
+        if (label[i] == word[i]){
+            breakPoint++;
+        } else {
+            break;
+        }
+    }
+
+    return breakPoint;
+}
+
+char * splitString(char * word, int start, int length){
+
+    char *subString = (char *)malloc(length + 1);
+    memcpy(subString, &word[start], length);
+    subString[length] = '\0';
+
+    return subString;
 }

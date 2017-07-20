@@ -27,15 +27,25 @@ df.debt = [df.ix[:,2][i]*5 for i in range(0, df.shape[0])]
 # print df.shape[0]
 # print df.head()
 # print df.tail()
-print df.sample(n=5)
+# print df.sample(n=5)
 df['newColumn'] = pd.Series(np.random.randn(df.shape [0]), index=df.index)
-print df
+# print df
 
 # Loading Data from CSV file
-df = pd.read csv('sampleDataSet.csv')
-df.shape
-df = pd.read csv ('sampleDataSet.csv', names = ['a','b','c','d','e','f','g','h','i'])
-df. shape
+df = pd.read_csv('sampleDataSet.csv')
+# print df.shape
+# print df
+df = pd.read_csv ('sampleDataSet.csv', names = ['a','b','c','d','e','f','g','h','i'])
+# print df. shape
+# print df
 
 # Deal with missing data
-df.isnull().a
+# print df.isnull().a
+# print df.isnull()
+# print df.isnull().sum()
+# df = df [df.isnull().a != True]
+# print df
+# print df.dropna(axis = 0).isnull().sum()
+df.dropna(axis = 1)
+df.dropna(axis = 4, how = 'all')
+print df

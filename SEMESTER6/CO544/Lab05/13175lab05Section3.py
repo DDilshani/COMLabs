@@ -2,7 +2,7 @@ from sklearn import tree
 from sklearn.datasets import load_iris
 import pydotplus
 from IPython.display import Image
-# from PIL import Image, ImageDraw
+
 
 X = [[140,1], [130,1], [150,0], [170,0]]
 Y = [1, 2, 3, 4]
@@ -26,20 +26,21 @@ graph = pydotplus.graph_from_dot_data(dot_data)
 graph.write_pdf("iris.pdf")
 
 # Generating Image
-# dot_data = tree.export_graphviz(clf_iris, out_file=None, 
-# 			feature_names = iris.feature_names, 
-# 			class_names = iris.target_names, 
-# 			filled = True, 
-# 			rounded = True, 
-# 			special_characters = True)
+dot_data = tree.export_graphviz(clf_iris, out_file=None, 
+			feature_names = iris.feature_names, 
+			class_names = iris.target_names, 
+			filled = True, 
+			rounded = True, 
+			special_characters = True)
 
-# graph = pydotplus.graph_from_dot_data(dot_data)
-# Image(graph.create_png())
-# graph.write_png("iris.png")
+graph = pydotplus.graph_from_dot_data(dot_data)
+Image(graph.create_png())
+graph.write_png("iris.png")
 
-# # Showing Image
-# image = Image.open("iris.png")
-# image.show()
+# Showing Image
+from PIL import Image, ImageDraw
+image = Image.open("iris.png")
+image.show()
 
-# print clf_iris.predict(iris.data[:1, :])
-# print clf_iris.predict_proba(iris.data[:1, :])
+print clf_iris.predict(iris.data[:1, :])
+print clf_iris.predict_proba(iris.data[:1, :])

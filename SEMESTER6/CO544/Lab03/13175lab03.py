@@ -133,7 +133,9 @@ if __name__ == "__main__":
 '''
 Answers
 --------
+2) 
 
+3) The given condition does not divide the data set into two classes.
 
 '''
 					

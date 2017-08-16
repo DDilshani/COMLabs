@@ -1,0 +1,2 @@
+This is a string written to a textfile by a C program
+String to write and read

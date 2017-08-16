@@ -1,0 +1,34 @@
+       Ex1
+       ----
+
+       The  argument flags must include one of the following access modes: O_RDONLY, O_WRONLY, or O_RDWR.  These request opening the file  read-only,  write-only,  or  read/write,  respec‐tively.
+
+       O_APPEND
+              The  file is opened in append mode.  Before each write(2), the file offset is posi‐
+              tioned at the end of the file, as if with lseek(2).  O_APPEND may lead to corrupted
+              files  on  NFS filesystems if more than one process appends data to a file at once.
+              This is because NFS does not support appending to a file, so the client kernel  has
+              to simulate it, which can't be done without a race condition.
+
+O_CREAT
+              If the file does not exist, it will be created.  The owner (user ID) of the file is
+              set to the effective user ID of the process.  The group ownership (group ID) is set
+              either to the effective group ID of the process or to the group ID  of  the  parent
+              directory (depending on filesystem type and mount options, and the mode of the par‐
+              ent directory;  see  the  mount  options  bsdgroups  and  sysvgroups  described  in
+              mount(8)).
+
+              mode  specifies  the mode to use in case a new file is created.  This argument must
+              be supplied when O_CREAT or O_TMPFILE is specified in flags; if neither O_CREAT nor
+              O_TMPFILE  is  specified,  then mode is ignored.  The effective mode is modified by
+              the process's umask in the usual way: in the absence of a default ACL, the mode  of
+              the  created  file  is (mode & ~umask).  Note that this mode applies only to future
+              accesses of the newly created file; the open() call that creates a  read-only  file
+              may well return a read/write file descriptor.
+
+			The following symbolic constants are provided for mode:
+
+			 S_IRUSR  00400 user has read permission
+
+              S_IWUSR  00200 user has write permission
+

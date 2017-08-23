@@ -6,16 +6,15 @@
 #include <sys/stat.h>
 
 #define MAX_SIZE 1024 
-#define STDIN 0
-#define STDOUT 1
+
 
 void die(const char *msg);
 
 int main() 
 { 
 
-	int fd, fd2; 
-	char* fifo = "/tmp/fifo"; 
+	int fd1, fd2; 
+	char* fifo1 = "/tmp/fifo1"; 
 	char* fifo2 = "/tmp/fifo2";
 
 	char *tr_args[] = {"tr", "[:lower:]", "[:upper:]", NULL};
@@ -23,24 +22,26 @@ int main()
 	printf("Waiting for the Sender to send a String...\n");
 
     // Make 2 named pipelines
-	mkfifo(fifo,0666);
+	mkfifo(fifo1, 0666);
 	mkfifo(fifo2, 0666);
 
 	// Set STDIN and STDOUT for the process
-	fd = open(fifo, O_RDONLY);
+	fd1 = open(fifo1, O_RDONLY);
 	fd2 = open(fifo2, O_WRONLY);
 
-	if (dup2(fd, STDIN) == -1)
+	// Replace STDIN with input of the pipe
+	if (dup2(fd1, 0) == -1)
 		die("dup2()");
 
-	if (dup2(fd2, STDOUT) == -1)
+	// Repalce STDOUT with output pipe
+	if (dup2(fd2, 1) == -1)
 		die("dup2()");
 
 	// Execute tr() command
 	if(execvp("tr", tr_args) == -1)
 		die("execvp()");
 
-	close(fd);
+	close(fd1);
 	close(fd2);
 
 	exit(EXIT_SUCCESS);

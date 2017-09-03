@@ -34,7 +34,7 @@ int main(void)
                 // }
              sleep(1);
         }
-     // sleep(5);
+    sleep(1);
         printf("Main thread says hi!\n");
         exit(0);
 }

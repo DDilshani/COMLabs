@@ -41,7 +41,8 @@ if __name__ == "__main__":
     # Read CSV and load zoo data set
 	zoo_data = pd.read_csv('zooData.csv')
 
-	# Exercise 1
+	print "\n\nExercise 1: Observe Attributes and Values"
+	print "============================================="
 	print zoo_data.head()
 
 	# if sum(zoo_data.isnull().values.ravel()) != 0:
@@ -54,25 +55,24 @@ if __name__ == "__main__":
 	# Create AnimalTypePrediction data model
 	model = AnimalTypePrediction(X, Y)
 
-	# Exercise 2
-	# --------------
-	print '\n----------------------------Decision Tree Classifier------------------------------\n'
+	print "\n\nExercise 2: Decision Tree Classifier Evaluation"
+	print "==================================================="
 	clf_DTC = tree.DecisionTreeClassifier()
 	model.getTrainingSetAccuracy(clf_DTC)
 	model.getTrainTestSplitAccuracy(clf_DTC, 0.333)
 	model.getCrossValidationAccuracy(clf_DTC, 10)
 
 	'''
-	Testing option by splitting the data as 2/3 for training and 1/3 for testing 
-	gives more realistic future performance.
+	Testing option by cross validation gives more realistic future performance for this data set.
 
-	This is because for large data sets this option gives better performace as 
-	spliting the data and building the model 
+	This is because considering the accuracies this one is the best. 
+	This option is also known to be better for small data sets like this one containing about 100.
+	Although training accuracy has the highest value , it is not giving realistic future performance as new future data can be vastly different from training data.
+	Train / Test split option is better for very large data sets where in this case it not giving high accuracy as the data set is small. 
 	'''
 
-	# Exercise 3
-	# -------------
-	print '\n----------------------------Confusion Matrix-------------------------------------------------\n'
+	print "\n\nExercise 3: Confusion Matrix"
+	print "================================"
 	print '\n----------------------------Gaussian Naive Bayes-----------------------------------\n'
 	clf_GNB = GaussianNB()
 	model.getConfusionMatrix(clf_GNB, 0.333)
@@ -92,9 +92,24 @@ if __name__ == "__main__":
 	print '\n----------------------------Decision Tree Classifier------------------------------\n'
 	model.getConfusionMatrix(clf_DTC, 0.333)
 
-	# Exercise 4
-	# -------------
-	print '\n----------------------------10 Fold Cross Validation--------------------------------------\n'
+	'''
+	Confusion Matrix Outputs
+	------------------------
+
+	The number of wrong predictions of the classification algorithms:
+		Gaussian NB = 3
+		Multinominal NB = 3
+		Nearest Neighbour = 2
+		SVM = 2
+		Decision Tree = 1
+
+	Hence, the decision tree classifier predicts more accurately than others. 
+	Nearest Neighbour and SVM predicts more accurately than Gaussian and Multinominal Naive Bayes algorithms.  
+
+	'''
+
+	print '\n\nExercise 4: 10 Fold Cross Validation'
+	print "========================================"
 	print '\n----------------------------Gaussian Naive Bayes----------------------------------\n'
 	model.getCrossValidationAccuracy(clf_GNB, 10)
 
@@ -110,17 +125,21 @@ if __name__ == "__main__":
 	print '\n----------------------------Decision Tree Classifier------------------------------\n'
 	model.getCrossValidationAccuracy(clf_DTC, 10)
 
-	# Exercise 5
-	# -------------
-	print '\n----------------------------Another Algorithm--------------------------------------\n'
+	print "\n\nExercise 5: Evaluaton of Another Algorithm"
+	print "=============================================="
 	print '\n----------------------------Bernoulli Naive Bayes----------------------------------\n'
 	clf_BNB = BernoulliNB()
 	model.getTrainingSetAccuracy(clf_BNB)
-	model.getCrossValidationAccuracy(clf_GNB, 10)
 	model.getTrainTestSplitAccuracy(clf_BNB, 0.333)
+	model.getCrossValidationAccuracy(clf_GNB, 10)
 	model.getConfusionMatrix(clf_BNB, 0.333)
 
 	'''
-	
+	Considering the 10 fold classification option, the Bournoulli Naive Bayes 
+	classification has more accuracy tha multinominal Naive Bayes algorithm while 
+	it has equivalent accuracy with Gaussian Naive Bayes and Support Vector machine. 
+	But it has lower accuracy than Nearest Neighbour classification.  
 	'''
+
+	
 

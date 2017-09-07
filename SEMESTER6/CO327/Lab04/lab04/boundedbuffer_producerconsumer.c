@@ -13,11 +13,11 @@ void* consumer(void *arg) {
 		sem_wait(&items); 
 		sem_wait(&lock); 
 		printf("Consumer consumed %d\n",products);  
-		sleep(1); 
+		// sleep(1); 
 		products--; 
 		sem_post(&lock); 
 		sem_post(&spaces); 
-		sleep(1); 
+		// sleep(1); 
 	}   
 	return NULL; 
 } 
@@ -45,10 +45,10 @@ int main(int argc, char **argv) {
 		sem_wait(&lock); 
 		products++; 
 		printf("Producer produced %d\n",products); 
-		sleep(1); 
+		// sleep(1); 
 		sem_post(&lock); 
 		sem_post(&items);  
-		sleep(1); 
+		// sleep(1); 
 	}	 
 	return 0; 
 } 

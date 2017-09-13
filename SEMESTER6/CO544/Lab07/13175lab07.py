@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-from sklearn import datasets
 from scipy.cluster.hierarchy import dendrogram, linkage
 import unittest
 
@@ -64,7 +63,7 @@ if __name__ == "__main__":
 	labels = model.K_Means(0, 3)
 	print labels
 
-	fig = plt.figure(figsize = (20,10))
+	fig = plt.figure(figsize = (25,10))
 	fig.subplots_adjust(hspace = .2)
 
 	model.scatterPlot(0, 1, labels, 1)
@@ -107,7 +106,10 @@ if __name__ == "__main__":
 	Answers:
 	========
 
-	2)
+	2) random state is an optional argument to provide a random generator to be used in the K-Means 
+	algorithm. random state is used as the seed for the ransom number generator. I can be a int, 
+	RandomState instance or None where None is the default configuration. For None, the random 
+	generator is the RandomState instance used by np.random 
 
 	3) A clear separation of clusters can be seen when the 1st feature (INCOMEPERPERSON) 
 	is encorporated for the K-means clustering. Therefore, clusters show a high correlation 

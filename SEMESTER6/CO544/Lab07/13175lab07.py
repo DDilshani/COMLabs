@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn import datasets
 from scipy.cluster.hierarchy import dendrogram, linkage
+import unittest
 
 class Cluster:
 
@@ -23,9 +24,20 @@ class Cluster:
 		# print x
 		y = self.X[:, y_col]
 		# print y
-		axes = plt.subplot(2, 3, index)
-		axes.set_title("plane " + str(index))
+		axes = plt.subplot(1, 3, index)
+		axes.set_title("Features: " + str(x_col) + " and " + str(y_col))
 		axes.scatter(x, y, edgecolors = 'k', c = labels)
+
+	def getLinkageMatrix(self, method):
+		return linkage(self.X, method)
+
+class ClusterTest(unittest.TestCase):
+    def setUp(self):
+        self.cancer_data = pd.read_csv('breaset-cancer.csv')
+        self.cancer_data = self.cancer_data.fillna(self.cancer_data.mean())
+
+    def test_None(self):
+        self.assertFalse(self.cancer_data is None)
 
 
 if __name__ == "__main__":
@@ -37,20 +49,72 @@ if __name__ == "__main__":
 	print "============================================="
 	print cancer_data.head()
 	cancer_data = cancer_data.fillna(cancer_data.mean())
-	# print data
 
-	'''
-	Exercise 2
-	==========
+	# Etract X as values of first 3 features
+	X1 = cancer_data.as_matrix()[:, 1:4]
+	# print X1
 
+	# Create Cluster object
+	model = Cluster(X1)
 
-	'''
-	# X = data.iloc[:,1:4]
-	X = map(list, cancer_data[cancer_data.columns.difference(['COUNTRY', 'urbanrate'])].values)
-	print X
-
-
-	model = Cluster(X)
+	# K-means clustering
+	# ---------------------------------
+	print "\n\nExercise 3: K-Means Cluster Analyasis"
+	print "========================================="
 	labels = model.K_Means(0, 3)
 	print labels
+
+	fig = plt.figure(figsize = (20,10))
+	fig.subplots_adjust(hspace = .2)
+
+	model.scatterPlot(0, 1, labels, 1)
+	model.scatterPlot(0, 2, labels, 2)
+	model.scatterPlot(1, 2, labels, 3)
+
+	plt.show()
+
+	# Hierachical Clustering
+	# -------------------------------------------
+	print "\n\nExercise 4: Hierarchical Cluster Analysis"
+	print "============================================="
+
+	# Etract X as values of first 3 features
+	X2 = cancer_data.as_matrix()[:, 1:16]
+	# print X2
+
+	# Create new Cluster object with all data
+	model = Cluster(X2)
+
+	# Generate linkage matrix ward
+	Z = model.getLinkageMatrix('average')
+
+	# plot dendogram
+	fig = plt.figure(figsize = (30, 15))
+	fig.suptitle("Hierarchical Clustering Without Truncation ", fontsize = 16)
+	dendrogram(Z, leaf_rotation = 90, leaf_font_size = 8)
+	plt.show()
+
+	fig = plt.figure(figsize = (15, 10))
+	fig.suptitle("Hierarchical Clustering With Truncation ", fontsize = 16)
+	dendrogram(Z, truncate_mode = 'lastp', p = 12, show_leaf_counts = False, leaf_rotation = 90, leaf_font_size = 12, show_contracted = True)
+	plt.axhline(y = 0.5*10**11, c ='k')
+	plt.show()
+
+	unittest.main()
+
+
+	'''
+	Answers:
+	========
+
+	2)
+
+	3) A clear separation of clusters can be seen when the 1st feature (INCOMEPERPERSON) 
+	is encorporated for the K-means clustering. Therefore, clusters show a high correlation 
+	with the 1 st feature.
+
+	5) Hierarchical clustering creates 3 clusters when the the distance cut off line lies 
+	between approximately (0.25-1.0)*10^11. When the permitted distance reduces for the 
+	distance cut off line the number of clusters increases.
+	'''
 

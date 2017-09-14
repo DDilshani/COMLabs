@@ -12,10 +12,11 @@ This means that if milk is sold and butter is not sold then beer will not be sol
 
 5. butter=1 beer=1 3 ==> bread=1 3    conf:(1)
 -----------------------------------------------
-
+This means that if butter and beer is sold then bread will also be sold. This rule has a confidance of 1 and a support of 3 instances over the 15 instances.
 
 11. milk=1 beer=1 2 ==> bread=1 2    conf:(1)
 -----------------------------------------------
+This means that if milk and beer is sold then bread will also be sold. This rule has a confidance of 1 and a support of 3 instances over the 15 instances.
 
 6)
 ***
@@ -78,15 +79,23 @@ Attributes:   217
 Minimum support: 0.15 (694 instances)
 Minimum metric <confidence>: 0.9
 
-1. biscuits=t frozen foods=t fruit=t total=high 788 ==> bread and cake=t 723    conf:(0.92)
-2. baking needs=t biscuits=t fruit=t total=high 760 ==> bread and cake=t 696    conf:(0.92)
-3. baking needs=t frozen foods=t fruit=t total=high 770 ==> bread and cake=t 705    conf:(0.92)
-4. biscuits=t fruit=t vegetables=t total=high 815 ==> bread and cake=t 746    conf:(0.92)
-5. party snack foods=t fruit=t total=high 854 ==> bread and cake=t 779    conf:(0.91)
-6. biscuits=t frozen foods=t vegetables=t total=high 797 ==> bread and cake=t 725    conf:(0.91)
-7. baking needs=t biscuits=t vegetables=t total=high 772 ==> bread and cake=t 701    conf:(0.91)
-8. biscuits=t fruit=t total=high 954 ==> bread and cake=t 866    conf:(0.91)
-9. frozen foods=t fruit=t vegetables=t total=high 834 ==> bread and cake=t 757    conf:(0.91)
-10. frozen foods=t fruit=t total=high 969 ==> bread and cake=t 877    conf:(0.91)
+1. biscuits=t 			frozen foods=t 	fruit=t 		total=high 788 	==> bread and cake=t 723    conf:(0.92)
+2. baking needs=t 		biscuits=t 		fruit=t 		total=high 760 	==> bread and cake=t 696    conf:(0.92)
+3. baking needs=t 		frozen foods=t 	fruit=t 		total=high 770 	==> bread and cake=t 705    conf:(0.92)
+4. biscuits=t 			fruit=t 		vegetables=t 	total=high 815 	==> bread and cake=t 746    conf:(0.92)
+5. party snack foods=t 	fruit=t 		total=high 854 					==> bread and cake=t 779    conf:(0.91)
+6. biscuits=t 			frozen foods=t 	vegetables=t 	total=high 797 	==> bread and cake=t 725    conf:(0.91)
+7. baking needs=t 		biscuits=t 		vegetables=t 	total=high 772 	==> bread and cake=t 701    conf:(0.91)
+8. biscuits=t 			fruit=t 		total=high 954 					==> bread and cake=t 866    conf:(0.91)
+9. frozen foods=t 		fruit=t			vegetables=t 	total=high 834 	==> bread and cake=t 757    conf:(0.91)
+10. frozen foods=t 		fruit=t 		total=high 969 					==> bread and cake=t 877    conf:(0.91)
 
 It can be seen that all rules are having a confidence of 0.92 or 0.91 which is more than the minimum confidence.
+Bread, Cake, Biscuits, Baking needs, Frozen food, party snack foods, Fruits and Vegetables are most preferred to be closer by.
+      1. People who bought biscuits, frozen food and fruits and had a higher total bill, bought bread and cake all most all the time. 
+      2. People who bought baking needs, biscuits and fruits and had a higher total bill, bought bread and cakealmost all the time.
+      3. People who bought baking needs, frozen food and fruits and had a higher total bill, bought bread and cake almost all the time.
+      4. People who bought biscuits, vegetables and fruits and had a higher total bill, bought bread and cake almost all the time.
+      5. People who bought party snack foods, fruit and had a higher total bill, bought bread and cake almost all the time.
+Party snack food is preferred to be closer to the above cluster of items as most of the people who bought party snack food and fruits and had a higher total bill, bought bread and cake almost all the time.
+

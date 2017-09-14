@@ -1,0 +1,92 @@
+Answers
+*******
+
+Try Out
+========
+
+5)
+***
+1. milk=1 butter=0 4 ==> beer=0 4    conf:(1)
+-----------------------------------------------
+This means that if milk is sold and butter is not sold then beer will not be sold. This rule has a confidance of 1 and a support of 4 instances over the 15 instances.	
+
+5. butter=1 beer=1 3 ==> bread=1 3    conf:(1)
+-----------------------------------------------
+
+
+11. milk=1 beer=1 2 ==> bread=1 2    conf:(1)
+-----------------------------------------------
+
+6)
+***
+1. milk=1 butter=0 4 ==> beer=0 4    conf:(1)
+---------------------------------------------
+This means that if milk is sold and butter is not sold then beer will not be sold. This rule has a confidance of 1 and a support of 4 instances over the 15 instances. Which means milk is sold when butter and beer are not sold.
+
+3. bread=0 beer=0 3 ==> milk=1 3    conf:(1)
+---------------------------------------------
+This means that if bread and beer are not sold then milk will be sold. This rule has a confidance of 1 and a support of 3 instances over the 15 instances. Which means milk will be sold when bread and beer are not sold.
+
+4. milk=1 bread=0 3 ==> beer=0 3    conf:(1)
+---------------------------------------------
+This means that if milk is sold and bread is not sold then beer will not be sold. This rule has a confidance of 1 and a support of 3 instances over the 15 instances. Which means when milk is sold bread and beer are not sold.
+
+6. milk=0 bread=0 2 ==> butter=0 2    conf:(1)
+8. milk=0 bread=0 2 ==> beer=1 2    conf:(1)
+9. milk=0 butter=1 2 ==> bread=1 2    conf:(1)
+10. milk=0 beer=0 2 ==> bread=1 2    conf:(1)
+------------------------------------------------
+From these four rules it can be seen that milk will not be sold if any of the products bread, beer or butter are sold. All these rules show a confidence of 1 and a support of 2 instances over all 15 instances. 
+Hence, it can be seen that if any other product than milk is chosen for a transaction, milk will not be sold. Therefore, in order to increase the sales of milk milk should be placed 1st in the order of arrangement so that it will be chosen 1 st before choosing butter, beer or bread. Also it is better if milk can be enmtirely separately placed away from butter, beer and bread.
+
+Lab Exercise
+============
+
+2)
+***
+The structure is as follows:
+
+@relation supermarket
+
+@attribute 'department1' { t}
+@attribute 'department2' { t}
+.
+.
+.
+@attribute 'department216' { t}
+@attribute 'total' { low, high} % low < 100
+@data
+?,?,?,?,?,?,?,?,?,?,?,t,t,t,?,t,?,t,?,?,t,?,?,?,t,t,t,t,?,t,?,t,t,?,?,?,?,?,?,t,t,t,?,?,?,?,?,?,?,t,?,?,?,?,?,?,?,?,t,?,t,?,?,t,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,t,?,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,high
+t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,t,t,t,?,?,?,?,?,t,?,?,?,t,t,?,?,?,?,?,t,t,?,t,?,?,?,?,?,?,?,t,?,?,t,?,?,?,?,?,?,?,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,t,?,?,t,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,low
+
+The file starts with @relation.
+@relation <relation-name> : declaration of name of the dataset
+
+This is followed by a list of all the attributes in the dataset (including the predicted attribute).
+@attribute <attribute_name> <data-type>
+
+@data : This is a single line denoting the start of the data segment in the file. 
+The data segment is given as comma separated values. Missing values are indicated by '?'.
+
+
+3)
+***
+
+Relation:     supermarket
+Instances:    4627
+Attributes:   217
+Minimum support: 0.15 (694 instances)
+Minimum metric <confidence>: 0.9
+
+1. biscuits=t frozen foods=t fruit=t total=high 788 ==> bread and cake=t 723    conf:(0.92)
+2. baking needs=t biscuits=t fruit=t total=high 760 ==> bread and cake=t 696    conf:(0.92)
+3. baking needs=t frozen foods=t fruit=t total=high 770 ==> bread and cake=t 705    conf:(0.92)
+4. biscuits=t fruit=t vegetables=t total=high 815 ==> bread and cake=t 746    conf:(0.92)
+5. party snack foods=t fruit=t total=high 854 ==> bread and cake=t 779    conf:(0.91)
+6. biscuits=t frozen foods=t vegetables=t total=high 797 ==> bread and cake=t 725    conf:(0.91)
+7. baking needs=t biscuits=t vegetables=t total=high 772 ==> bread and cake=t 701    conf:(0.91)
+8. biscuits=t fruit=t total=high 954 ==> bread and cake=t 866    conf:(0.91)
+9. frozen foods=t fruit=t vegetables=t total=high 834 ==> bread and cake=t 757    conf:(0.91)
+10. frozen foods=t fruit=t total=high 969 ==> bread and cake=t 877    conf:(0.91)
+
+It can be seen that all rules are having a confidence of 0.92 or 0.91 which is more than the minimum confidence.
